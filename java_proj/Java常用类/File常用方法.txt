@@ -1,0 +1,56 @@
+一、构造方法
+File(String pathname)：根据一个路径得到File对象
+File(String parent, String child):根据一个目录和一个子文件/目录得到File对象
+File(File parent, String child):根据一个父File对象和一个子文件/目录得到File对象
+File(URL uri)
+
+二、创建功能
+public boolean createNewFile():创建文件 如果存在这样的文件，就不创建
+static File createTempFile(String prefix,String suffix) 
+static File createTempFile(String prefix,String suffix, File directory)
+public boolean mkdir():创建文件夹 如果存在这样的文件夹，就不创建
+public boolean mkdirs():创建文件夹,如果父文件夹不存在，会帮你创建出来
+
+注：如果创建文件或者文件夹忘了写盘符路径，那么，默认在项目路径下。
+
+三、删除功能
+public boolean delete()
+注：Java中的删除不走回收站。要删除一个文件夹，请注意该文件夹内不能包含文件或者文件夹。
+
+四、重命名功能
+public boolean renameTo(File dest)      如果路径名相同，就是改名。如果路径名不同，就是改名并剪切。
+
+五、判断功能
+public boolean isDirectory():判断是否是目录
+public boolean isFile():判断是否是文件
+public boolean exists():判断是否存在
+public boolean canRead():判断是否可读
+public boolean canWrite():判断是否可写
+public boolean isHidden():判断是否隐藏
+
+六、获取功能
+public String getAbsolutePath()：获取绝对路径
+public String getPath():获取相对路径
+public String getName():获取名称
+String getParent()
+File getParentFile()
+public long length():获取长度。字节数
+public long lastModified():获取最后一次的修改时间，毫秒值
+public String[] list():获取指定目录下的所有文件或者文件夹的名称数组
+public File[] listFiles():获取指定目录下的所有文件或者文件夹的File数组 
+
+七、文件名称过滤器过滤器
+public String[] list(FilenameFilter filter) 获得满足过滤器条件的文件名
+public File[] listFiles(FilenameFilter filter) 获得满足过滤器条件的文件
+
+FilenameFilter是一个接口，通过重写里面的accept函数来设置过滤条件。例如：
+
+ File file = new File("d:\\");
+ String[] strArray = file.list(new FilenameFilter() {
+			@Override
+			public boolean accept(File dir, String name) {
+				return new File(dir, name).isFile() && name.endsWith(".jpg");
+            //返回d盘中以.jpg结尾的文件
+			}
+		});
+ 

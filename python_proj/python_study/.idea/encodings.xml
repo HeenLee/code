@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/python_基础/base01/data_type.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/python高级/client_app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/python高级/socket_study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/python高级/threading_study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/python高级/tkinter_gui_study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/requestsExerciseCustomerserver/conf/conf.ini" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/requestsExerciseCustomerserver/post_demo.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unittest_study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/unittest_study_package2" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

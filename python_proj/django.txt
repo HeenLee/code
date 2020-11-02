@@ -1,0 +1,9 @@
+创建项目 django-admin startproject test
+创建应用  python manage.py startapp booktest
+注册应用  booktest
+
+生成迁移文件 python manage.py makemigrations
+
+根据迁移文件在数据库生成表：python manage.py migrate 
+
+insert into tables() vaules (值),(),();

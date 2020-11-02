@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "7800e3b3-49d4-4a02-8497-167aba8e196c",
+		"name": "test_prescripts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get地址",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "4c1541b9-e289-42b3-9be9-57e41797684d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "关联地址",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "2bfb961b-889e-44bc-b33d-ba9d7fb441ae",
+						"exec": [
+							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {\r",
+							"    var jsonObj = response.json();\r",
+							"    pm.environment.set(\"addr\", jsonObj.headers.host);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.baidu.com?addr={{addr}}",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"query": [
+						{
+							"key": "addr",
+							"value": "{{addr}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "获取时间戳和参数加密",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ee0305c6-513a-474e-836c-2de07e3699a8",
+						"exec": [
+							"pm.globals.set(\"timestamp\", Math.round(new Date().getTime()));",
+							"pm.environment.set(\"userid\", \"99999999\"); ",
+							"pm.environment.set(\"pwd\", \"abcd\"); ",
+							"",
+							"var timestamp = pm.globals.get(\"timestamp\");",
+							"",
+							"var userid = pm.variables.get(\"userid\"); ",
+							"",
+							"var pwd = pm.variables.get(\"pwd\");",
+							"",
+							"var str = timestamp + userid + pwd;",
+							"",
+							"var token = CryptoJS.MD5(str).toString();",
+							"// var token = CryptoJS.enc.Base64.parse(str);",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userid",
+							"value": "{{userid}}",
+							"type": "text"
+						},
+						{
+							"key": "timestamp",
+							"value": "{{timestamp}}",
+							"type": "text"
+						},
+						{
+							"key": "pwd",
+							"value": "{{pwd}}",
+							"type": "text"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "4676b043-37ab-4c9d-ac41-7fff1b85e6d1",
+		"name": "testAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "req1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "1b59f4a0-89f6-45cd-9329-d683fcf4f6a5",
+						"exec": [
+							"var jsonObj = JSON.parse(responseBody);\r",
+							"var json = eval(jsonObj.mocks);\r",
+							"for(var i=0;i<json.length;i++){\r",
+							"\tif(json[i].name == \"test\"){\r",
+							"\t\tvar url = json[i].mockUrl;\r",
+							"        pm.environment.set(\"acv\", url);\r",
+							"\t\t\r",
+							"\t}\r",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{x-api-key}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.getpostman.com/mocks",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"mocks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dd",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

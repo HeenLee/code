@@ -1,0 +1,1943 @@
+{
+	"info": {
+		"_postman_id": "06411140-9fcb-431a-be3e-05de4143802f",
+		"name": "InvoiceTest111111111",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "init_case",
+			"item": [
+				{
+					"name": "注册获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ce2ee9fc-349a-4281-8888-643b5d9bc138",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var regParam = JSON.stringify(param);",
+									"pm.environment.set(\"regParam\",regParam);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{regParam}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册用户",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "fbaf83ff-5333-475f-a36f-eff5209db766",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode",
+									"    ",
+									"};",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var registParam = JSON.stringify(param);",
+									"pm.environment.set(\"registParam\",registParam)",
+									"",
+									"",
+									"",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{registParam}}",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用户无安全登录",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d48b20be-24a2-48a8-bf37-b0d86b013b3a",
+								"exec": [
+									"//请求前将参数base64封装为bdata",
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType",
+									"            };",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var loginParam = JSON.stringify(param);",
+									"pm.environment.set(\"loginParam\", loginParam);",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "8cd30ad8-3f29-4ac5-a06a-5661b514a05d",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"console.log(restext);",
+									"var jsonObj = JSON.parse(restext);",
+									"var UAId = JSON.stringify(jsonObj.UAId);",
+									"pm.environment.set(\"UAId\",UAId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{loginParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "proId",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "pwdOneTimepadToken",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.loginNoSec",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.loginNoSec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册企业获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "37e0a236-9ef1-4261-9675-9688e62c6bc5",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType1,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var jsonParam = JSON.stringify(param);",
+									"pm.environment.set(\"param\", jsonParam);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e365f038-bd78-4ea9-addd-b9e86a21162d",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{param}}",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "企业注册",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "50dc2a8f-a89d-4afc-9556-a5181fc157b5",
+								"exec": [
+									"var data = {\"cpyName\":JSON.parse(pm.environment.get(\"user\")).cpyName,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode,",
+									"            \"mgrPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone",
+									"            };",
+									"            ",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"",
+									"var jsonParam = JSON.stringify(param);",
+									"console.log(jsonParam);",
+									"pm.environment.set(\"cpyParam\",jsonParam);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c1c376bb-df5b-4a3d-afcb-f75b5e826ccb",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"var cpyId = JSON.stringify(jsonObj.cpyId);",
+									"pm.environment.set(\"cpyId\",cpyId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{cpyParam}}",
+									"type": "text"
+								},
+								{
+									"key": "cpyName",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "mgrPhone",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/company.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"company.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取tgc",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "5d7deddd-fae3-4876-a6a4-909e943794c5",
+								"exec": [
+									"var jsonObj = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,\r               \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd\r              };\rvar wordArray = CryptoJS.enc.Utf8.parse(JSON.stringify(jsonObj));\rvar base64imei = CryptoJS.enc.Base64.stringify(wordArray);\rvar jsonparam = {\"data\":base64imei,\"key\":\"\",\"zip\":0};\rvar paramvalue =  JSON.stringify(jsonparam);\rpm.environment.set(\"tgcParam\", paramvalue);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "ae199e95-4839-47f2-bb98-d0d17d81fc16",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"pm.environment.set(\"tgc\",jsonObj.TGC);",
+									"",
+									"var data = {",
+									"            \"UAId\":pm.environment.get(\"UAId\"),",
+									"            \"cpyId\":pm.environment.get(\"cpyId\"),",
+									"            \"TerType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"ProdId\":JSON.parse(pm.environment.get(\"user\")).ProdId,",
+									"            \"TGC\":pm.environment.get(\"tgc\")",
+									"            };",
+									"var encodeData = encodeURI(JSON.stringify(data));",
+									"var sso = \"?sso=\" + encodeData;",
+									"pm.environment.set(\"sso\",sso);",
+									"console.log(sso);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{tgcParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/sso/sso-server.getTGC",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"sso",
+								"sso-server.getTGC"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册获取验证码 Copy",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ce2ee9fc-349a-4281-8888-643b5d9bc138",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var regParam = JSON.stringify(param);",
+									"pm.environment.set(\"regParam\",regParam);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{regParam}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询发票信息",
+			"item": [
+				{
+					"name": "查询发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "bb667817-1bff-4820-82f5-7bf0aee3dfe9",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}}}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "新增发票信息",
+			"item": [
+				{
+					"name": "新增发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"InvoiceTitleId\");",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"InvoiceTitleId\",jsonData.data.InvoiceTitleId);",
+									"",
+									"pm.environment.get(\"InvoiceTitleId\");",
+									"",
+									"",
+									"",
+									"//删除",
+									"var data ={\"data\": {\"UaId\":pm.environment.get(\"UAId\"),",
+									"                    \"InvoiceTitleId\":pm.variables.get(\"InvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteInvoiceInfo' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"    var code = pm.response.status;",
+									"    console.log(code);",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"fddddddffferere\",\n\t\t  \"TaxNumber\": \"f343feddddder4r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "修改发票信息",
+			"item": [
+				{
+					"name": "新增发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"InvoiceTitleId\",jsonData.data.InvoiceTitleId);",
+									"",
+									"var InvoiceTitleId = pm.environment.get(\"InvoiceTitleId\");",
+									"",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"3553fffferere\",\n\t\t  \"TaxNumber\": \"f333343feer4r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"",
+									"//删除",
+									"var data ={\"data\": {\"UaId\":pm.environment.get(\"UAId\"),",
+									"                    \"InvoiceTitleId\":pm.variables.get(\"InvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteInvoiceInfo' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t \"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\t \"InvoiceTitleType\":\"1\",\n\t\t \"PurchaserName\":\"siuffg\",\n\t\t \"TaxNumber\":\"222222\",\n\t\t \"CompanyAddress\":\"sd\",\n\t\t \"PhoneNumber\":\"12345\",\n\t\t \"DepositBank\":\"zsyh\",\n\t\t \"BankAccount\":\"ffffff\",\n\t\t \"IsDefault\":\"1\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/modifyInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"modifyInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "删除发票信息",
+			"item": [
+				{
+					"name": "新增发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"InvoiceTitleId\",jsonData.data.InvoiceTitleId);",
+									"",
+									"var InvoiceTitleId = pm.environment.get(\"InvoiceTitleId\");",
+									"",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"fffferere6666\",\n\t\t  \"TaxNumber\": \"f343feettttr4r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleId\":\"{{InvoiceTitleId}}\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/deleteInvoiceInfo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"deleteInvoiceInfo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询企业发票信息",
+			"item": [
+				{
+					"name": "查询企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "bf46729d-3ab7-425c-a12b-f0f74fde0cfd",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "新增企业发票信息",
+			"item": [
+				{
+					"name": "新增企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cfd3ee66-0f94-44d3-83c5-7378742f3550",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"CommonInvoiceTitleId\");",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"CommonInvoiceTitleId\",jsonData.data.CommonInvoiceTitleId);",
+									"",
+									"pm.environment.get(\"CommonInvoiceTitleId\");",
+									"",
+									"",
+									"",
+									"//删除",
+									"var data ={\"data\": {",
+									"                    \"CommonInvoiceTitleId\":pm.variables.get(\"CommonInvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteCommonInvoiceTitle' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"2222eee\",\n\t\t  \"TaxNumber\": \"f343feer411111r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "修改企业发票信息",
+			"item": [
+				{
+					"name": "新增企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cfd3ee66-0f94-44d3-83c5-7378742f3550",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"CommonInvoiceTitleId\");",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"CommonInvoiceTitleId\",jsonData.data.CommonInvoiceTitleId);",
+									"",
+									"pm.environment.get(\"CommonInvoiceTitleId\");",
+									"",
+									"",
+									"",
+									"//删除",
+									"var data ={\"data\": {",
+									"                    \"CommonInvoiceTitleId\":pm.variables.get(\"CommonInvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteCommonInvoiceTitle' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"2222eee\",\n\t\t  \"TaxNumber\": \"f343feer411111r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c0210a92-77c0-4762-a3f0-32764b3d4048",
+								"exec": [
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"",
+									"//删除",
+									"var data ={\"data\":{\"CommonInvoiceTitleId\":pm.variables.get(\"CommonInvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteCommonInvoiceTitle' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t \"CommonInvoiceTitleId\":\"{{CommonInvoiceTitleId}}\",\n\t\t \"InvoiceTitleType\":\"1\",\n\t\t \"PurchaserName\":\"siuffg\",\n\t\t \"TaxNumber\":\"222222\",\n\t\t \"CompanyAddress\":\"sd\",\n\t\t \"PhoneNumber\":\"12345\",\n\t\t \"DepositBank\":\"zsyh\",\n\t\t \"BankAccount\":\"ffffff\",\n\t\t \"IsDefault\":\"1\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/modifyCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"modifyCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "删除企业发票信息",
+			"item": [
+				{
+					"name": "新增企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cfd3ee66-0f94-44d3-83c5-7378742f3550",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"CommonInvoiceTitleId\");",
+									"});",
+									"",
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"CommonInvoiceTitleId\",jsonData.data.CommonInvoiceTitleId);",
+									"",
+									"pm.environment.get(\"CommonInvoiceTitleId\");",
+									"",
+									"",
+									"",
+									"//删除",
+									"var data ={\"data\": {",
+									"                    \"CommonInvoiceTitleId\":pm.variables.get(\"CommonInvoiceTitleId\")",
+									"                    }",
+									"            } ",
+									"",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/invoice/deleteCommonInvoiceTitle' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    ",
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });",
+									"});",
+									"",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{ \"UaId\":{{UAId}},\n\t\t  \"InvoiceTitleType\": \"1\",\n\t\t  \"PurchaserName\":\"2222eee\",\n\t\t  \"TaxNumber\": \"f343feer411111r\",\n\t\t  \"CompanyAddress\":\"深圳\",\n\t\t  \"PhoneNumber\":\"15151515\",\n\t\t  \"DepositBank\":\"招商银行\",\n\t\t  \"BankAccount\":\"44545545\",\n\t\t  \"IsDefault\":\"1\"\n\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/addCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"addCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除企业发票信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f81d83e7-85ee-42d4-9642-2cac878c3d5a",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "f3842481-d9cd-4229-a016-844a642d7509",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t \"CommonInvoiceTitleId\":\"{{CommonInvoiceTitleId}}\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/deleteCommonInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"deleteCommonInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "创建火车票报销凭证",
+			"item": [
+				{
+					"name": "创建火车票报销凭证",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "9fa6e34c-e4fa-4eb7-b665-a08fb94b282a",
+								"exec": [
+									"//获取酒店OrderNo",
+									"var data = {",
+									"            \"ProviderType\":0,",
+									"            \"HId\":1,",
+									"            \"ProdId\":\"1\",",
+									"            \"RoomId\":\"2001\",",
+									"            \"ProductId\":\"111\",",
+									"            \"IsGuarantee\":false,",
+									"            \"PaymentType\":0,",
+									"            \"City\":\"西安\",",
+									"            \"InDate\":\"2020/03/20\",",
+									"            \"OutDate\":\"2020/08/31\",",
+									"            \"LatestTime\":\"2020/03/23\",",
+									"            \"OrderAmount\":2000,",
+									"            \"FareAmount\":2000,",
+									"            \"RoomsCount\":1,",
+									"            \"Passengers\":[{\"UserId\":pm.environment.get(\"UAId\"),\"UserName\":\"sfff\"}],",
+									"            \"ContactName\":\"sss\",",
+									"            \"ContactMobile\":\"15116263755\",",
+									"            \"CpyId\":pm.environment.get(\"cpyId\"),",
+									"            \"UaId\":pm.environment.get(\"UAId\"),",
+									"            \"UseType\":\"PUBLIC\",",
+									"            \"InvoiceFlag\":\"0\",",
+									"            \"FounderInfo\":{",
+									"                            \"FounderUaId\":pm.environment.get(\"UAId\"),",
+									"                            \"FounderCpyId\":pm.environment.get(\"cpyId\"),",
+									"                            \"FounderName\":\"fdfdf\"",
+									"            }",
+									"}",
+									"const echoPostRequest = {",
+									"  \t\t\turl: 'https://' + pm.environment.get(\"bp_ipAddress\") + '/bp/hotel/createOrder' + pm.environment.get(\"sso\"),",
+									"  \t\t\tmethod: 'POST',",
+									"  \t   header: 'Content-Type:application/json',",
+									"  \t\t\tbody: {",
+									"    \t\t\tmode: 'raw',",
+									"    \t\t\traw: JSON.stringify(data)",
+									"  \t\t\t}",
+									"\t};",
+									"pm.sendRequest(echoPostRequest, function (err, res) {",
+									"    console.log(res.json.id);",
+									"    // var jsonData = JSON.parse(res);",
+									"    // console.log(jsonData);",
+									"        // console.log(jsonData);",
+									"",
+									"    // var orderNo = jsonData.data.OrderNo;",
+									"    // console.log(orderNo);",
+									"    ",
+									"});",
+									"            "
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "4b029026-8a04-4e7c-a044-793a7e5a2f62",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"订单不存在\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"OrderNo\":\"111\",\n\t\t\"CpyId\":{{cpyId}},\n\t\t\"UaId\":{{UAId}},\n\t\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\t\"InvoiceContent\":\"车票\",\n\t\t\"InvoiceRemarks\":\"ss\",\n\t\t\"IsInvoiceRemark\":\"0\"\n\t\t\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/trainCreateInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"trainCreateInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "批量创建火车票报销凭证",
+			"item": [
+				{
+					"name": "批量创建火车票报销凭证",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "ee2281fe-df94-4a61-87ca-52540e11f21a",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"订单不存在\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"OrderNos\":[\"111\"],\n\t\t\"CpyId\":{{cpyId}},\n\t\t\"UaId\":{{UAId}},\n\t\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\t\"InvoiceContent\":\"车票\",\n\t\t\"InvoiceRemarks\":\"ss\",\n\t\t\"IsInvoiceRemark\":\"0\"\n\t\t\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/trainCreateBatchInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"trainCreateBatchInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取用户未开票的火车票订单列表",
+			"item": [
+				{
+					"name": "获取用户未开票的火车票订单列表",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d6ac3fac-f226-4182-850e-05398ecf180d",
+								"exec": [
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\"PageSize\":5,\n\t\"PageIndex\":1,\n\t\"UserType\":0\n}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getTrainOrderWithoutInvoice{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getTrainOrderWithoutInvoice{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "创建国内机票报销凭证",
+			"item": [
+				{
+					"name": "新增配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4a56c14d-6bab-499a-a1b5-b936c7dbba66",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var addressId = jsonData.data.AddressId;",
+									"pm.environment.set(\"addressId\",JSON.stringify(addressId));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"Name\":\"张三\",\n\t\t\"Phone\":\"15523659874\",\n\t\t\"Area\":\"西安\",\n\t\t\"FullAddress\":\"科技二路清华科技园\",\n\t\t\"IsDefault\":1\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/express/express.addDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.addDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "创建国内机票订单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "88be4d44-8661-4ac1-ab30-0dd74970110b",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"pm.environment.set(\"airOrderNo\",jsonData.data.OrderNo);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "   { \"data\": {\"Passengers\":[{\"CardNo\":\"111111\",\"CardType\":0,\"BirthDay\":\"1980/06/15\",\"PsgType\":1,\"Mobile\":\"15309251623\",\"UserId\":\"NB77aAO0UOKUgW8Pcss\",\"PsgName\":\"张三\",\"Gender\":1}],\"Insurances\":[],\"UseType\":\"PUBLIC\",\"AirLines\":[{\"ProductId\":\"052db77f\",\"SAirportCode\":\"PEK\",\"STerminal\":\"T2\",\"Discount\":13,\"CabinName\":\"经济舱\",\"CabinRank\":0,\"Tax\":50,\"FlightNo\":\"MF1478\",\"ETerminal\":\"T2\",\"Fare\":240,\"ArriveDateTime\":\"2020/03/28 11:15\",\"Oil\":0,\"Cabin\":\"R\",\"PlaneType\":\"空客321(中机型)\",\"EAirportCode\":\"SHA\",\"AirLineCode\":\"MF\",\"FromDateTime\":\"2020/03/28 09:00\",\"SpecificVoyage\":0,\"IsDirectSale\":false,\"IsShare\":true}],\"OrderBase\":{\"ContactMobile\":\"15309251623\",\"OrderRemark\":\"?ddd\",\"FareAmount\":290,\"FlightType\":0,\"ContactName\":\"谁3\",\"ProdId\":\"1\"},\"ProviderType\":1,\"FounderInfo\":{\"FounderUaId\":\"24658\",\"FounderCpyId\":\"12\"},\"SpecialPermissionInfos\":[],\"InvoiceFlag\":\"0\",\"TripNo\":\"GI2zats1IxsOiERoXoI\"}\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/flight/createOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"flight",
+								"createOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "创建国内机票报销凭证",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\"OrderNo\":\"{{airOrderNo}}\",\n\t\"CpyId\":\"{{cpyId}}\",\n\t\"UaId\":\"{{UAId}}\",\n\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\"AddressId\":{{addressId}},\n\t\"ExpressFee\":\"11.5\",\n\t\"ExpressFeeOrderNo\":\"fffff\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/airCreateInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"airCreateInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "批量创建国内机票报销凭证",
+			"item": [
+				{
+					"name": "批量创建国内机票报销凭证",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"OrderNos\":[\"{{airOrderNo}}\"],\n\t\t\"CpyId\":{{cpyId}},\n\t\t\"UaId\":{{UAId}},\n\t\t\"AddressId\":{{addressId}},\n\t\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\t\"ExpressFee\":\"12.8\",\n\t\t\"ExpressFeeOrderNo\":\"fffff\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/airCreateBatchInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"airCreateBatchInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取用户未开票的飞机票订单列表",
+			"item": [
+				{
+					"name": "获取用户未开票的飞机票订单列表",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getFlightOrderWithoutInvoice{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getFlightOrderWithoutInvoice{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "创建酒店报销凭证",
+			"item": [
+				{
+					"name": "酒店下单",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"data\": {\"RoomTypeId\":\"0126\",\"HId\":92429383,\"FounderInfo\":{\"FounderCpyId\":\"12\",\"FounderUaId\":\"17944\"},\"OutDate\":\"2020/12/27\",\"ProductId\":\"61865660\",\"RoomId\":\"0010\",\"ProdId\":1,\"UaId\":4294972317,\"InDate\":\"2020/06/26\",\"PaymentType\":0,\"OrderAmount\":285,\"InvoiceFlag\":\"0\",\"SettlePrice\":285,\"ContactMobile\":\"18700463102\",\"CpyId\":13,\"UseType\":\"PUBLIC\",\"TripNo\":\"F93fsVyCcjjuWGiU21M\",\"SpecialPermissionInfos\":[{\"MemberUaId\":17944,\"SpecialPermissionId\":\"Mj7xQLOJCHnKUPPJhHN\",\"EnableNotify\":true,\"IsForever\":true,\"CpyId\":12,\"EndTime\":\"2019/04/26\",\"NotifyUserUaId\":13393,\"StartTime\":\"2019/04/10\",\"MemberName\":\"赵鹏飞\",\"NotifyUserName\":\"薛羽\"}],\"RoomsCount\":1,\"City\":\"咸阳\",\"SsoParam\":{\"TGC\":\"5aad5a683825447ca8e1e62eeb1806a7\",\"CpyId\":\"12\",\"TerType\":\"1\",\"ProdId\":\"1\",\"UaId\":\"17944\"},\"Passengers\":[{\"PsgId\":\"whLNptiPw7pDfmNsG4T\",\"PsgName\":\"赵鹏飞\"}],\"LatestTime\":\"06:00\",\"IsGuarantee\":false,\"TotalPrice\":285,\"FareAmount\":285,\"ProviderType\":5,\"ContactName\":\"赵鹏飞\"}\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/hotel/createOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"hotel",
+								"createOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "创建酒店报销凭证",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\"OrderNo\":\"111\",\n\t\"CpyId\":{{cpyId}},\n\t\"UaId\":{{UAId}},\n\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\"InvoiceContent\":\"sss\",\n\t\"InvoiceRemarks\":\"22\",\n\t\"IsInvoiceRemark\":\"0\",\n\t\"ExpressFee\":\"8\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/hotelCreateInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"hotelCreateInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "批量创建酒店报销凭证",
+			"item": [
+				{
+					"name": "批量创建酒店报销凭证",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\"OrderNos\":[\"111\"],\n\t\"CpyId\":{{cpyId}},\n\t\"UaId\":{{UAId}},\n\t\"InvoiceTitleId\":\"{{InvoiceTitleId}}\",\n\t\"InvoiceContent\":\"sss\",\n\t\"InvoiceRemarks\":\"22\",\n\t\"ExpressFee\":\"8\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/hotelCreateBatchInvoiceTitle{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"hotelCreateBatchInvoiceTitle{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取用户未开票的酒店订单列表",
+			"item": [
+				{
+					"name": "获取用户未开票的酒店订单列表",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d3633007-ad1d-48ec-8322-4c7dbc502d52",
+								"exec": [
+									"    pm.test(\"Body matches string\", function () {",
+									"        pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"    });"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\"PageSize\":5,\n\t\t\"PageIndex\":1,\n\t\t\"UaId\":{{UAId}},\n\t\t\"ProdId\":\"2\",\n\t\t\"CpyId\":{{cpyId}},\n\t\t\"UseType\":0\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getHotelOrderWithoutInvoice{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getHotelOrderWithoutInvoice{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询发票详情",
+			"item": [
+				{
+					"name": "查询发票详情",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\"OrderNo\":\"{{airOrderNo}}\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getInvoiceDetailByOrderNo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getInvoiceDetailByOrderNo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询发票详情",
+			"item": [
+				{
+					"name": "查询发票详情",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\"InvoiceNo\":\"SE1111111\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/invoice/getInvoiceDetailsByInvoiceNo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"invoice",
+								"getInvoiceDetailsByInvoiceNo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

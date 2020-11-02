@@ -1,0 +1,67 @@
+装饰器：
+1.函数作为参数
+2.有闭包的特点出现。外部函数返回内部函数
+3.闭包的外部参数是函数，内部函数的参数是传递给外部参数的
+带参数的装饰器是三层的，最外层的函数负责接收装饰器的参数
+不带参数的装饰器是两层的
+def func(f):
+	print(f)
+	f()
+	print('------>func')
+
+def decorator(func):        
+	a=100
+
+	def wrapper():
+		print('-----111')
+		func()
+		print('---2222')
+		print(a)
+	return wrapper
+
+def decorate(func):  参数：函数
+	a = 100
+	def wrapper(*args,**kwargs):   参数是给外部的参数函数用的
+		func(*args,**kwargs)
+	retutn warpper
+
+
+def decorator(func):        
+	a=100
+	print("加载")   即使没有调用，这个会执行  底层处理
+	def wrapper():
+		print('-----111')
+		func()
+		print('---2222')
+		print(a)
+	print("执行完")   即使没有调用，这个会执行
+	return wrapper
+
+多层装饰器：离函数最近的优先装饰
+def decorate1(func):
+	print("1start")
+	def wrapper(*args,**kwargs):
+		func()
+		print("刷漆")
+        print("1end")
+	return wrapper
+
+def decorate2(func):
+	print("2start")
+	def wrapper(*args,**kwargs):
+		func()
+		print("地板，装门")
+        print("2end")
+	return wrapper
+
+@decorate2
+@decorate1	
+def house():
+	print("我是毛坯房")
+
+带参数的装饰器
+@decorate(a=10)  装饰器带参数的话，在原来的基础上再加一层函数
+
+
+
+		

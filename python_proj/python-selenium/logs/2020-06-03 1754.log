@@ -1,0 +1,6 @@
+2020-06-03 17:54:20,263 - BrowserEngine - INFO - 你选则 Chrome 浏览器
+2020-06-03 17:54:20,263 - BrowserEngine - INFO - 你的url https://www.baidu.com
+2020-06-03 17:54:24,512 - BrowserEngine - INFO - starting chrome browser
+2020-06-03 17:54:25,956 - BrowserEngine - INFO - open url:https://www.baidu.com
+2020-06-03 17:54:27,118 - BrowserEngine - INFO - maximize the current window
+2020-06-03 17:54:27,125 - BrowserEngine - INFO - set implicitly wait 10 senconds

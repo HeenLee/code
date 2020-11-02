@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" tests="7" time="1.596">
+  <testsuite name="parameterize / 上报鉴权" id="6e64c86a-5d69-4e00-8ae1-f07cc0b7df2b" timestamp="2020-02-27T08:22:51.118Z" tests="1" failures="1" errors="2" time="0.000">
+    <system-err>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 10.4.201.203:9090
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+
+---
+testScriptError: Unexpected token u in JSON at position 0
+---
+]]>
+    </system-err>
+    <testcase name="Status code is 200" time="0.000" classname="Test">
+      <failure type="AssertionFailure" message="expected { Object (id, _details, ...) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: b1b97f7d-76a0-4a3e-8c77-8422bf95fc22.]]>
+        <![CDATA[Collection name: test.]]>
+        <![CDATA[Request name: parameterize / 上报鉴权.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected { Object (id, _details, ...) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, _details, ...) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="parameterize / 查询指定应用的topics" id="021b9c43-853b-4192-895d-8a04529b1a67" timestamp="2020-02-27T08:22:51.118Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ETIMEDOUT 10.4.201.203:9090
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+
+---
+]]>
+    </system-err>
+  </testsuite>
+  <testsuite name="parameterize / id_global_var" id="b6fe0ccf-d42c-48da-a5b2-90b06af42e84" timestamp="2020-02-27T08:22:51.118Z" tests="0" failures="0" errors="0" time="0.738"/>
+  <testsuite name="test_baidu" id="652e88ac-5f00-4c80-98fb-54f8fadb1e0e" timestamp="2020-02-27T08:22:51.118Z" tests="1" failures="0" errors="0" time="0.099">
+    <testcase name="Body matches string" time="0.099" classname="Test"/>
+  </testsuite>
+  <testsuite name="test_get_request" id="94c84397-c982-4077-887f-1d55b671322e" timestamp="2020-02-27T08:22:51.118Z" tests="1" failures="0" errors="0" time="0.055">
+    <testcase name="Body matches string" time="0.055" classname="Test"/>
+  </testsuite>
+  <testsuite name="test_post_request" id="d6429ac4-cddc-499e-a3ec-61b465f5b002" timestamp="2020-02-27T08:22:51.118Z" tests="0" failures="0" errors="0" time="0.704"/>
+  <testsuite name="authorization" id="29b6bfb8-96d9-43db-87d5-2aa0d1a9e417" timestamp="2020-02-27T08:22:51.118Z" tests="0" failures="0" errors="1" time="0.000">
+    <system-err>
+      <![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 13.250.168.23:80
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1085:14)
+
+---
+]]>
+    </system-err>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,127 @@
+﻿一、Date类  java.util(工具包)
+1.Date的构造方法和其他方法已被弃用，如
+Date date = new Date("2018","05","12");
+2.时间格式化显示
+SimpleDateFormat sdf = new SimpleDateFormat("yyyy-mm-dd")
+   日期转换为字符串： String  dateFormt = sdf.format(date);
+                      System.out.println(dateFormat)
+   字符串转化为日期： String dateStr = "201805月12日";
+		      Date d = sdf.fromat(dateStr);
+                      System.out.println(dateFormat);
+二、Calendar类
+Calendar cal = Calendar.getInstance();
+从Calendar对象中获取Date对象   Date  date = cal.getTime();
+将Date对象反应到Calendar对象中 cal.setTime(date);
+
+
+
+
+类及类的成分 
+面向对象的三大特性
+其他的关键字
+
+class A{
+}
+
+class B{
+}
+
+2.类的成分：属性、方法、构造器、代码块、内部类
+    2.1属性：①变量的分类：成员变量(属性) vs 局部变量（方法的形参、方法内部、代码块内部）
+					 数据类型：基本数据类型（8种,不同类型对应不同的默认初始化） vs 引用数据类型（数组、类、接口默认初始化null）
+			 ②属性的声明格式：修饰符  数据类型 变量名 = 初始化值；//java是强数据类型的语言
+			 ③对属性赋值的操作：1.默认初始化；2.显式初始化；3.初始化块的初始化；4.构造器的初始化；5.调用方法、属性进行赋值
+	2.2方法：①格式：修饰符 [其他关键字：static final abstract]返回值类型  方法名（形参列表）{//方法体}
+			 ②方法的重载（overload) vs 方法的重写（override）
+			 ③方法的参数传递机制（值传递）
+	2.3构造器 ①构造器的作用：1.创建类的对象；2.初始化对象的成员变量
+			  ②构造器也是可以重载的
+	2.4代码块 主要作用：初始化类的成员变量。
+			   分类：静态代码块，非静态代码块。代码块只能用static修饰
+	2.5内部类   ①分类：成员内部类（static的成员 vs 非static的成员）vs局部内部类（方法内声明的类）
+				②掌握：1.如何创建内部类的对象
+						2.如何区分调用外部类、内部类的变量
+						3.局部内部类的使用
+3.类的初始化（创建类的对象）
+    3.1如何创建类的对象
+	3.2内存解析：
+				①栈：   局部变量、对象的引用名、数组的引用名  “先进后出” p存放地址值（Person p = new Person()）
+				  堆：	new出来的东西
+				  方法区：（字符串常量池）  String name = "AA"
+				  静态域：方法类中静态的变量  static
+				②如何理解创建的对象在内存中加载的过程
+	3.3子类对象实例化的全过程  SubClass sc = newSubClass();
+4.面向对象的三个特性：
+    4.1封装性
+			①通过私有化类的成员变量，通过公共的getter()和setter()方法来调用和修改
+			②可以对类的其他结构进行封装。
+			③权限修饰符：public protected 缺省 private
+	4.2继承性
+		 通过让类A继承类B，就可以获取类B中的结构（主要的：属性、方法、构造器） A extens B
+		   java中的类的继承性：单继承的
+	4.3多态性：
+			①体现：方法的重载与重写；2.子类对象的多态性。父类型的参数，可以传父类，也可以传子类
+			②子类对象多态性的使用：虚拟方法使用  p.getxxx（）  父类对象调用子类重写的方法
+			③向上转型、向下转型 Student s   = (Student) p      建议在向下转型之前：if (p instanceof Student)避免出现classCastException  
+5.其他关键字：
+	5.1 this：修饰属性、方法、构造器。表示：当前对象或者当前正在创建的对象
+	5.2 super:修饰属性、方法、构造器。显式的调用父类的相应的机构，尤其是子父类有重名的方法、属性
+	5.3 static:修饰属性、方法、代码块、内部类。随着类的加载而加载，独一份。
+	5.4 final:修饰类、属性、方法。最终的
+	5.5 abstract：修饰类、方法
+	5.6 interface ：接口。与类并列的结构。 接口没有构造器，类与接口之间通过implements发送关系
+		           1.接口可以多继承 extends A,B
+	5.7package import:
+注：abstract不能修饰属性、构造器，不能与final  static  private公用。
+
+
+
+Collcetion List:ArrayList   LinkedList
+
+		   Set   HashSet    TreeSet
+Map
+
+
+
+
+
+public class Test{
+	public static void main(String[] args){
+		for(i=2;i<=100,i++){
+			if(i%2==0){
+				continue;
+			}
+			else if(i%3 ==0){
+				continue;
+			}
+			else if(i%5==0){
+				continue;
+			}
+			else{
+				System.outprintln(i);
+			}
+		}
+
+	}
+	
+}
+基本类型：变量在栈
+引用类型：变量引用到堆
+if  switch if elseif else
+for while  do while for(x : sums)
+
+int[] a = new int[5];
+fro (int age:ages){
+}
+
+for(i){
+  for(j<i)
+}
+
+修饰符  class 类名 extends 父类   implements 接口
+修饰符  返回值类型  方法名  参数列表      （返回值类型可以是基本类型、数组、类等）
+ 
+Java两种特殊的方法：构造方法和main()
+构造方法必须与类名相同，不能有返回值 
+
+ 

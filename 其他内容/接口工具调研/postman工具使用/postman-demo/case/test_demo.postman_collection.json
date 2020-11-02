@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "6448d8a5-8df4-4826-8eb6-da9a84dab7d8",
+		"name": "test_demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "百度",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a32685a7-e19e-4cea-a3c2-235741e850ea",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"百度一下你就知道\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.baidu.com?value=hehehe",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"query": [
+						{
+							"key": "value",
+							"value": "hehehe"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "baidu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.baidu.com/:id",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"path": [
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "{{id}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

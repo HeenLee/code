@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "90a1c755-0067-462b-962e-e63986f1ce52",
+		"name": "sinosun",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get/{{id}}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}/get/{{id}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"get",
+						"{{id}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/get/{{id}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"get",
+								"{{id}}"
+							]
+						}
+					},
+					"code": 200,
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": "{\"ok\"}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

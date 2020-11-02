@@ -1,0 +1,8 @@
+1.在/usr/loca/目录下创建java，将jdk.tar.gz包复制到java目录下  解压
+2.修改 vi /etc/profile 中添加
+export JAVA_HOME=/usr/java/jdk1.8.0_172
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+3.source /etc/profile  让文件生效
+4.测试  java -version

@@ -1,0 +1,5 @@
+作用域查找规则，从里往外：
+local局部变量
+encloseing嵌套变量
+global全局变量
+built-in内置变量

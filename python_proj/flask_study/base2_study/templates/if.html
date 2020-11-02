@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {%  if user %}
+     <title>hello {{ user }}</title>
+    {% else  %}
+    <title>welcome to flask {{ user }}</title>
+    {% endif %}
+</head>
+<body>
+    <h1>hello world</h1>
+</body>
+</html>

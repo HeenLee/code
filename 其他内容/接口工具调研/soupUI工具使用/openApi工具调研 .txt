@@ -1,0 +1,15 @@
+github地址：https://github.com/OAI/OpenAPI-Specification
+
+官网文档参考地址：
+	2.0 文档参考地址：
+	https://swagger.io/docs/specification/2-0/basic-structure/
+	
+调研需求：
+	1、https://blog.csdn.net/wjc133/article/details/65436778 文档查看，了解openapi 2.0，调研任务 8工时，无文档输出需求
+	2、swagger 工具调研任务 调研任务 8工时
+	3、postman 工具调研任务 调研任务 8工时
+	4、soupUI 工具调研任务 调研任务 8工时
+	5、简述工具的优缺点，输出工具的对比报告 8H
+	6、选定测试使用工具，输出该工具详细使用首次 （后续完成）
+	
+文档格式以word文档方式输出。

@@ -1,0 +1,39 @@
+实现的是读取目录，或者文件，然后执行。
+如果是文件，直接运行
+如果是文件夹，则合并后执行
+如果是目录：
+xxx
+   test_case
+	 服务1    
+		.json1
+	 服务2
+		.json2
+   envir_var
+	.json1
+	.json2
+   bPlusTest.py
+
+
+合并后：
+1.是否需要修改info的name，如果要导入postman中，需要改。 要是只是自动执行就不需要
+2.遍历第一个文件，找到列表
+3.从【1：】开始，查找item列表，追加到第一个文件的后面
+
+将第一个内容写到new_file中
+将第二个开始的部分内容获取到，逐个写入到new_file中
+
+
+
+python 
+将对象转为json   dumps()
+将json转为对象  loads()
+取出值通过.get(“”)
+
+
+从json文件中加载
+dump()
+load()
+
+
+
+

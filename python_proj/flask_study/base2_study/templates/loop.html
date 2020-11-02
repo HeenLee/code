@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     {% if user %}
+        <title> hello {{user}} </title>
+    {% else %}
+         <title> welcome to flask </title>
+    {% endif %}
+ </head>
+ <body>
+     <h1>hello world</h1>
+    <ul>
+        {% for index in fruit %}
+            <li>{{ index }}</li>
+        {% endfor %}
+    </ul>
+ </body>
+ </html>

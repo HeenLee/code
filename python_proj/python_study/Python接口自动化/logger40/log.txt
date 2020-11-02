@@ -1,0 +1,9 @@
+2020-01-10 10:46:55,881 - fatherModule - INFO - create an instance of sonModule.sonModuleClass
+2020-01-10 10:46:55,881 - fatherModule.son.module - INFO - creating an instance in SonModuleClass
+2020-01-10 10:46:55,881 - fatherModule - INFO - calling son Module.sonModuleClass.doSomething
+2020-01-10 10:46:55,881 - fatherModule.son.module - INFO - do something in SonModule
+2020-01-10 10:46:55,881 - fatherModule.son.module - INFO - finish something in sonModuleClass
+2020-01-10 10:46:55,881 - fatherModule - INFO - done with sonModule.sonModuleClass.doSomething
+2020-01-10 10:46:55,881 - fatherModule - INFO - calling sonModule.some_function
+2020-01-10 10:46:55,881 - fatherModule.son - INFO - call function some_function
+2020-01-10 10:46:55,881 - fatherModule - INFO - done with sonModule.some_function

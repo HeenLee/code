@@ -1,0 +1,3 @@
+参数化有两种：
+添加到property   把参数写死关联
+添加property transfer  把第一步响应的关联起来

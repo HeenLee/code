@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27662385-8bea-4632-b271-03ffdfcff4af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../script/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python-selenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/class_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python_base_study/python_基础/class/class_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unitest_demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study/test_demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study/test_demo2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study_package2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/class_unittest_demo/unittest_study_package2/test_demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-selenium/testsuits/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python-selenium/testsuits/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python_high/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python_high/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/python_study.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Appium/API.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/Selenium_8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/Thread_execute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/Demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/Demo2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/Demo2_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/Demo2_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/Demo2_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part1_base/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo1_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo3_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo3_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo4_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo4_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo5_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo5_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo5_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo5_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo6_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/Demo7_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part2_exercise/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/Demo2_Class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/config/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/csdn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/csdn/baidu_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/csdn/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/get_subString.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/get_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/log/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/read_conf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/read_conf/read_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/Logs201912191617.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/base_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/browser_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/part3_improve/test1/test_logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/run_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python&amp;Selenium/selenium_is.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/end42/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/get_request/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/get_request/get_noparam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/get_request/get_withparam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log.txt.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log.txt.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log.txt.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log1_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log2_write_to_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log3_write_to_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log4_log_rollback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger39/log6_multi_mode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/Log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/conf_log03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/errors.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/fathModule01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/father_sonModule02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/file.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/json_log04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/log/test_case_log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/logger.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/logging.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/logging.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/logger40/yaml_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/connect_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/create_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/delete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/insert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/query.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/operate_db38/update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/post_xml41/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/post_xml41/body.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/post_xml41/post_xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/Python接口自动化/post_xml41/post_xml_read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/comment01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/data_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/if_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base01/str_formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/decrator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/iterator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/module_import.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base02/package.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base03/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base03/data.pk1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base03/input&amp;output01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base03/os_demo03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/base03/pickle_demo02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/exception04/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/exception04/except_demo01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/exception04/except_demo02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/file01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/file02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/file03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/file04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/file05/file05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/class01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/class02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/decrator03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/inherit04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/obj_summary06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/object06/polymorphic05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/date&amp;time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/json_05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/mysql_connect01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/sendemail03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/threading04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python_基础/高级/正则表达式02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/python爬虫/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/01BeautifulSoup_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/02RegExp_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/03RequestsLibUse_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/04UrllibUse_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/conf/cookie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/conf/cookie1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/conf/git.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/conf/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/cookie_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/get_cookie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/get_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/header_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/post_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/proxy_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/request_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/session_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/ssl_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/test.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/timeout_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/requests_exercise/requests_simple/upload_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/Car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/myfunc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/testReport (2).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/testReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/test_func_1(modify).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/unittest_sinosun/unittest_intruduce.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/installed-files.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/Appium_Python_Client-0.47-py3.5.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/pbr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyMySQL-0.9.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyYAML-5.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyYAML-5.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyYAML-5.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyYAML-5.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/PyYAML-5.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/_yaml.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/common/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/common/helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/common/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/saucetestcase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/appium_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/appium_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/applicationstate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/clipboard_content_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/common/mobileby.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/common/multi_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/common/touch_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/connectiontype.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/errorhandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/action_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/activities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/display.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/gsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/performance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/power.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/android/system_bars.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/applications.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/clipboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/device_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/execute_driver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/hw_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/images_comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/ime.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/keyboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/location.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/remote_fs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/screen_record.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/search_context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/extensions/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/mobilecommand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/switch_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/appium/webdriver/webelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/COPYING.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/beautifulsoup4-4.8.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/builder/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/builder/_html5lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/builder/_htmlparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/builder/_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/dammit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/diagnose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/formatter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_builder_registry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_docs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_html5lib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_htmlparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_soup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/bs4/tests/test_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi-2019.6.16.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet-3.0.4.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/cli/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/langturkishmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/chardet/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/easy-install.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/LICENSE.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna-2.8.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/idnadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/intranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/package_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/idna/uts46data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/LICENSES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml-4.4.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/ElementInclude.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/_elementpath.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/_elementpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/builder.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/cssselect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/doctestcompare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/etree.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/etree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/etree_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/ElementSoup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/_diffcommand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/_html5builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/_setmixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/clean.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/defs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/diff.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/formfill.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/html5parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/soupparser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/html/usedoctest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/__init__.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/c14n.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/config.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/dtdvalid.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/etree_defs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/etreepublic.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/htmlparser.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libexslt/exslt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libexslt/exsltconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libexslt/exsltexports.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libexslt/libexslt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/DOCBparser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/HTMLparser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/HTMLtree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/SAX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/SAX2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/c14n.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/catalog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/chvalid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/debugXML.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/dict.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/encoding.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/entities.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/globals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/list.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/nanoftp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/nanohttp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/parserInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/relaxng.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/schemasInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/schematron.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/threads.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/uri.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/valid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xinclude.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xlink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlIO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlautomata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlerror.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlexports.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlmemory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlmodule.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlreader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlregexp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlsave.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlschemas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlschemastypes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlstring.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlunicode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xmlwriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xpath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xpathInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxml/xpointer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/attributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/documents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/extensions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/extra.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/imports.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/keys.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/libxslt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/namespaces.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/numbersInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/pattern.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/preproc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/security.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/templates.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/trio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/triodef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/variables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/win32config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xslt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xsltInternals.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xsltconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xsltexports.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xsltlocale.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/libxslt/xsltutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/lxml-version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/relaxng.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/schematron.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/tree.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/uri.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xinclude.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xmlerror.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xmlparser.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xmlschema.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xpath.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/includes/xslt.pxd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/rng/iso-schematron.rng" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/lxml.etree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/lxml.etree_api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/objectify.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/pyclasslookup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/sax.cp35-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/lxml/usedoctest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/build_env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/autocompletion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/base_command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/cmdoptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/main_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/cli/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/completion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/commands/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/configuration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/locations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/models/candidate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/models/format_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/models/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/models/link.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/operations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/operations/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/operations/freeze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/operations/prepare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/pep425tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/pyproject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/constructors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/req_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/req_install.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/req_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/req_tracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/req/req_uninstall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/resolve.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/deprecation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/encoding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/glibc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/hashes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/outdated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/packaging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/setuptools_build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/temp_dir.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/typing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/utils/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/vcs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/vcs/bazaar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/vcs/git.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/vcs/mercurial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/vcs/subversion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_internal/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/appdirs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/caches/file_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/controller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/filewrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/serialize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/cachecontrol/wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/certifi/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/certifi/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/certifi/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/certifi/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/big5freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/big5prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/chardistribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/charsetgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/charsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/cli/chardetect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/codingstatemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/cp949prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/enums.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/escprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/escsm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/eucjpprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/euckrfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/euckrprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/euctwfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/euctwprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/gb2312freq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/gb2312prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/hebrewprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/jisfreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/jpcntx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langbulgarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langcyrillicmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langgreekmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langhebrewmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langhungarianmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langthaimodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/langturkishmodel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/latin1prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/mbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/mbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/mbcssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/sbcharsetprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/sbcsgroupprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/sjisprober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/universaldetector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/utf8prober.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/chardet/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/ansi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/ansitowin32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/initialise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/colorama/winterm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/sysconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/locators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/manifest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/metadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/resources.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/scripts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/t32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/t64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/w64.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distlib/wheel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/distro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_ihatexml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_inputstream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_tokenizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_trie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_trie/_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_trie/datrie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/sanitizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/html5parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treebuilders/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/idnadata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/intranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/package_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/idna/uts46data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/ipaddress.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/linklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/mkdirlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/pidlockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/sqlitelockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/lockfile/symlinklockfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/msgpack/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/msgpack/_version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/msgpack/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/msgpack/fallback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/__about__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/_structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/requirements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/specifiers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/packaging/version.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/_in_process.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/colorlog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/envbuild.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pep517/wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/progress/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/progress/bar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/progress/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/progress/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/progress/spinner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pyparsing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/pytoml/writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/certs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/packages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/requests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/retrying.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/_appengine_environ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/appengine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/contrib/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/filepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/backports/makefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/retry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/_auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/_compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/_socketio.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/connections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/CLIENT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/COMMAND.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/CR.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/ER.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/FIELD_TYPE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/FLAG.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/SERVER_STATUS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/constants/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/converters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/cursors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/err.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/optionfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/protocol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/times.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/pymysql/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests-2.22.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/__version__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/_internal_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/certs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/cookies.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/help.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/hooks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/packages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/sessions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/status_codes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/structures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/requests/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium-3.141.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/common/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/android/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/android/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/blackberry/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/chrome/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/chrome/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/chrome/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/action_chains.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/input_device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/interaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/key_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/alert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/by.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/html5/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/keys.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/proxy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/touch_actions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/common/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/edge/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/edge/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/edge/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/edge/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/webelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/ie/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/ie/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/ie/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/ie/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/opera/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/opera/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/opera/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/phantomjs/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/file_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/getAttribute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/mobile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/switch_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/safari/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/safari/permissions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/safari/remote_connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/safari/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/safari/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/color.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/select.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/support/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/webkitgtk/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/webkitgtk/options.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/webkitgtk/service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/setuptools-40.8.0-py3.5.egg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve-1.9.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/__meta__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/css_match.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/css_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/css_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/soupsieve/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3-1.25.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/_collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/connectionpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/_appengine_environ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/_securetransport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/_securetransport/bindings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/_securetransport/low_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/appengine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/ntlmpool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/pyopenssl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/securetransport.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/contrib/socks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/filepost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/backports/makefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/_mixin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/abnf_regexp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/builder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/compat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/iri.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/normalizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/parseresult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/uri.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/rfc3986/validators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/six.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/packages/ssl_match_hostname/_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/poolmanager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/response.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/retry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/ssl_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/timeout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/urllib3/util/wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd-1.2.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/biffh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/book.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/compdoc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/formatting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/formula.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/sheet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/timemachine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/xldate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/xlrd/xlsx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/composer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/constructor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/cyaml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/dumper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/emitter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/error.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/nodes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/reader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/representer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/resolver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/serializer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/site-packages/yaml/tokens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/Activate.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_elementtree.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_msi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_overlapped.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_testcapi.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/_tkinter.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/activate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/chardetect.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/deactivate.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/easy_install-3.5-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/easy_install-3.5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/easy_install-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/easy_install.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip3-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip3.5-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip3.5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pip3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/python.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/python3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/python35.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/pythonw.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/runxlrd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/sqlite3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/tcl86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/tk86t.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/vcruntime140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/Scripts/winsound.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sinosun/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../script/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../script/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../script/.idea/script.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../script/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/../script/a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../script/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bplusTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/bplusTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bplusTest_simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/bplusTest_simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bplusTest脚本实现的思路.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combinefile.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/combinefile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_file.json" beforeDir="false" afterPath="$PROJECT_DIR$/../script/new_file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../script/s.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/ss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/str_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/../script/str_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/ServerUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/clientUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/monkey.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/po.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_event_bind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_grid_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_pack_ListBox.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_pack_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_place_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_place_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tk_gui/tk_place_label_1.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/untitled$lastScript.coverage" NAME="lastScript Coverage Results" MODIFIED="1587713167103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest__1_.coverage" NAME="bplusTest (1) Coverage Results" MODIFIED="1587956654750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$tk_demo1.coverage" NAME="tk_demo1 Coverage Results" MODIFIED="1590630707344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$copy.coverage" NAME="copy Coverage Results" MODIFIED="1588988170737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$ServerUI.coverage" NAME="ServerUI Coverage Results" MODIFIED="1590650801441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$clientUI.coverage" NAME="clientUI Coverage Results" MODIFIED="1590650480001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$bplus_script.coverage" NAME="bplus_script Coverage Results" MODIFIED="1587957935285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest.coverage" NAME="bplusTest Coverage Results" MODIFIED="1590395572471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$tk_grid_label.coverage" NAME="tk_grid_label Coverage Results" MODIFIED="1590636503640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$python_bplusTest.coverage" NAME="python bplusTest Coverage Results" MODIFIED="1587433540793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$combinefile.coverage" NAME="combinefile Coverage Results" MODIFIED="1590393166307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$script.coverage" NAME="script Coverage Results" MODIFIED="1587868512013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$tk_lable.coverage" NAME="tk_lable Coverage Results" MODIFIED="1590634766184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$tk_plack_label_1.coverage" NAME="tk_plack_label_1 Coverage Results" MODIFIED="1590643762756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$tk_plack_label.coverage" NAME="tk_plack_label Coverage Results" MODIFIED="1590643529987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest2.coverage" NAME="bplusTest2 Coverage Results" MODIFIED="1587447357530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$ss.coverage" NAME="ss Coverage Results" MODIFIED="1589963569430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest3.coverage" NAME="bplusTest3 Coverage Results" MODIFIED="1587458007035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$tk_plack_button.coverage" NAME="tk_plack_button Coverage Results" MODIFIED="1590636509508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest__2_.coverage" NAME="bplusTest (2) Coverage Results" MODIFIED="1587960004813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$bplusTest_simple.coverage" NAME="bplusTest_simple Coverage Results" MODIFIED="1590481564474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$str_number.coverage" NAME="str_number Coverage Results" MODIFIED="1591928093295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$tk_event_bind.coverage" NAME="tk_event_bind Coverage Results" MODIFIED="1590650064036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tk_gui" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>object_pairs_hook=collections.OrderedDict</find>
+      <find>tk</find>
+      <find>tkinter</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>tk</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/python bplusTest.py" />
+        <option value="$PROJECT_DIR$/bplusTest2.py" />
+        <option value="$PROJECT_DIR$/bplusTest3.py" />
+        <option value="$PROJECT_DIR$/a.json" />
+        <option value="$PROJECT_DIR$/abc.txt" />
+        <option value="$PROJECT_DIR$/fffd.py" />
+        <option value="$PROJECT_DIR$/lastScript.py" />
+        <option value="$PROJECT_DIR$/script.py" />
+        <option value="$PROJECT_DIR$/s.txt" />
+        <option value="$PROJECT_DIR$/bplus_script.py" />
+        <option value="$PROJECT_DIR$/copy.json" />
+        <option value="$PROJECT_DIR$/2020-05-09-10-41-37_test.log" />
+        <option value="$PROJECT_DIR$/new.py" />
+        <option value="$PROJECT_DIR$/copy.py" />
+        <option value="$PROJECT_DIR$/bplusTest_simple.py" />
+        <option value="$PROJECT_DIR$/combinefile.py" />
+        <option value="$PROJECT_DIR$/bplusTest.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_demo1.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_demoListBox.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_lable.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_plack_button.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_plack_label.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_plack_label_1.py" />
+        <option value="$PROJECT_DIR$/tk_gui/clientUI.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_event_bind.py" />
+        <option value="$PROJECT_DIR$/tk_gui/tk_grid_label.py" />
+        <option value="$PROJECT_DIR$/tk_gui/ServerUI.py" />
+        <option value="$PROJECT_DIR$/ss.py" />
+        <option value="$PROJECT_DIR$/str_number.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="329" />
+    <option name="y" value="394" />
+    <option name="width" value="1319" />
+    <option name="height" value="871" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\untitled\tk_gui" />
+      <recent name="D:\PycharmProjects\untitled" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.str_number">
+    <configuration name="ServerUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tk_gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tk_gui/ServerUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="clientUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tk_gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tk_gui/clientUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="str_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/str_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tk_event_bind" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tk_gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tk_gui/tk_event_bind.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tk_plack_label_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tk_gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\untitled\tk_gui\tk_place_label_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.str_number" />
+        <item itemvalue="Python.ServerUI" />
+        <item itemvalue="Python.clientUI" />
+        <item itemvalue="Python.tk_event_bind" />
+        <item itemvalue="Python.tk_plack_label_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27662385-8bea-4632-b271-03ffdfcff4af" name="Default Changelist" comment="" />
+      <created>1587373932457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587373932457</updated>
+      <workItem from="1587373934568" duration="2735000" />
+      <workItem from="1587431308501" duration="22231000" />
+      <workItem from="1587517761549" duration="13414000" />
+      <workItem from="1587603219134" duration="22780000" />
+      <workItem from="1587689570705" duration="12422000" />
+      <workItem from="1587864832384" duration="4787000" />
+      <workItem from="1587947420905" duration="14148000" />
+      <workItem from="1588040541244" duration="607000" />
+      <workItem from="1588121590173" duration="2248000" />
+      <workItem from="1588207404490" duration="621000" />
+      <workItem from="1588744138287" duration="4165000" />
+      <workItem from="1588813236883" duration="13444000" />
+      <workItem from="1588898959600" duration="8308000" />
+      <workItem from="1588919004571" duration="4620000" />
+      <workItem from="1588985291471" duration="14820000" />
+      <workItem from="1589245518004" duration="3861000" />
+      <workItem from="1589353109864" duration="668000" />
+      <workItem from="1589418356293" duration="596000" />
+      <workItem from="1589506993572" duration="4956000" />
+      <workItem from="1589768073981" duration="596000" />
+      <workItem from="1589880952140" duration="248000" />
+      <workItem from="1589935743814" duration="2005000" />
+      <workItem from="1590375614776" duration="16075000" />
+      <workItem from="1590454700576" duration="14553000" />
+      <workItem from="1590541838899" duration="13178000" />
+      <workItem from="1590628335096" duration="12829000" />
+      <workItem from="1590716693072" duration="1250000" />
+      <workItem from="1591927936938" duration="191000" />
+      <workItem from="1592465043890" duration="222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="212581000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="329" y="394" width="1319" height="871" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2359015" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17208672" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24485373" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32912987" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3379571" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32912987" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2494043" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2020-05-09-10-47-51_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-01-12_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-06-10_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-01-52_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-08-01_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-08-14_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-07-28_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-08-45_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-10-15_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-08-58_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-10-39_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-19-44_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-20-13_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-11-20-29_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-13-11-54_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-13-15-40_test.log" />
+    <entry file="file://D:/Programs/Python27/Lib/collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2020-05-09-13-27-31_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-14-10-28_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-14-20-54_test.log" />
+    <entry file="file://$PROJECT_DIR$/2020-05-09-14-21-10_test.log" />
+    <entry file="file://$PROJECT_DIR$/new.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/381873159/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21907">
+          <caret line="1153" selection-start-line="1153" selection-end-line="1153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="1262" column="8" selection-start-line="1262" selection-start-column="8" selection-end-line="1262" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_place_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/po.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_place_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_place_label_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Python27/Lib/lib-tk/Tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2582" column="37" selection-start-line="2582" selection-start-column="32" selection-end-line="2582" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_grid_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/ServerUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="88" column="58" selection-start-line="88" selection-start-column="44" selection-end-line="88" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/abc.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/a.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy.py" />
+    <entry file="file://D:/Programs/Python27/Lib/encodings/utf_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_pack_ListBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_pack_label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/tk_event_bind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tk_gui/clientUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="84" column="48" lean-forward="true" selection-start-line="84" selection-start-column="48" selection-end-line="84" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bplusTest脚本实现的思路.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/str_number.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/ss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+          <folding>
+            <element signature="e#18#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/s.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/new_file.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/combinefile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/bplusTest_simple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../script/bplusTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="211" column="7" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

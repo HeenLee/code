@@ -1,0 +1,5 @@
+2020-06-23 15:02:20,654 - mainModule - INFO - 创建子模块的实例
+2020-06-23 15:02:20,659 - mainModule.sub.module - INFO - in subModuleClass
+2020-06-23 15:02:20,659 - mainModule - INFO - call dosomething
+2020-06-23 15:02:20,659 - mainModule.sub.module - INFO - do something
+2020-06-23 15:02:20,659 - mainModule.sub - INFO - call func

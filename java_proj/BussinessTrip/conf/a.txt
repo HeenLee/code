@@ -1,0 +1,49 @@
+LoadRunner 包含以下组件：
+? Virtual User Generator 录制最终用户业务流程并创建自动化性能测试脚本，
+即 Vuser 脚本。
+? Controller 组织、驱动、管理并监控负载测试。
+? Load Generator 通过运行 Vuser 产生负载。
+? Analysis 用于查看、剖析和比较性能结果。
+? Launcher 使您可以从单个访问点访问所有 LoadRunner 组件。
+
+了解 LoadRunner 术语
+场景文件根据性能要求定义每次测试期间发生的事件。
+在场景中， LoadRunner 用虚拟用户（或称 Vuser）代替真实用户。Vuser 模仿真
+实用户的操作来使用应用系统。一个场景可以包含数十、数百乃至数千个 Vuser。
+Vuser 脚本描述 Vuser 在场景中执行的操作。
+要评测服务器性能，需要定义事务。事务代表要评测的终端用户业务流程。
+
+负载测试一般包括 5 个阶段：规划、创建脚本、定义场景、执行场景和分析结果。
+? 规划负载测试。定义性能测试要求，例如并发用户数量、典型业务流程和要求的
+响应时间。
+? 创建 Vuser 脚本。在自动化脚本中录制最终用户活动。
+? 定义场景。使用 LoadRunner Controller 设置负载测试环境。
+? 运行场景。使用 LoadRunner Controller 驱动、管理并监控负载测试。
+? 分析结果。使用 LoadRunner Analysis 创建图和报告并评估性能。
+
+应用程序要求
+现在您已经熟悉了 HP Web Tours，假设您是负责检验该应用程序是否满足业务需
+要的性能工程师。项目经理给您列出了 4 个发行条件：
+1 HP Web Tours 必须能够成功处理 10 家旅行社的并发操作。
+2 HP Web Tours 必须能够处理 10 个并发的机票预订操作，且响应时间不能超过
+90 秒。
+3 HP Web Tours 必须能够处理 10 家旅行社的并发航班路线查看操作，且响应时间
+不能超过 120 秒。
+4 HP Web Tours 必须能够处理 10 家旅行社的并发登录和注销操作，且响应时间不能
+超过 10 秒。
+本教程将指导您完成检验每项业务需求的负载测试，使您清楚是否可以发行此应
+用程序。
+
+检查关联语句的语法。
+选择视图 > 脚本视图，查看脚本中的关联语句。VuGen 添加到脚本中的语句如下：
+		web_reg_save_param (“WCSParam_Diff1”,
+		“LB=userSession value=”,
+		“RB=>”,
+		“Ord=1”,
+		“RelFrameId=1.2.1”,
+		“Search=Body”,
+		LAST);
+该语句的意思是检查以下两个字符串之间数据的服务器响应：
+? 左边界：userSession value=
+? 右边界：>
+该语句指示 VuGen 将首次出现的此数据保存到参数 WCSParam_Diff1 中。

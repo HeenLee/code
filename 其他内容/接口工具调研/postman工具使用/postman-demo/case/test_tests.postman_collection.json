@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "b4dfbef0-4247-4e38-9a5c-be2dcfa9d900",
+		"name": "test_tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "百度一下",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5b09a24a-cbd4-4313-b4de-00a93c2c4d76",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"百度一下，你就知道\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://www.baidu.com",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "导入外部数据",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://tool.oschina.net/encrypt?num={{num}}&pwd={{pwd}}",
+					"protocol": "https",
+					"host": [
+						"tool",
+						"oschina",
+						"net"
+					],
+					"path": [
+						"encrypt"
+					],
+					"query": [
+						{
+							"key": "num",
+							"value": "{{num}}"
+						},
+						{
+							"key": "pwd",
+							"value": "{{pwd}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

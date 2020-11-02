@@ -1,0 +1,8 @@
+Fri, 10 Jan 2020 11:28:46-config_log.py-[line:6]-DEBUG-[LogInfoMessage]: this i debug message
+Fri, 10 Jan 2020 11:28:46-config_log.py-[line:7]-INFO-[LogInfoMessage]: this is info message
+Fri, 10 Jan 2020 11:28:46-config_log.py-[line:8]-WARNING-[LogInfoMessage]: this is warning message
+Fri, 10 Jan 2020 13:19:08-config_log.py-[line:6]-DEBUG-[LogInfoMessage]: this i debug message
+Fri, 10 Jan 2020 13:19:08-config_log.py-[line:7]-INFO-[LogInfoMessage]: this is info message
+Fri, 10 Jan 2020 13:19:08-config_log.py-[line:8]-WARNING-[LogInfoMessage]: this is warning message
+Fri, 10 Jan 2020 13:22:13-config_log.py-[line:7]-INFO-[LogInfoMessage]: this is info message
+Fri, 10 Jan 2020 13:22:13-config_log.py-[line:8]-WARNING-[LogInfoMessage]: this is warning message

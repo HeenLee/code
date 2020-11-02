@@ -1,0 +1,55 @@
+基础操作--镜像  
+
+1.从仓储获取镜像
+	搜索镜像	docker search image_name
+	搜索镜像过滤：
+        	是否是官方：docker search --filter "is-official=true" image_name
+  		是否是自动化构建  docker search --filter "is-automated=true" image_name
+  		大于多少颗星  docker search --filter stars=3 image_name
+  	下载镜像 docker pull image_name
+2.本地镜像的查看  docker images
+3.本地镜像的删除  docker rmi image_name
+
+基础操作-容器    同一个镜像可以创建多个容器，名称不一样就可以
+1.创建容器 docker run -itd --name=container_name image_name(镜像名)
+	i 表示以交互模式运行容器
+	d 表示后台运行容器，并返回容器ID
+	t 为容器重新分配一个伪输入终端
+	--name 为容器指定名称
+2.查看容器（运行中的）docker ps
+3.查看容器（包括已停止的）docker pa -a
+4.停止容器 docker stop container_name/container_id
+5.启动容器 docker start container_name/container_id
+6.重启容器 docker restart container_name/container_id
+7.删除容器 docker rm container_name/container_id
+
+容器的修改及保存
+1.进入容器 docker exec -it container_name /bin/bash
+2.退出容器 exit
+3.提交修改： 把容器的修改提交到镜像中
+	docker commit -a "author" -m "message"  container_name/container_id    new_image_name:tag_name
+	-a 可选参数，用于指定作者，可以写出你的名字
+	-m 可选参数，提交信息，可以说一下你做了哪些修改
+	contain_id 该参数为被修改的容器ID
+	image_name 为新镜像的名字，可自定义
+	tag_name 为新镜像的标签，可不写，不写时标签默认为latest 
+
+容器操作进阶
+1.端口映射 docker run -itd --name=container_name -p 宿主机端口号：容器端口号  image_name(镜像名)   没有访问成功
+
+2.文件挂载  docker run -itd -v /宿主机/文件目录/文件名 ：/容器/目录/文件名 把本地挂载到容器
+将容器的文件复制到本地
+		docker cp 容器名:/容器目录/文件名  /宿主机目录/文件名
+将本地的文件复制到容器 
+		docker cp /宿主机目录/文件名  容器名：/容器目录/文件名
+
+3.容器互联(容器之间的操作，单独部署）
+			    举例：
+		docker run -itd --link 要关联的容器名字：容器在被关联的容器中的别名
+修改mysql密码
+  alter User 'root'@‘%’identified with mysql_native_password by '123456';
+
+
+Dockerfile
+运行dockerfile  docker build -t image_name:tag_name  也可通过-f参数来指定Dockerfile文件位置
+docker build -f /path/Dockerfile

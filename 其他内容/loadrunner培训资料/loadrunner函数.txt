@@ -1,0 +1,88 @@
+﻿ 一、请求首部
+	web_add_cookie("cookie");
+	web_add_header("content-type",
+		"application/json"); 
+二、检查点	
+	//文本检查点
+	web_find("web_find",
+		"What=ALL",
+		LAST);
+		
+	//常用文本检查点
+	web_reg_find("Text=abb",
+		LAST);
+		
+	//图像检查点
+	web_image_check("web_image_check",
+		"Alt=cc",
+		LAST);
+三、发送请求类型
+	//发送get请求，第一种常用
+	web_url("web_url",
+		"URL=http://www.baidu.com",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		LAST);
+
+    //发送get请求，这种不常用
+	web_link("web_link",
+		LAST);	
+	
+	//发送post请求，第一种常用
+	web_submit_form("web_submit_form",
+		ITEMDATA,
+		LAST);
+		
+	//发送post请求
+	web_submit_data("web_submit_data",
+		"Action=http://www.baidu.com",
+		"Method=POST",
+		"TargetFrame=",
+		"Referer=",
+		ITEMDATA,
+		LAST);
+	//发送get请求
+	web_submit_data("web_submit_data",
+		"Action=http://www.baidu.com",
+		"Method=GET",
+		"TargetFrame=",
+		"Referer=",
+		ITEMDATA,
+		LAST);
+	
+	//发送get请求
+	web_custom_request("web_custom_request",
+		"URL=http://www.baidu.com",
+		"Method=GET",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		"Body=",
+		LAST);
+	//发送post请求
+	web_custom_request("web_custom_request",
+		"URL=http://www.baidu.com",
+		"Method=POST",
+		"TargetFrame=",
+		"Resource=0",
+		"Referer=",
+		"Body=",
+		LAST);
+四、设置关联
+	//保存参数，可以用来关联参数	
+	web_reg_save_param("ddd",
+		"LB=",
+		"RB=",
+		LAST);
+五、打印信息
+	//输出信息
+	lr_output_message("mes"，"mes");
+六、其他函数
+	//lr_eval_string()将参数转为字符串，lr_save_string()将参数值保存到参数里面
+	lr_save_string(lr_eval_string("{NewParam}{orderId}}"),"orderId2");
+	lr_think_time() 设置思考时间
+	lr_start_transaction() 开始事务
+	lr_end_transaction()结束事务
+	lr_rendezvous()
+		

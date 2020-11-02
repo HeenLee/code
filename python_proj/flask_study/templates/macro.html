@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#    无参宏#}
+    {% macro input() %}
+        <input type="text" value="" size="30">
+    {% endmacro %}
+{#     使用无参数宏#}
+    <h1>input1</h1>
+    {{ input() }}
+    <h1>input2</h1>
+    {{ input() }}
+
+{#带参数的宏#}
+    {% macro input2(type,value,size) %}
+        <input type="{{ type }}" value="{{ value }}" size="{{ size }}">
+    {% endmacro %}
+
+{#使用带参数的宏#}
+    <h1>input2</h1>
+    {{  input2("password","",50)}}
+<hr/>
+
+{#带默认参数的宏#}
+    {% macro input3(type="text",value="",size=30) %}
+        <input type="{{ type }}" value="{{ value }}" size="{{ size }}">
+    {% endmacro %}
+
+{#使用默认参数的宏，可以不传参数#}
+    <h1>input3</h1>
+    {{  input3()}}
+{#默认的参数可以修改#}
+    <h1>input3</h1>
+    {{  input3("password","",100)}}
+
+<hr/>
+{#导入宏#}
+    {% import 'macro_input.html' as func %}
+
+    <h4>input4</h4>
+    {{ func.input4() }}
+</body>
+</html>
