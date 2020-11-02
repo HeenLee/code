@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'com.sinosun'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+/*
+指定所使用的仓库
+mavenCentral表示中央仓库，此刻项目中所需要的jar包都会默认从中央仓库下载到本地指定目录
+此处配置是先从本地仓库寻找依赖，如果没有再从中央仓库下载
+如果只配置中央仓库，表示直接从中央仓库下载jar包，如果指定下载的位置已经有了，就不会再次下载了
+ */
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+/*
+gradle工程所有的jar包坐标都在dependencies属性内
+每个jar包都有三个基本元素 group name version
+testCompile表示该jar包在测试的时候起作用，该属性为jar包的作用域
+在gradle里面添加坐标的时候都要带上jar包的作用域
+ */
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.2.RELEASE'
+
+}
