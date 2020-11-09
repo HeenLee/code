@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student number="heima_001">
+        <name id="it_cast">tom</name>
+        <age>18</age>
+        <sex>male</sex>
+    </student>
+
+    <student number="heima_002">
+        <name>jack</name>
+        <age>18</age>
+        <sex>female</sex>
+    </student>
+</students>
