@@ -13,7 +13,7 @@ public class Demo02Random {
         int num = r.nextInt(100) + 1;
         Scanner sc = new Scanner(System.in);
         while(true){
-            
+
         }
 
 

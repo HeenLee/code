@@ -4,42 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" line="31" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrSortAndInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrSortAndInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo4_RetainAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04RetainAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/MyThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo01Jsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo01Jsoup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo02Jsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo02Jsoup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo03DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo04DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo04DOM4JParseXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo05DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo05DOM4JParseXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo06DOM4JWriteXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo06DOM4JWriteXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo01Jsoup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo02Jsoup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo03DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo04DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo05DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo06DOM4JWriteXML.class" beforeDir="false" />
-    </list>
+    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -119,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -283,8 +248,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="569" />
-    <option name="y" value="67" />
+    <option name="x" value="208" />
+    <option name="y" value="183" />
     <option name="width" value="1476" />
     <option name="height" value="938" />
   </component>
@@ -533,7 +498,7 @@
       <workItem from="1604543853444" duration="17158000" />
       <workItem from="1604625660937" duration="3328000" />
       <workItem from="1604885415167" duration="21017000" />
-      <workItem from="1604977512434" duration="14940000" />
+      <workItem from="1604977512434" duration="15028000" />
     </task>
     <servers />
   </component>
@@ -570,11 +535,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57679000" />
+    <option name="totallyTimeSpent" value="57767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="973" y="76" width="1476" height="938" extended-state="0" />
-    <editor active="true" />
+    <frame x="208" y="183" width="1476" height="938" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.28248587" />
       <window_info id="Structure" order="1" sideWeight="0.5017301" side_tool="true" weight="0.25" />
@@ -585,7 +549,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30931678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30931678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15079366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1001,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
