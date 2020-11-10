@@ -5,7 +5,7 @@ package com.exercise.thread2;
 public class Demo4_Notify {
 
 	public static void main(String[] args) {
-		Printer p = new Printer();
+		final Printer p = new Printer();
 		new Thread(){
 			public void run(){
 				while(true){

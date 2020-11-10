@@ -13,7 +13,7 @@ import java.util.Set;
 public class Demo3_HashSet {
 
 	public static void main(String[] args) {
-		Set<Student> set = new HashSet<>();
+		Set<Student> set = new HashSet<Student>();
 		set.add(new Student("jack",20));
 		set.add(new Student("rose",20));
 		set.add(new Student("jhmm",20));

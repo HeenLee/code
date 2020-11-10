@@ -1,5 +1,9 @@
 package com.exercise.arr;
 
+
+/**
+ * 查找数组中的元素
+ */
 public class Demo2_LineSearch {
 
 	public static void main(String[] args) {

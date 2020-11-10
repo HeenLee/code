@@ -29,7 +29,7 @@ public class Get_WithParam2 {
 		CloseableHttpClient httpclient = HttpClientBuilder.create().build();
 		URI uri = null;
 		try {
-			List<NameValuePair> params = new ArrayList<>();
+			List<NameValuePair> params = new ArrayList<NameValuePair>();
 			params.add(new BasicNameValuePair("name", "&"));
 			params.add(new BasicNameValuePair("age", "18"));
 			uri = new URIBuilder().setScheme("http").setHost("localhost").setPort(12345)

@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Demo6_ReentrantLock {
 
 	public static void main(String[] args) {
-		Printer3 p = new Printer3();
+		final Printer3 p = new Printer3();
 		new Thread(){
 			public void run(){
 				while(true){

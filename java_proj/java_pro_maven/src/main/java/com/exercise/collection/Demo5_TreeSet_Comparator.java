@@ -6,7 +6,7 @@ import java.util.TreeSet;
 public class Demo5_TreeSet_Comparator {
 
 	public static void main(String[] args) {
-		Set<Book> set = new TreeSet<>(new Book_MyComparator());
+		Set<Book> set = new TreeSet<Book>(new Book_MyComparator());
 		set.add(new Book("think in java",100));
 		set.add(new Book("java 核心技术",75));
 		set.add(new Book("现代操作系统",50));

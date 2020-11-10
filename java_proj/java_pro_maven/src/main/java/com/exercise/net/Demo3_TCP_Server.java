@@ -18,7 +18,7 @@ public class Demo3_TCP_Server {
 		System.out.println("服务器启动，绑定6666端口");
 		//4.读取文件名
 		while(true){
-			Socket socket = server.accept();  //接受请求
+			final  Socket socket = server.accept();  //接受请求
 			new Thread(){
 				public void run(){
 					try {

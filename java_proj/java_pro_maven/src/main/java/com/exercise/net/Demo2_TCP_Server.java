@@ -20,7 +20,7 @@ public class Demo2_TCP_Server {
 		//demo();
 		ServerSocket server = new ServerSocket(12345);
 		while(true){
-			Socket socket = server.accept();
+			final Socket socket = server.accept();
 			new Thread(){
 				public void run(){
 					try {

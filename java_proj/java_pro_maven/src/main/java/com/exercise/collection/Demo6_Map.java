@@ -9,7 +9,7 @@ import java.util.Set;
 public class Demo6_Map {
 
 	public static void main(String[] args) {
-		Map<String,String> map = new HashMap<>();
+		Map<String,String> map = new HashMap<String,String>();
 		map.put("name", "jack");
 		map.put("age", "18");
 		map.put("score", "98");

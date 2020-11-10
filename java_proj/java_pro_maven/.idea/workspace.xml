@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo03DOM4JParseXML.java" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" line="31" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="" />
+    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrSortAndInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrSortAndInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo4_RetainAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04RetainAll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo01Jsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo01Jsoup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo02Jsoup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo02Jsoup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo03DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo04DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo04DOM4JParseXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo05DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo05DOM4JParseXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo06DOM4JWriteXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo06DOM4JWriteXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo01Jsoup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo02Jsoup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo03DOM4JParseXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo04DOM4JParseXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo05DOM4JParseXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/xmlparse/Demo06DOM4JWriteXML.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,94 +71,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/scannerlei/Demo01Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="192">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_NoParam.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo01Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="140">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/json/JsonArrayBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread/ThreadExcuteTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="300">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
-                <element signature="e#332#333#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="189" column="11" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo01Jsoup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo05DOM4JParseXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo06DOM4JWriteXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -133,6 +186,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -143,23 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo1FieldsGet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/base/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/io/base/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/base/Func_Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo01_JDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Insert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Update.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Delete.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Select.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo03_JDBC_Select.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Emp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo04_JDBC_Select.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo03Emp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/pool/JDBCUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/pool/Demo01Druid.java" />
         <option value="$PROJECT_DIR$/src/main/resources/student.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo01Jsoup.java" />
@@ -185,6 +222,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread/ThreadExcuteTest1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo4_RetainAll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04ArrReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo031ArrReverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03Arr_Reverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/common/lei/scannerlei/Demo01Scanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo01Random.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java" />
       </list>
     </option>
   </component>
@@ -219,9 +282,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="444" />
-    <option name="y" value="69" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="569" />
+    <option name="y" value="67" />
     <option name="width" value="1476" />
     <option name="height" value="938" />
   </component>
@@ -238,39 +301,125 @@
               <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lei" type="462c0819:PsiDirectoryNode" />
+              <item name="random" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lei" type="462c0819:PsiDirectoryNode" />
+              <item name="scannerlei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/exercise/thread" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/exercise" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\thread" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\application" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\net" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.exercise.xmlparse" />
-      <recent name="com.exercise.jdbc" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.exercise.object" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\code\java_proj\java_pro_maven\src\main\resources" />
       <recent name="D:\study\code\java_proj\java_pro_maven\src" />
       <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\jdbc" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.common.lei.random" />
+      <recent name="com.exercise.arr" />
+      <recent name="com.exercise.xmlparse" />
+      <recent name="com.exercise.jdbc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\thread" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\application" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\net" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,13 +434,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo06DOM4JWriteXML">
-    <configuration name="Demo02Jsoup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.xmlparse.Demo02Jsoup" />
+  <component name="RunManager" selected="Application.Demo01Random">
+    <configuration name="Demo01Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.lei.random.Demo01Random" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.xmlparse.*" />
+          <option name="PATTERN" value="com.common.lei.random.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +448,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03DOM4JParseXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.xmlparse.Demo03DOM4JParseXML" />
+    <configuration name="Demo01Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.lei.scannerlei.Demo01Scanner" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.xmlparse.*" />
+          <option name="PATTERN" value="com.common.lei.scannerlei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,52 +461,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo04DOM4JParseXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.xmlparse.Demo04DOM4JParseXML" />
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.xmlparse.*" />
+          <option name="PATTERN" value="com.exercise.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.exercise.object" />
+      <option name="MAIN_CLASS_NAME" value="com.exercise.object.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo05DOM4JParseXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.xmlparse.Demo05DOM4JParseXML" />
+    <configuration name="StudentTest.test_return_jsonobj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.xmlparse.*" />
+          <option name="PATTERN" value="com.exercise.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.exercise.object" />
+      <option name="MAIN_CLASS_NAME" value="com.exercise.object.StudentTest" />
+      <option name="METHOD_NAME" value="test_return_jsonobj" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo06DOM4JWriteXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.xmlparse.Demo06DOM4JWriteXML" />
+    <configuration name="StudentTest.test_return_obj" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.xmlparse.*" />
+          <option name="PATTERN" value="com.exercise.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.exercise.object" />
+      <option name="MAIN_CLASS_NAME" value="com.exercise.object.StudentTest" />
+      <option name="METHOD_NAME" value="test_return_obj" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo06DOM4JWriteXML" />
-        <item itemvalue="Application.Demo05DOM4JParseXML" />
-        <item itemvalue="Application.Demo04DOM4JParseXML" />
-        <item itemvalue="Application.Demo03DOM4JParseXML" />
-        <item itemvalue="Application.Demo02Jsoup" />
+        <item itemvalue="Application.Demo01Random" />
+        <item itemvalue="Application.Demo01Scanner" />
+        <item itemvalue="JUnit.StudentTest.test_return_jsonobj" />
+        <item itemvalue="JUnit.StudentTest.test_return_obj" />
+        <item itemvalue="JUnit.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -375,17 +532,51 @@
       <workItem from="1604542730667" duration="1117000" />
       <workItem from="1604543853444" duration="17158000" />
       <workItem from="1604625660937" duration="3328000" />
-      <workItem from="1604885415167" duration="20368000" />
+      <workItem from="1604885415167" duration="21017000" />
+      <workItem from="1604977512434" duration="14940000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="StudentTest_test_return_obj - 2020.11.10 at 15h 48m 20s.xml">
+      <configuration name="StudentTest.test_return_obj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_obj - 2020.11.10 at 15h 49m 25s.xml">
+      <configuration name="StudentTest.test_return_obj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 15h 50m 55s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 15h 52m 58s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 15h 53m 30s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 15h 54m 29s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 15h 58m 50s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 02m 59s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 04m 04s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 04m 40s.xml">
+      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42090000" />
+    <option name="totallyTimeSpent" value="57679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="538" y="111" width="1476" height="938" extended-state="0" />
+    <frame x="973" y="76" width="1476" height="938" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.39194915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4982699" visible="true" weight="0.28248587" />
       <window_info id="Structure" order="1" sideWeight="0.5017301" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -393,8 +584,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24968944" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30931678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15079366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -404,8 +595,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3242236" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980227" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.40496895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,6 +605,7 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.32980227" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980227" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,231 +617,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jdbc/pool/Demo01Druid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar!/org/jsoup/internal/Normalizer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar!/org/jsoup/select/Elements.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar!/org/jsoup/Jsoup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="599" column="23" selection-start-line="599" selection-start-column="23" selection-end-line="599" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/net/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="744" column="7" selection-start-line="744" selection-start-column="7" selection-end-line="744" selection-end-column="7" />
-          <folding>
-            <element signature="e#28748#28749#0" expanded="true" />
-            <element signature="e#28775#28776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo02Jsoup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/io/SAXReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="430" selection-start-line="430" selection-end-line="430" />
-          <folding>
-            <element signature="e#10189#10190#0" expanded="true" />
-            <element signature="e#10216#10217#0" expanded="true" />
-            <element signature="e#15414#15415#0" expanded="true" />
-            <element signature="e#15459#15460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/tree/DefaultElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="616" selection-start-line="616" selection-end-line="616" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo01Jsoup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/student.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="n#student#1;n#students#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="94" column="37" lean-forward="true" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Node.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo05DOM4JParseXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo03DOM4JParseXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo04DOM4JParseXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1365" column="42" lean-forward="true" selection-start-line="1365" selection-start-column="42" selection-end-line="1365" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/xmlparse/Demo06DOM4JWriteXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo1_Reflect.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="e#836#844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Book.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/date/Demo2_Calendar.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/directory/Demo1_DeleteDir.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/Demo6_Filter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/enumor/Week.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/junit4/Sum.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringMethod.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo4_Name.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo3_Timer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -681,45 +647,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_NoParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="180">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="200">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="180">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/json/JsonArrayBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -728,36 +694,317 @@
         <state relative-caret-position="140">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#256#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/ForForExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="55" column="48" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#291#299#0" expanded="true" />
+            <element signature="e#569#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo3_HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo4_TreeSet_Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo5_TreeSet_Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#266#281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="140">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/json/JsonArrayBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="140">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03Arr_Reverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04RetainAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#277#285#0" expanded="true" />
+            <element signature="e#325#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Ten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.exercise.object.StudentTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo02Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo04DOM4JParseXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo05DOM4JParseXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo06DOM4JWriteXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo01Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="189" column="11" selection-start-line="189" selection-start-column="11" selection-end-line="189" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/serializer/SerializeWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
+          <folding>
+            <element signature="e#13406#13407#0" expanded="true" />
+            <element signature="e#13464#13465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="471" column="25" selection-start-line="471" selection-start-column="25" selection-end-line="471" selection-end-column="25" />
+          <folding>
+            <element signature="e#18543#18544#0" expanded="true" />
+            <element signature="e#18600#18601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/scannerlei/Demo01Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo01Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

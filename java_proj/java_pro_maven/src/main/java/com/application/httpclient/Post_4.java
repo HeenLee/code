@@ -21,7 +21,7 @@ import org.junit.Test;
 public class Post_4 {
 	@Test
 	public void test1() throws ParseException, IOException{
-		List<NameValuePair> formparams = new ArrayList<>();
+		List<NameValuePair> formparams = new ArrayList<NameValuePair>();
 		formparams.add(new BasicNameValuePair("account", "hahaha"));
 		formparams.add(new BasicNameValuePair("password", "111111"));
 		try {

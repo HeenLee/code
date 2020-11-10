@@ -12,7 +12,7 @@ import org.junit.Test;
 public class Demo2_Set {
 	@Test
 	public void test_method(){
-		Set<String> set = new HashSet<>();
+		Set<String> set = new HashSet<String>();
 		set.add("1");
 		set.add("2");
 		set.add("3");

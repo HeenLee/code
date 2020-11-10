@@ -1,8 +1,9 @@
-package com.application.httpclient;
+/*package com.application.httpclient;
 
 import java.io.File;
 import java.io.IOException;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.apache.http.HttpEntity;
 import org.apache.http.ParseException;
 import org.apache.http.client.ClientProtocolException;
@@ -15,7 +16,6 @@ import org.apache.http.entity.mime.content.StringBody;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
-
 public class Post_File {
 
 	public static void main(String[] args) {
@@ -63,3 +63,4 @@ public class Post_File {
 		 }
 	}
 }
+*/

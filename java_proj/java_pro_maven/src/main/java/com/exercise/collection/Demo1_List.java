@@ -12,7 +12,7 @@ public class Demo1_List {
 	 */
 	@Test
 	public void test_method(){
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<String>();
 		list.add("big");
 		list.add("small");
 		list.add("width");
@@ -22,7 +22,7 @@ public class Demo1_List {
 		
 		System.out.println(list);//[fat, big, small, width, height]
 		
-		List<String> list1 = new ArrayList<>();
+		List<String> list1 = new ArrayList<String>();
 		list1.add("1");
 		list1.add("2");
 		list1.add("3");
@@ -53,7 +53,7 @@ public class Demo1_List {
 	 */
 	@Test
 	public void testLoop(){
-		List<String> list = new ArrayList<>();
+		List<String> list = new ArrayList<String>();
 		list.add("big");
 		list.add("small");
 		list.add("width");
