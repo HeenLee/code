@@ -1,0 +1,5 @@
+Alt + 7查看所有方法
+Ctrl + F12 查看类的全部内容
+Shift + Alt + 上下键    移动
+Ctrl + Alt + V 快速返回值
+Ctrl + Alt + L 格式化
