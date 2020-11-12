@@ -4,7 +4,7 @@ package com.exercise.object;
  * 类：成员变量和成员方法
  */
 public class StaticStudent {
-    public static String room;
+    public static String room;  //静态成员变量
     private String name;
     private int age;
 

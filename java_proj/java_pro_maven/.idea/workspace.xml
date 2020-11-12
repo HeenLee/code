@@ -7,229 +7,8 @@
     <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/Add.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/Func_Demo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Demo1_Https$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Demo1_Https$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Demo1_Https.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Demo1_Https.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_NoParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_NoParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_WithParam1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_WithParam1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_WithParam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Get_WithParam2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_NoParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_NoParam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Post_WithParam3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/Send_Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/Send_Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo01Jsoup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo01Jsoup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo02Jsoup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo02Jsoup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo03DOM4JParseXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo03DOM4JParseXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo04DOM4JParseXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo04DOM4JParseXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo05DOM4JParseXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo05DOM4JParseXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo06DOM4JWriteXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo06DOM4JWriteXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/random/Demo01Random.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/common/lei/random/Demo01Random.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/scannerlei/Demo01Scanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/common/lei/scannerlei/Demo01Scanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo01ArrayOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo01ArrayOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo02ArrayTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo02ArrayTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrSortAndInsert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrSortAndInsert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03Arr_Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03Arr_Reverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo04RetainAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo04RetainAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo1_ArrSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo1_ArrSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo2_LineSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo2_LineSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo3_BuddleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo3_BuddleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/ForForExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/ForForExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Ten.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/arr/Ten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/Add.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/Func_Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo1_CompareStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo1_CompareStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo2_RemoveStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo2_RemoveStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo3_FindChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo3_FindChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBufferMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBufferMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBuilderMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBuilderMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book_MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book_MyComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo1_CollctToArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo1_CollctToArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo1_List.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo1_List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo2_Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo2_Set.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo3_HashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo3_HashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo4_TreeSet_Comparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo4_TreeSet_Comparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo5_TreeSet_Comparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo5_TreeSet_Comparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo6_Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo6_Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo7_Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo7_Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/collection/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo1_SimpleFormat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo1_SimpleFormat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo2_Calendar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo2_Calendar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/directory/Demo1_DeleteDir.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/directory/Demo1_DeleteDir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo1_Enum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo1_Enum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo2_Enum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo2_Enum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo1_ComparePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo1_ComparePath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo2_FileMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo2_FileMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo3_PrintDirStructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo3_PrintDirStructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo4_GetParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo4_GetParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo6_Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo6_Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00CopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00CopyFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStreamReadChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStreamReadChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00OutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00OutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02InputStreamReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02InputStreamReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02OutputStreamWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02OutputStreamWriter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectInputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectOutputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectOutputStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/FileStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/FileStudy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/io/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo01_JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo01_JDBC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Delete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Insert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Select.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Update.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Update.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03Emp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03_JDBC_Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03_JDBC_Select.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo04_JDBC_Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo04_JDBC_Select.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/Demo01Druid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/Demo01Druid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/json/JsonArrayBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/json/JsonArrayBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/ParameterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/ParameterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/TsetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/junit4/TsetSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Receive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Send.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Receive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Send.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_UDP_MoreThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_UDP_MoreThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Receive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Receive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Send.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/net/Send.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/object/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1FieldsGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1FieldsGet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1_Reflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1_Reflect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo2_Reflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo2_Reflect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo3_Constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo3_Constructor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo4_Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo4_Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo5_Method.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo5_Method.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Fruit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Juicer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Juicer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Orange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/AddThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/AddThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DecThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/DecThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo1_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo1_Thread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo2_Runnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo2_Runnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo93_Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo93_Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo94_Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo94_Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo9_Yield.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo9_Yield.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/My.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/My.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnableTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnerable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnerable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/SynchronizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/SynchronizedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo1_Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo1_Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo2_Runtime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo2_Runtime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo3_Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo3_Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo7_ThreadGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo7_ThreadGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo8_ThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo8_ThreadPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo9_Callable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo9_Callable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyCallable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyRunnable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyTimerTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyTimerTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/java_pro_maven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/object/StudentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/exercise/object/StudentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/arrays/Demo01Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/common/lei/arrays/Demo01Arrays.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -262,47 +41,116 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StaticStudentTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="92">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01AbstractClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+              <folding>
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#523#524#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceAbstractImplement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefault.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/arrays/Demo01Arrays.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefaultImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
-              <folding>
-                <element signature="e#5027#5028#0" expanded="true" />
-                <element signature="e#5098#5099#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/list/Demo01ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -313,6 +161,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -323,22 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/date/Demo2_Calendar.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/directory/Demo1_DeleteDir.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo6_Filter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Week.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/json/JsonArrayBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/junit4/Sum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo4_Name.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo3_Timer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo1_TCP_Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/application/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread/ThreadExcuteTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/ArrayOne.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo4_RetainAll.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04ArrReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo2_Set.java" />
@@ -361,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/scannerlei/Demo01Scanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo01Random.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java" />
@@ -371,9 +203,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/string/string.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/string/Demo01String.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/object2/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/exercise/object/StaticStudentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/common/lei/arrays/Demo01Arrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object2/Demo01ExtendsAbstract.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object2/AbstractTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object2/Demo01AbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01AbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/发红包举例" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/MyInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceImplement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefault.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefaultImp.java" />
       </list>
     </option>
   </component>
@@ -409,8 +258,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="279" />
-    <option name="y" value="121" />
+    <option name="x" value="33" />
+    <option name="y" value="376" />
     <option name="width" value="1476" />
     <option name="height" value="938" />
   </component>
@@ -460,6 +309,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -489,7 +347,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="jiekou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -510,6 +368,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
               <item name="object" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -576,7 +469,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01Arrays">
+  <component name="RunManager" selected="Application.Demo01MyTest">
+    <configuration name="AbstractTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.iherite.AbstractTest" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.iherite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo00Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.object.Demo00Test" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo01Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.common.lei.arrays.Demo01Arrays" />
       <module name="java_pro_maven" />
@@ -590,44 +509,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo03ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.list.Demo03ArrayList" />
+    <configuration name="Demo01MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.jiekou.Demo01MyTest" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.list.*" />
+          <option name="PATTERN" value="com.exercise.jiekou.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.lei.string.string" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.common.lei.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo1_CompareStr.test_compareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exercise.base.str.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.exercise.base.str" />
-      <option name="MAIN_CLASS_NAME" value="com.exercise.base.str.Demo1_CompareStr" />
-      <option name="METHOD_NAME" value="test_compareTo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -649,19 +539,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo03ArrayList" />
-      <item itemvalue="JUnit.Demo1_CompareStr.test_compareTo" />
-      <item itemvalue="Application.string" />
-      <item itemvalue="JUnit.StaticStudentTest.test_static" />
       <item itemvalue="Application.Demo01Arrays" />
+      <item itemvalue="JUnit.StaticStudentTest.test_static" />
+      <item itemvalue="Application.AbstractTest" />
+      <item itemvalue="Application.Demo00Test" />
+      <item itemvalue="Application.Demo01MyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01MyTest" />
+        <item itemvalue="Application.Demo00Test" />
+        <item itemvalue="Application.AbstractTest" />
         <item itemvalue="Application.Demo01Arrays" />
         <item itemvalue="JUnit.StaticStudentTest.test_static" />
-        <item itemvalue="Application.string" />
-        <item itemvalue="JUnit.Demo1_CompareStr.test_compareTo" />
-        <item itemvalue="Application.Demo03ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -682,6 +572,7 @@
       <workItem from="1604885415167" duration="21017000" />
       <workItem from="1604977512434" duration="15028000" />
       <workItem from="1605057863006" duration="16327000" />
+      <workItem from="1605144887415" duration="10742000" />
     </task>
     <servers />
   </component>
@@ -718,12 +609,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74094000" />
+    <option name="totallyTimeSpent" value="84836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="121" width="1476" height="938" extended-state="0" />
+    <frame x="33" y="376" width="1476" height="938" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.28672317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4964029" visible="true" weight="0.23728813" />
       <window_info id="Structure" order="1" sideWeight="0.50359714" side_tool="true" weight="0.28672317" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -764,112 +655,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03Arr_Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04RetainAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#277#285#0" expanded="true" />
-            <element signature="e#325#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/arr/Ten.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.exercise.object.StudentTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo02Jsoup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo04DOM4JParseXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/serializer/SerializeWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="381" column="23" selection-start-line="381" selection-start-column="23" selection-end-line="381" selection-end-column="23" />
-          <folding>
-            <element signature="e#13406#13407#0" expanded="true" />
-            <element signature="e#13464#13465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -972,20 +757,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/Add.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/Func_Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/Add.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/Func_Demo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1038,30 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StaticStudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/AbstractList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1111,16 +860,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/list/Demo01ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/object/StaticStudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="200">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="2020">
           <caret line="142" column="16" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
           <folding>
             <element signature="e#5027#5028#0" expanded="true" />
@@ -1129,13 +881,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/list/Demo01ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/common/lei/arrays/Demo01Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="280">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/io/Demo00InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01ExtendsAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/iherite/AbstractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01AbstractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/object/发红包举例">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceAbstractImplement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefaultImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
