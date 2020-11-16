@@ -15,7 +15,7 @@ public class Computer {
     //使用USB设备的方法。实现USB接口的类或者子类可以直接传入参数。但是
     //如果是子类特有的方法，需要向下转型
     public void usrDevice(USB usb){
-        usb.open();
+        usb.open(); //打开设备
         if(usb instanceof Mouse){
             Mouse mouseUsb = (Mouse) usb;
             mouseUsb.click();
@@ -24,6 +24,6 @@ public class Computer {
             Keyboard keyboardUsb = (Keyboard) usb;
             keyboardUsb.type();
         }
-        usb.close();
+        usb.close();  //关闭设备
     }
 }
