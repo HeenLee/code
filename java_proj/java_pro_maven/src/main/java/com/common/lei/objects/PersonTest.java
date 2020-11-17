@@ -10,5 +10,6 @@ public class PersonTest {
         Random r = new Random();
         boolean b = p1.equals(r);
         System.out.println(b);
+
     }
 }
