@@ -19,5 +19,8 @@ public class Demo01Arrays {
        //排序
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));   //[5, 10, 11, 20, 30, 35]
+
+        List<Integer> numbers = Arrays.asList(10, 1, 2, 4, 8);  //asList接收可变参数，返回列表
+        System.out.println(numbers);
     }
 }
