@@ -3,3 +3,12 @@ Ctrl + F12 查看类的全部内容
 Shift + Alt + 上下键    移动
 Ctrl + Alt + V 快速返回值
 Ctrl + Alt + L 格式化
+shift + ctrl + enter 快速的添加分号
+shift + enter  快速换行
+
+Debug调试：
+F8：逐行执行程序
+F7:进入到方法中
+shift+F8 调出方法
+F9：跳到下一个断点，如果没有下一个断点，那么就结束程序
+ctrl + F2:退出debug模式，停止程序

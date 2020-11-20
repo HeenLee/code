@@ -17,11 +17,10 @@ public class HistogramExample {
     private static final Histogram histogram = registry.histogram(name(HistogramExample.class,"result"));
     public static void main(String[] args) {
         reporter.start(1, TimeUnit.SECONDS);
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        while (true){
+            histogram.update(1);
         }
+
     }
 
 }
