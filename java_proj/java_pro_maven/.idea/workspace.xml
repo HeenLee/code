@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../idea快捷键.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../idea快捷键.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/DouDiZhu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/exercise/Demo01DouDiZhu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/metric/HistogramExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/metric/HistogramExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/DouDiZhu.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,10 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/Demo02DouDiZhu.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
-              <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,79 +53,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/DemoException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="413">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.1.14/metrics-core-4.1.14.jar!/com/codahale/metrics/MetricRegistry.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01RunnableImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="64" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.1.14/metrics-core-4.1.14.jar!/com/codahale/metrics/ConsoleReporter.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02SynchronizedRunnableImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state relative-caret-position="500">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/Demo01Exception.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/NullPointerException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -171,15 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/MyInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/MyInterfaceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Hero.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/HeroTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Skill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Hero1Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Hero1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo02Hero1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo01Hero.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo03Interface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/red/OpenMode.java" />
@@ -220,8 +190,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/exception/Demo01Exception.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/exception/DemoException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/RunnableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01RunnableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02RunnableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02SynchronizedRunnableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Ticket.java" />
       </list>
     </option>
   </component>
@@ -257,8 +236,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
-    <option name="y" value="92" />
+    <option name="x" value="271" />
+    <option name="y" value="112" />
     <option name="width" value="1323" />
     <option name="height" value="1013" />
   </component>
@@ -268,7 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,11 +300,30 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="metric" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="thread3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,15 +347,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\resources" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\jdbc" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.exercise.object" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\thread" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\application" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\net" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.exercise.map" />
@@ -366,10 +362,12 @@
       <recent name="com.common.lei.objects" />
       <recent name="com.exercise.neibulei" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\resources" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src" />
-      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\jdbc" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\thread" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\application" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com\exercise\net" />
+      <recent name="D:\study\code\java_proj\java_pro_maven\src\main\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -384,7 +382,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HistogramExample">
+  <component name="RunManager" selected="Application.Demo02Ticket">
+    <configuration name="Demo01Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.thread3.Demo01Ticket" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.thread3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo02Ticket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.thread3.Demo02Ticket" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.thread3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.exception.DemoException" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HistogramExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.application.metric.HistogramExample" />
       <module name="java_pro_maven" />
@@ -411,52 +448,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestGauges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.metric.TestGauges" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.application.metric.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHistograms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.metric.TestHistograms" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.application.metric.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMeters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.metric.TestMeters" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.application.metric.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo02Ticket" />
+        <item itemvalue="Application.Demo01Ticket" />
+        <item itemvalue="Application.DemoException" />
         <item itemvalue="Application.HistogramExample" />
         <item itemvalue="Application.TestCounter" />
-        <item itemvalue="Application.TestHistograms" />
-        <item itemvalue="Application.TestMeters" />
-        <item itemvalue="Application.TestGauges" />
       </list>
     </recent_temporary>
   </component>
@@ -486,6 +484,8 @@
       <workItem from="1605750550114" duration="19750000" />
       <workItem from="1605835581587" duration="9756000" />
       <workItem from="1605855059519" duration="2191000" />
+      <workItem from="1606096763570" duration="593000" />
+      <workItem from="1606180957568" duration="7011000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -530,12 +530,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153887000" />
+    <option name="totallyTimeSpent" value="161491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="92" width="1323" height="1013" extended-state="0" />
+    <frame x="271" y="112" width="1323" height="1013" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73913044" visible="true" weight="0.2810768" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73913044" visible="true" weight="0.29057798" />
       <window_info id="Structure" order="1" sideWeight="0.26086956" side_tool="true" weight="0.2763262" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,7 +544,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" weight="0.425" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" weight="0.47386363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41477272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -606,90 +606,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/RandomRed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/red/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo01ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo02ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo03ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo1_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo01Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="e#3709#3710#0" expanded="true" />
-            <element signature="e#3746#3747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
-          <folding>
-            <element signature="e#8767#8768#0" expanded="true" />
-            <element signature="e#8824#8825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo3_HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -962,8 +878,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/Demo02DouDiZhu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
+        <state relative-caret-position="2400">
           <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -977,10 +913,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.1.14/metrics-core-4.1.14.jar!/com/codahale/metrics/ConsoleReporter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,53 +954,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="240">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="69" column="11" lean-forward="true" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/Demo01Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/DemoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02SynchronizedRunnableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01RunnableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
