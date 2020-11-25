@@ -8,7 +8,7 @@ package com.exercise.thread3;
      }
 
  */
-public class Demo02SynchronizedRunnableImpl implements Runnable{
+public class Demo02SynchronizedBlockImpl implements Runnable{
     private int ticket = 100;
     Object obj = new Object();
 
