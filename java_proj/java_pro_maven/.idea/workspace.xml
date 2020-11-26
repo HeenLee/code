@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" line="31" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="80">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -495,7 +493,7 @@
       <workItem from="1606096763570" duration="593000" />
       <workItem from="1606180957568" duration="7011000" />
       <workItem from="1606267983986" duration="12146000" />
-      <workItem from="1606354328699" duration="13277000" />
+      <workItem from="1606354328699" duration="13330000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -540,11 +538,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186914000" />
+    <option name="totallyTimeSpent" value="186967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="234" y="118" width="1323" height="903" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73913044" visible="true" weight="0.21694379" />
       <window_info id="Structure" order="1" sideWeight="0.26086956" side_tool="true" weight="0.2763262" />
@@ -555,7 +552,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32682925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" visible="true" weight="0.36233765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" weight="0.36233765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41477272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1023,8 +1020,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
