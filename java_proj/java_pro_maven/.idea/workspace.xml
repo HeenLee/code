@@ -4,7 +4,736 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" line="31" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="" />
+    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Demo01DouDiZhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Demo02DouDiZhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo01ArrayOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo02ArrayTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03ArrReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03ArrSortAndInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03Arr_Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo04RetainAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo1_ArrSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo2_LineSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo3_BuddleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/ForForExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/arr/Ten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo1_CompareStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo2_RemoveStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo3_FindChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringBufferMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringBuilderMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Book_MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo08Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo1_CollctToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo6_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo7_Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo01ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo02ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo03ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo1_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo4LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo01Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo06LinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo2_Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo3_HashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo4_TreeSet_Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo5_TreeSet_Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/date/Demo1_SimpleFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/date/Demo2_Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/directory/Demo1_DeleteDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/duotai/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/duotai/DemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/duotai/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/duotai/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/duotai/USB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/enumor/Demo1_Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/enumor/Demo2_Enum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/Demo01Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/exception/DemoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/BianliDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo1_ComparePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo2_FileMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo3_PrintDirStructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo4_GetParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo5_SearchFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Demo6_Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/Digui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/DiguiDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/DiguiFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/FileCreateAndDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/FileFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/file/FileMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterfaceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericTongPeiFu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo01AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo01ExtendsAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00InputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00InputStreamReadChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00OutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo01FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo01FileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02InputStreamReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02OutputStreamWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03ObjectInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03ObjectOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/FileStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo01_JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Insert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Update.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo03Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo03_JDBC_Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo04_JDBC_Select.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/pool/Demo01Druid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc/pool/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyInterfaceAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyInterfaceAbstractImplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo02MyInterfaceDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo02MyInterfaceDefaultImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/Demo2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/DemoTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/ParameterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/junit4/TsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/lambda/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/lambda/Demo01Pers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/lambda/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Demo01Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Demo02Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Demo04Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Demo3Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/map/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Body.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/BodyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01HeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Hero1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Hero1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo03Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/MyInterfaceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Outer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/neibulei/OuterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo00Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo00Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo01FileUploadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo01FileUploadServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_TCP_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_TCP_Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_UDP_Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_UDP_Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_TCP_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_TCP_Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_UDP_Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_UDP_Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_TCP_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_TCP_Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_UDP_MoreThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/StaticStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/object/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo02Fields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo03_Constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo04_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1_Reflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/DaemonThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo10_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo1_Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo2_Runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo3_NiMing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo4_Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo5_CurrentThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo6_Sleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo7_Daemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo8_Join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo91_Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo92_Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo93_Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo94_Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo95_DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo9_Yield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/InterrupptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/My.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/MyRunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/MyRunnerable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/MyThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/ThreadExcuteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread/ThreadExcuteTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo1_Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo2_Runtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo3_Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo4_Notify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo5_NotifyAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo6_ReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo7_ThreadGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo8_ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread2/Demo9_Callable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Baozi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Baozipu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Chihuo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo00.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo01RunnableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo01Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo02SynchronizedBlockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo02Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo03SynchronizedMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo03Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo04Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo04Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo05WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo07ThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/thread3/Demo6WaitAndNotifyAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/object/StaticStudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/base/object/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/Demo01DouDiZhu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/Demo02DouDiZhu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo01ArrayOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo02ArrayTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrReverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03ArrSortAndInsert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo03Arr_Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo04RetainAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo1_ArrSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo2_LineSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Demo3_BuddleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/ForForExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/arr/Ten.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/Demo1_CompareStr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/Demo2_RemoveStr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/Demo3_FindChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringBufferMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringBuilderMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/base/str/StringMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Book_MyComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo08Iterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo1_CollctToArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo6_Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Demo7_Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo01ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo02ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo03ArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo1_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/list/Demo4LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo01Set.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo06LinkedHashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo2_Set.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo3_HashSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo4_TreeSet_Comparable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/collection/set/Demo5_TreeSet_Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/date/Demo1_SimpleFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/date/Demo2_Calendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/directory/Demo1_DeleteDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/duotai/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/duotai/DemoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/duotai/Keyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/duotai/Mouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/duotai/USB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Demo1_Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Demo2_Enum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Week.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Week2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/enumor/Week3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/exception/Demo01Exception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/exception/DemoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/BianliDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo1_ComparePath.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo2_FileMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo3_PrintDirStructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo4_GetParent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo5_SearchFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Demo6_Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/Digui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/FileCreateAndDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/file/FileMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericInterfaceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericInterfaceImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/genic/GenericTongPeiFu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/AbstractTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01AbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo01ExtendsAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo02Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo02Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/iherite/Demo02Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo00CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo00InputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo00InputStreamReadChar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo00OutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo01FileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo01FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo02InputStreamReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo02OutputStreamWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo03ObjectInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Demo03ObjectOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/FileStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/io/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo01_JDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Insert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo02_JDBC_Update.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo03Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo03_JDBC_Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/Demo04_JDBC_Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/pool/Demo01Druid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jdbc/pool/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyInterfaceAbstractImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo01MyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/jiekou/Demo02MyInterfaceDefaultImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/Demo2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/DemoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/DemoTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/ParameterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/Sum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/junit4/TsetSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo01Pers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo01Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo02Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo04Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo3Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/map/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Body.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/BodyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo01Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo01HeroTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo01Weapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo02Hero1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo02Hero1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo02Skill.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Demo03Interface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/MyInterfaceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/Outer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/neibulei/OuterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo00Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo00Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo01FileUploadClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo01FileUploadServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo1_TCP_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo1_TCP_Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo1_UDP_Receive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo1_UDP_Send.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_TCP_Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_UDP_Receive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo2_UDP_Send.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_TCP_Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/net/Demo3_UDP_MoreThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/Demo00User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/StaticStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/object/发红包举例" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/object/发红包举例" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo1FieldsGet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo1_Reflect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo2_Reflect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo3_Constructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo4_Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Demo5_Method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/reflect/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/DaemonThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo10_Priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo1_Thread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo2_Runnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo3_NiMing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo4_Name.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo5_CurrentThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo6_Sleep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo7_Daemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo8_Join.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo91_Synchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo92_Synchronized.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo93_Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo94_Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo95_DeadLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/Demo9_Yield.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/InterrupptedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/My.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/MyRunnableTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/MyRunnerable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/MyThreadTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/SynchronizedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/ThreadExcuteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread/ThreadExcuteTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo1_Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo2_Runtime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo3_Timer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo4_Notify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo5_NotifyAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo6_ReentrantLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo7_ThreadGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo8_ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread2/Demo9_Callable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Baozi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Baozipu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Chihuo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo00.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01RunnableImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02SynchronizedBlockImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo03SynchronizedMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo03Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo04Lock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo04Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo05WaitAndNotify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo07ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo6WaitAndNotifyAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/object/StaticStudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/exercise/object/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/Demo01DouDiZhu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/Demo02DouDiZhu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo01ArrayOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo02ArrayTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrReverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03ArrSortAndInsert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo03Arr_Reverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo04RetainAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo1_ArrSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo2_LineSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Demo3_BuddleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/ForForExercise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/arr/Ten.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo1_CompareStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo2_RemoveStr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/Demo3_FindChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBufferMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringBuilderMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/base/str/StringMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Book_MyComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo08Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo1_CollctToArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo6_Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Demo7_Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/list/Demo01ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/list/Demo02ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/list/Demo03ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/list/Demo1_List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/list/Demo4LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo01Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo06LinkedHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo2_Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo3_HashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo4_TreeSet_Comparable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/collection/set/Demo5_TreeSet_Comparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo1_SimpleFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/date/Demo2_Calendar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/directory/Demo1_DeleteDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/duotai/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/duotai/DemoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/duotai/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/duotai/Mouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/duotai/USB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo1_Enum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Demo2_Enum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/enumor/Week3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/exception/Demo01Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/exception/DemoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/BianliDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo1_ComparePath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo2_FileMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo3_PrintDirStructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo4_GetParent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo5_SearchFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Demo6_Filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/Digui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/DiguiDir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/DiguiFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/FileCreateAndDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/file/FileMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/genic/GenericInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/genic/GenericInterfaceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/genic/GenericInterfaceImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/genic/GenericLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/genic/GenericTongPeiFu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/AbstractTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo01AbstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo01ExtendsAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo02Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo02Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/iherite/Demo02Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00InputStreamReadChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo00OutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo01FileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02InputStreamReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo02OutputStreamWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Demo03ObjectOutputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/FileStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/io/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo01_JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Delete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Insert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo02_JDBC_Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo03_JDBC_Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/Demo04_JDBC_Select.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/Demo01Druid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jdbc/pool/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jiekou/Demo01MyInterfaceAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jiekou/Demo01MyInterfaceAbstractImplement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jiekou/Demo01MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jiekou/Demo02MyInterfaceDefault.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/jiekou/Demo02MyInterfaceDefaultImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Demo2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/DemoTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/ParameterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/junit4/TsetSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/lambda/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/lambda/Demo01Pers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/lambda/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Demo01Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Demo02Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Demo04Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Demo05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Demo3Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/map/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Body$Heart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/BodyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo01Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo01HeroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo01Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo02Hero1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo02Hero1Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo02Hero1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo02Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Demo03Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/MyInterfaceImp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/MyInterfaceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Outer$1Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/neibulei/OuterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo00Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo01FileUploadServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_TCP_Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Receive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo1_UDP_Send.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_TCP_Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Receive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo2_UDP_Send.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_TCP_Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Demo3_UDP_MoreThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Receive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/net/Send.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Demo00Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Demo00Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Demo00Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Demo00User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/StaticStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/object/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1FieldsGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo1_Reflect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo2_Reflect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo3_Constructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo4_Field.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Demo5_Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Juicer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/reflect/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/AddThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DaemonThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/DecThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo10_Priority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo1_Thread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo2_Runnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo3_NiMing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo4_Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo5_CurrentThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo6_Sleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo7_Daemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo8_Join.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo91_Synchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo92_Synchronized.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo93_Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo94_Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo95_DeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Demo9_Yield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/InterrupptedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/My.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyRunnerable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/MyTicket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Printer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/SynchronizedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/ThreadExcuteTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo1_Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo2_Runtime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo3_Timer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo4_Notify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo5_NotifyAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo6_ReentrantLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo7_ThreadGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo8_ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Demo9_Callable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/MyTimerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Printer3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread2/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Baozi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Baozipu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Chihuo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo00.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo01RunnableImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo01Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo02SynchronizedBlockImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo02Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo03SynchronizedMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo03Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo04Lock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo04Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo05WaitAndNotify$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo05WaitAndNotify$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo05WaitAndNotify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo07ThreadPool$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo07ThreadPool$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo07ThreadPool$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo07ThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo6WaitAndNotifyAll$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo6WaitAndNotifyAll$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo6WaitAndNotifyAll$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/exercise/thread3/Demo6WaitAndNotifyAll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.exercise.object.StudentTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.exercise.object.StudentTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/object/StaticStudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/exercise/object/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../其他内容/k8s命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../其他内容/k8s命令.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,10 +768,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo01Pers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1_Reflect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo02Fields.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,85 +789,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo03_Constructor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileMethod.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="16" column="59" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="59" />
+            <state relative-caret-position="186">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/Digui.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/AnimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="220">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiDir.java">
+        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="74">
+              <caret line="479" column="49" selection-start-line="479" selection-start-column="49" selection-end-line="479" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiFile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Animal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="180">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="1243" column="18" lean-forward="true" selection-start-line="1243" selection-start-column="18" selection-end-line="1243" selection-end-column="18" />
+            <state relative-caret-position="80">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+              <folding>
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo04_Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="164">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileCreateAndDelete.java">
+        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Class.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="1778" column="7" selection-start-line="1778" selection-start-column="7" selection-end-line="1778" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/BianliDir.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -151,18 +891,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/common/lei/collections/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/common/lei/collections/Demo01Collections.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo01Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo02Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo3Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo04Map.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/map/Demo05.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/DouDiZhu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/Demo01DouDiZhu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/Demo02DouDiZhu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java" />
@@ -202,6 +930,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiDir.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/arr/Demo1_ArrSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1FieldsGet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1Fields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1_Reflect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Reflect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo02Fields.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Field.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Animal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/AnimalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo03_Constructor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo04_Method.java" />
       </list>
     </option>
   </component>
@@ -237,8 +977,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="118" />
+    <option name="x" value="545" />
+    <option name="y" value="93" />
     <option name="width" value="1323" />
     <option name="height" value="903" />
   </component>
@@ -248,7 +988,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,11 +999,6 @@
             <path>
               <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +1029,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
@@ -304,32 +1038,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="metric" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,13 +1104,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiguiFile">
-    <configuration name="BianliDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.file.BianliDir" />
+  <component name="RunManager" selected="Application.Demo04_Method">
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.AnimalTest" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.file.*" />
+          <option name="PATTERN" value="com.base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +1118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Digui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.file.Digui" />
+    <configuration name="Demo02Fields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.Demo02Fields" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.file.*" />
+          <option name="PATTERN" value="com.base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +1131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiguiDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.file.DiguiDir" />
+    <configuration name="Demo04_Method" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.Demo04_Method" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.file.*" />
+          <option name="PATTERN" value="com.base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,12 +1144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiguiFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.file.DiguiFile" />
+    <configuration name="Demo1_Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.Demo1_Reflect" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.file.*" />
+          <option name="PATTERN" value="com.base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,12 +1157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCreateAndDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.exercise.file.FileCreateAndDelete" />
+    <configuration name="Demo2_Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.Demo2_Reflect" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exercise.file.*" />
+          <option name="PATTERN" value="com.base.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,11 +1172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DiguiFile" />
-        <item itemvalue="Application.DiguiDir" />
-        <item itemvalue="Application.Digui" />
-        <item itemvalue="Application.BianliDir" />
-        <item itemvalue="Application.FileCreateAndDelete" />
+        <item itemvalue="Application.Demo04_Method" />
+        <item itemvalue="Application.AnimalTest" />
+        <item itemvalue="Application.Demo2_Reflect" />
+        <item itemvalue="Application.Demo02Fields" />
+        <item itemvalue="Application.Demo1_Reflect" />
       </list>
     </recent_temporary>
   </component>
@@ -494,6 +1210,7 @@
       <workItem from="1606180957568" duration="7011000" />
       <workItem from="1606267983986" duration="12146000" />
       <workItem from="1606354328699" duration="13330000" />
+      <workItem from="1606439722290" duration="10002000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -538,12 +1255,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186967000" />
+    <option name="totallyTimeSpent" value="196969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="118" width="1323" height="903" extended-state="0" />
+    <frame x="548" y="78" width="1323" height="903" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73913044" visible="true" weight="0.21694379" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73913044" visible="true" weight="0.23198733" />
       <window_info id="Structure" order="1" sideWeight="0.26086956" side_tool="true" weight="0.2763262" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -551,8 +1269,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32682925" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" weight="0.36233765" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32597402" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49906015" visible="true" weight="0.36233765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41477272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +1280,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50093985" side_tool="true" weight="0.3939394" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.38292682" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.38181818" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
@@ -586,13 +1304,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/map/Demo05.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/base/map/Demo05.java</url>
           <line>6</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/exercise/map/Demo05.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/base/map/Demo05.java</url>
           <line>8</line>
           <properties />
           <option name="timeStamp" value="18" />
@@ -614,166 +1332,28 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29820">
-          <caret line="1558" column="17" selection-start-line="1558" selection-start-column="17" selection-end-line="1558" selection-end-column="17" />
-          <folding>
-            <element signature="e#59796#59797#0" expanded="true" />
-            <element signature="e#59824#59825#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90660">
-          <caret line="4569" selection-start-line="4569" selection-end-line="4569" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/map/Demo05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/Demo01DouDiZhu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/Demo02DouDiZhu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/HistogramExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestGauges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.1.14/metrics-core-4.1.14.jar!/com/codahale/metrics/MetricRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/metrics/metrics-core/4.1.14/metrics-core-4.1.14.jar!/com/codahale/metrics/ConsoleReporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestMeters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="263" column="11" selection-start-line="263" selection-start-column="11" selection-end-line="263" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
-          <folding>
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/RuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/metric/TestHistograms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/DemoException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/exception/DemoException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo01Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo01RunnableImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo01RunnableImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/exception/Demo01Exception.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/exception/Demo01Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
@@ -801,28 +1381,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo02Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo03Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo03Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo04Ticket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo04Ticket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo04Lock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo04Lock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
@@ -832,42 +1412,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo03SynchronizedMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo03SynchronizedMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Baozi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Baozi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Baozipu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Baozipu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Chihuo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Chihuo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo00.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo00.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo05WaitAndNotify.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo05WaitAndNotify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1160">
           <caret line="65" column="19" selection-start-line="48" selection-start-column="1" selection-end-line="65" selection-end-column="19" />
@@ -877,7 +1457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo6WaitAndNotifyAll.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo6WaitAndNotifyAll.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
@@ -891,14 +1471,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo02SynchronizedBlockImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo02SynchronizedBlockImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo07ThreadPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/thread3/Demo07ThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
@@ -908,7 +1488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/lambda/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
@@ -925,9 +1505,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo01Pers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Cal.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Test.java" />
+    <entry file="file://$PROJECT_DIR$/conf/c.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/tmp.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/lambda/Demo01Pers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="540">
           <caret line="28" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -935,93 +1521,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Cal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#99#100#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/lambda/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/lambda/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/c.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/tmp.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileCreateAndDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/BianliDir.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/FileMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/Digui.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/Digui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="140">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiDir.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/DiguiDir.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="1243" column="18" lean-forward="true" selection-start-line="1243" selection-start-column="18" selection-end-line="1243" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/DiguiFile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/DiguiFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/exercise/file/FileFilterTest.java">
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24040">
+          <caret line="1243" column="18" selection-start-line="1243" selection-start-column="18" selection-end-line="1243" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/FileCreateAndDelete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/BianliDir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/file/FileFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/arr/Demo1_ArrSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2900">
+          <caret line="168" column="17" selection-start-line="168" selection-start-column="17" selection-end-line="168" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1087" column="33" selection-start-line="1087" selection-start-column="33" selection-end-line="1087" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Reflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="479" column="49" selection-start-line="479" selection-start-column="49" selection-end-line="479" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1_Reflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/AnimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo03_Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo02Fields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="1778" column="7" selection-start-line="1778" selection-start-column="7" selection-end-line="1778" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/reflect/Demo04_Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>

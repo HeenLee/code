@@ -37,4 +37,19 @@ kubectl top pod --all-namespaces |egrep "mstp-mes|mstp-pcs|mstp-as"
    kubectl describe pods/kubernetes-dashboard-349859023-g6q8c --namespace="kube-system" #指定类型查看
 
 
+查看命名空间
+kubectl get ns  查看全部命名空间
+kubectl get all -n mstpdev  查看某个命名空间的全部资源
+
+查看pod控制器   kubectl get deploy -n mstpdev(命名空间)
+		kubectl get deploy -o wide -n mstpdev(命名空间)
+		kubectl describe deployment pod控制器名 -n 命名空间
+查看pod资源     kubectl get pods -n mstpdev
+		kubectl get pods -n mstpdev -o wide
+进入pod资源  kubectl exec -ti xxxx  /bin/bash -n 命名空间
+	     也可以使用docker exec
+
+
+
+
 
