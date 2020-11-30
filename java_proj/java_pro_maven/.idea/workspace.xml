@@ -4,451 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML01.java" line="33" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo03DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo04DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo05DOM4JParseXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Demo06DOM4JWriteXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JWriteXML04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo01ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo01ArrayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo02ArrayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo02ArrayTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03ArrReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03ArrSortAndInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrSortAndInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo03Arr_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03Arr_Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo04RetainAll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo04RetainAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo1_ArrSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo1_ArrSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo2_LineSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo2_LineSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Demo3_BuddleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo3_BuddleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/ForForExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/ForForExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/arr/Ten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Ten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo1_CompareStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/Demo1_CompareStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo2_RemoveStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/Demo2_RemoveStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/Demo3_FindChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/Demo3_FindChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringBufferMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/StringBufferMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringBuilderMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/StringBuilderMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/base/str/StringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/字符串/StringMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Book_MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Book_MyComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo08Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Demo08Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo1_CollctToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Demo1_CollctToArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo6_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Demo6_Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Demo7_Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Demo7_Properties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo01ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/list/Demo01ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo02ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/list/Demo02ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo03ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/list/Demo03ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo1_List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/list/Demo1_List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/list/Demo4LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/list/Demo4LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo01Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo01Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo06LinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo06LinkedHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo2_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo2_Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo3_HashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo3_HashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo4_TreeSet_Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo4_TreeSet_Comparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/collection/set/Demo5_TreeSet_Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/集合/set/Demo5_TreeSet_Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/date/Demo1_SimpleFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/时间日期/Demo1_SimpleFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/date/Demo2_Calendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/时间日期/Demo2_Calendar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/directory/Demo1_DeleteDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo1_DeleteDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/duotai/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多态/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/duotai/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多态/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/duotai/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多态/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/duotai/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多态/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/duotai/USB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多态/USB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/enumor/Demo1_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/枚举/Demo1_Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/enumor/Demo2_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/枚举/Demo2_Enum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/枚举/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/枚举/Week2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/enumor/Week3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/枚举/Week3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/exception/Demo01Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/异常/Demo01Exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/exception/DemoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/异常/DemoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/BianliDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/BianliDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo1_ComparePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo1_ComparePath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo2_FileMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo2_FileMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo3_PrintDirStructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo3_PrintDirStructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo4_GetParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo4_GetParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo5_SearchFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo5_SearchFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Demo6_Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Demo6_Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/Digui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/Digui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/DiguiDir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/DiguiDir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/DiguiFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/DiguiFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/FileCreateAndDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/FileCreateAndDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/FileFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/FileFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/file/FileMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/文件/FileMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/泛型/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/泛型/GenericInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericInterfaceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/泛型/GenericInterfaceImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/泛型/GenericLimit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/genic/GenericTongPeiFu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/泛型/GenericTongPeiFu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo01AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo01AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo01ExtendsAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo01ExtendsAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo02Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo02Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/iherite/Demo02Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/继承/Demo02Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo00CopyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00InputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo00InputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00InputStreamReadChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo00InputStreamReadChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00OutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo00OutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo01FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo01FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo01FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo01FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02InputStreamReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo02InputStreamReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02OutputStreamWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo02OutputStreamWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03ObjectInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo03ObjectInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo03ObjectOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Demo03ObjectOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/FileStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/FileStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io流/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo01_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo01_JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo02_JDBC_Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo02_JDBC_Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo02_JDBC_Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo02_JDBC_Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo02_JDBC_Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo03Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo03Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo03_JDBC_Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo03_JDBC_Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/Demo04_JDBC_Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/Demo04_JDBC_Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/pool/Demo01Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/pool/Demo01Druid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jdbc/pool/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/jdbc数据库/pool/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyInterfaceAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/接口/Demo01MyInterfaceAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyInterfaceAbstractImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/接口/Demo01MyInterfaceAbstractImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo01MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/接口/Demo01MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo02MyInterfaceDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/接口/Demo02MyInterfaceDefault.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/jiekou/Demo02MyInterfaceDefaultImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/接口/Demo02MyInterfaceDefaultImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/lambda/Demo01Pers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/lambda/Demo01Pers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Demo01Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Demo01Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Demo02Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Demo02Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Demo04Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Demo04Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Demo3Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Demo3Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/map/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/map集合/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Body.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/BodyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/BodyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo01Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01HeroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo01HeroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo01Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo01Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Hero1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo02Hero1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Hero1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo02Hero1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo02Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo02Skill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Demo03Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Demo03Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/MyInterfaceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/MyInterfaceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/Outer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/Outer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/neibulei/OuterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/内部类/OuterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo00Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo00Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo00Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo00Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo01FileUploadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo01FileUploadClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo01FileUploadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo01FileUploadServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_TCP_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo1_TCP_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo1_TCP_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_UDP_Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo1_UDP_Receive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo1_UDP_Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo1_UDP_Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_TCP_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo2_TCP_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo2_TCP_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_UDP_Receive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo2_UDP_Receive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo2_UDP_Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo2_UDP_Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_TCP_Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo3_TCP_Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_TCP_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo3_TCP_Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/net/Demo3_UDP_MoreThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/网络/Demo3_UDP_MoreThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/Demo00Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/Demo00Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/Demo00Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/Demo00User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/Demo00User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/StaticStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/StaticStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/object/发红包举例" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/类/发红包举例" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/AnimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo02Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/成员变量反射/FieldsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo03_Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/构造器反射/Demo03_Constructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo04_Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/成员方法反射/MethodTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo1_Reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/字节码获取/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Demo2_Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/成员变量反射/FieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/反射/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/DaemonThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/DaemonThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo10_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo10_Priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo1_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo1_Thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo2_Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo2_Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo3_NiMing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo3_NiMing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo4_Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo4_Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo5_CurrentThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo5_CurrentThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo6_Sleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo6_Sleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo7_Daemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo7_Daemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo8_Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo8_Join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo91_Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo91_Synchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo92_Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo92_Synchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo93_Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo93_Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo94_Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo94_Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo95_DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo95_DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/Demo9_Yield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/Demo9_Yield.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/InterrupptedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/InterrupptedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/My.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/My.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/MyRunnableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/MyRunnableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/MyRunnerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/MyRunnerable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/MyThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/MyThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/ThreadExcuteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/ThreadExcuteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/thread/ThreadExcuteTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/多线程/ThreadExcuteTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/arrays/Demo01Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/arrays/Demo01Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/collections/Demo01Collections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/collections/Demo01Collections.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/collections/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/collections/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/objects/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/objects/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/objects/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/objects/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo01Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/random/Demo01Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/random/Demo02Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/random/Demo02Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/scannerlei/Demo01Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/scannerlei/Demo01Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/string/Demo01String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/string/Demo01String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/common/lei/string/string.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/common/常用类/string/string.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/object/StaticStudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/类/StaticStudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/base/object/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/base/类/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java_pro_maven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo03DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo04DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo05DOM4JParseXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/xmlparse/Demo06DOM4JWriteXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo01ArrayOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo02ArrayTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo03ArrReverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo03ArrSortAndInsert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo03Arr_Reverse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo04RetainAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo1_ArrSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo2_LineSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Demo3_BuddleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/ForForExercise.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/arr/Ten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/Demo1_CompareStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/Demo2_RemoveStr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/Demo3_FindChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/StringBufferMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/StringBuilderMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/base/str/StringMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Book_MyComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Demo08Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Demo1_CollctToArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Demo6_Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Demo7_Properties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/list/Demo01ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/list/Demo02ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/list/Demo03ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/list/Demo1_List.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/list/Demo4LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo01Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo06LinkedHashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo2_Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo3_HashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo4_TreeSet_Comparable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/collection/set/Demo5_TreeSet_Comparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/date/Demo1_SimpleFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/date/Demo2_Calendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/directory/Demo1_DeleteDir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/duotai/Computer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/duotai/DemoMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/duotai/Keyboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/duotai/Mouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/duotai/USB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Demo1_Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Demo2_Enum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week3$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week3$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/enumor/Week3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/exception/Demo01Exception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/exception/DemoException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/BianliDir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo1_ComparePath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo2_FileMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo3_PrintDirStructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo4_GetParent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo5_SearchFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo5_SearchFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Demo6_Filter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/Digui.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/DiguiDir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/DiguiFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/FileCreateAndDelete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/FileFilterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/file/FileMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/genic/GenericInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/genic/GenericInterfaceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/genic/GenericInterfaceImpl2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/genic/GenericLimit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/genic/GenericTongPeiFu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/AbstractTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo01AbstractClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo01ExtendsAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo02Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo02Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/iherite/Demo02Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo00CopyFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo00InputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo00InputStreamReadChar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo00OutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo01FileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo01FileWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo02InputStreamReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo02OutputStreamWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo03ObjectInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo03ObjectOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/FileStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo01_JDBC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo02_JDBC_Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo02_JDBC_Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo02_JDBC_Select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo02_JDBC_Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo03Emp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo03_JDBC_Select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/Demo04_JDBC_Select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/pool/Demo01Druid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jdbc/pool/JDBCUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jiekou/Demo01MyInterfaceAbstract.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jiekou/Demo01MyInterfaceAbstractImplement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jiekou/Demo01MyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jiekou/Demo02MyInterfaceDefault.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/jiekou/Demo02MyInterfaceDefaultImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Demo01Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Demo02Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Demo04Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Demo05.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Demo3Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/map/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Body$Heart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/BodyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo01Hero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo01HeroTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo01Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo02Hero1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo02Hero1Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo02Hero1Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo02Skill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Demo03Interface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/MyInterfaceImp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/MyInterfaceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Outer$1Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/neibulei/OuterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo00Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo00Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo01FileUploadClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo01FileUploadServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo1_TCP_Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo1_TCP_Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo1_UDP_Receive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo1_UDP_Send.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo2_TCP_Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo2_TCP_Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo2_TCP_Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo2_UDP_Receive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo2_UDP_Send.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo3_TCP_Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo3_TCP_Server$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo3_TCP_Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Demo3_UDP_MoreThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Receive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/net/Send.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/Demo00Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/Demo00Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/Demo00Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/Demo00User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/StaticStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/object/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/AnimalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Demo02Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Demo03_Constructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Demo04_Method.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Demo1_Reflect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Demo2_Field.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/reflect/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/AddThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/DaemonThreadTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/DaemonThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/DecThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo10_Priority$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo10_Priority$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo10_Priority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo1_Thread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo2_Runnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo3_NiMing$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo3_NiMing$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo3_NiMing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo4_Name$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo4_Name$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo4_Name$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo4_Name$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo4_Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo5_CurrentThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo5_CurrentThread$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo5_CurrentThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo6_Sleep$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo6_Sleep$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo6_Sleep.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo7_Daemon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo7_Daemon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo7_Daemon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo8_Join$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo8_Join$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo8_Join.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo91_Synchronized$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo91_Synchronized$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo91_Synchronized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo92_Synchronized$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo92_Synchronized$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo92_Synchronized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo93_Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo94_Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo95_DeadLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo95_DeadLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo95_DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Demo9_Yield.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/InterrupptedTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/InterrupptedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/My.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyRunnableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyRunnerable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/MyTicket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Printer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Printer2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/SynchronizedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/ThreadExcuteTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/ThreadExcuteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/ThreadExcuteTest1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/ThreadExcuteTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/thread/Ticket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/arrays/Demo01Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/collections/Demo01Collections$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/collections/Demo01Collections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/collections/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/objects/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/objects/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/random/Demo01Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/random/Demo02Random.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/scannerlei/Demo01Scanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/string/Demo01String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/common/lei/string/string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/java_pro_maven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/base/object/StaticStudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/base/object/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../其他内容/k8s命令.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -542,7 +98,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/SAXParseXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="357">
               <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -662,7 +218,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="168" />
     <option name="y" value="62" />
     <option name="width" value="1706" />
@@ -912,7 +468,7 @@
       <workItem from="1606267983986" duration="12146000" />
       <workItem from="1606354328699" duration="13330000" />
       <workItem from="1606439722290" duration="10382000" />
-      <workItem from="1606700150214" duration="15302000" />
+      <workItem from="1606700150214" duration="15894000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -957,11 +513,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212651000" />
+    <option name="totallyTimeSpent" value="213243000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="168" y="62" width="1706" height="903" extended-state="1" />
-    <editor active="true" />
+    <frame x="168" y="62" width="1706" height="903" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45708954" visible="true" weight="0.2436209" />
       <window_info id="Structure" order="1" sideWeight="0.54291046" side_tool="true" weight="0.30087095" />
@@ -973,7 +528,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32597402" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" weight="0.36233765" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49881235" visible="true" weight="0.3038961" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49881235" weight="0.3038961" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1428,7 +983,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/SAXParseXml.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="357">
           <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
