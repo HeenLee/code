@@ -1,7 +1,7 @@
 /*package com.application.httpclient;
 
-import java.io.File;
-import java.io.IOException;
+import java.io流.File;
+import java.io流.IOException;
 
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.apache.http.HttpEntity;
@@ -29,7 +29,7 @@ public class Post_File {
 		
 		//3
 		MultipartEntityBuilder multipart = MultipartEntityBuilder.create();
-		multipart.addPart("file",filebody);
+		multipart.addPart("文件",filebody);
 		multipart.addPart("Content-Type",comment);
 		
 		HttpEntity reqEntity = multipart.build();

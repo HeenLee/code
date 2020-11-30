@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<domains>
+    <domain>
+        <attribute name="domainId" value="1"/>
+        <attribute name="asAddress" value="mstp.com:10051"/>
+        <attribute name="appId" value="9729"/>
+    </domain>
+</domains>

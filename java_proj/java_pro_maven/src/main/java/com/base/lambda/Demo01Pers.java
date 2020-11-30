@@ -18,7 +18,7 @@ public class Demo01Pers {
         };
 /*
         //排序需要实现Comparator接口
-        Arrays.sort(arr, new Comparator<Person>() {
+        Arrays.sort(数组, new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
                 return o1.getAge() - o2.getAge();
