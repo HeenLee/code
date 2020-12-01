@@ -26,7 +26,7 @@ cat /proc/cpuinfo| grep "processor"| wc -l
 
 常用命令：
 shell常用的命令有cd、pwd、mkdir、ln、chmod、ls、find、 rm、cp、 tail、cat、grep、find、vim、more、tar、unzip、 man、du、df、nohup、sed、awk、sort、kill等。
-和性能分析相关的命令有top、vmstat、lsof、tcpdump、netstat、iotop、iostat、sar、free、ipref、ps等。
+和性能分析相关的命令有top、vmstat、lsof、tcpdump、netstat、iotop、iostat、ifstat、sar、free、ipref、ps等。
 和java相关的命令有jps、jstat、jinfo、jmap、jstack等。
 以上命令的说明具体的可通过Linux的man命令或goole等进行查看。
 
