@@ -1,12 +1,15 @@
 package com.application.httpclient;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.application.json.JsonArrayBase;
+import com.sun.javafx.fxml.builder.URLBuilder;
+import org.apache.commons.codec.Charsets;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpRequestBase;
+import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.config.Registry;
 import org.apache.http.config.RegistryBuilder;
 import org.apache.http.conn.socket.ConnectionSocketFactory;
@@ -16,6 +19,7 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
+import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,12 +29,12 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.URISyntaxException;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * http工具类
@@ -58,6 +62,11 @@ public class HttpClientUtils {
         return doGet(url, httpClient);
     }
 
+    public static String sendHttpsGet(String url, Map<String, String> param) throws KeyManagementException, NoSuchAlgorithmException, URISyntaxException {
+        CloseableHttpClient httpClient = createIgnoreVerifyHttpClient();
+        return doGet(url, httpClient, param);
+    }
+
 
     /**
      * 发送http+post请求
@@ -66,6 +75,16 @@ public class HttpClientUtils {
     public static String sendHttpPost(String url, JSONObject params) throws UnsupportedEncodingException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         return doPost(httpClient, url, params);
+    }
+
+    public static String sendHttpPost(String url, JSONObject params, Map<String, String> header) throws UnsupportedEncodingException {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        return doPost(httpClient, url, params, header);
+    }
+
+    public static String sendHttpPost(String url, Map<String, String> params, Map<String, String> header) throws UnsupportedEncodingException {
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        return doPost(httpClient, url, params, header);
     }
 
 
@@ -92,6 +111,15 @@ public class HttpClientUtils {
         return execute(httpClient, httpGet);
     }
 
+    private static String doGet(String url, CloseableHttpClient httpClient, Map<String, String> params) throws URISyntaxException {
+
+        log.info("HttpGet请求url：{}", url);
+        URIBuilder uriBuilder = new URIBuilder(url);
+        uriBuilder.setParameter("params", params.toString());
+        HttpGet httpGet = new HttpGet(uriBuilder.build());
+        return execute(httpClient, httpGet);
+    }
+
     /**
      * 封装post请求方式。把请求首部已经确定的情况
      * @param httpClient
@@ -106,6 +134,40 @@ public class HttpClientUtils {
         httpPost.setEntity(new StringEntity(params.toString()));
         return execute(httpClient, httpPost);
 
+    }
+
+    /**
+     * 封装post请求。首部可以自己定义
+     */
+    private static String doPost(CloseableHttpClient httpClient, String url, JSONObject params, Map<String, String> mapHeader) throws UnsupportedEncodingException {
+        log.info("请求url：{}，请求参数{}",url, mapHeader);
+        HttpPost httpPost = new HttpPost(url);
+
+        for (String key : mapHeader.keySet()) {
+            httpPost.addHeader(key,mapHeader.get(key));
+        }
+        httpPost.setEntity(new StringEntity(JSONObject.toJSONString(params)));
+        return execute(httpClient, httpPost);
+    }
+
+    /**
+     * 封装post请求。首部和参数都是map类型
+     */
+    private static String doPost(CloseableHttpClient httpClient, String url, Map<String, String> params, Map<String, String> mapHeader) throws UnsupportedEncodingException {
+        HttpPost httpPost = new HttpPost(url);
+
+        for (String key : mapHeader.keySet()) {
+            httpPost.addHeader(key, mapHeader.get(key));
+        }
+
+        List<NameValuePair> list = new ArrayList<>();
+        Set<Map.Entry<String, String>> entrys = params.entrySet();
+        for (Map.Entry<String, String> entry : entrys) {
+            NameValuePair nameValue = new BasicNameValuePair(entry.getKey(), entry.getValue());
+            list.add(nameValue);
+        }
+        httpPost.setEntity(new UrlEncodedFormEntity(list, Charsets.UTF_8));
+        return execute(httpClient, httpPost);
     }
 
     /**
@@ -184,7 +246,7 @@ public class HttpClientUtils {
     }
 
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
+    public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException, KeyManagementException, URISyntaxException {
         String url = "https://www.baidu.com";
         String httpGetResponse = sendHttpGet(url);
         String httpsGetResponse = sendHttpGet(url);
@@ -197,6 +259,25 @@ public class HttpClientUtils {
         param.put("name", "haha");
         String httpPostResponse = sendHttpPost("http://httpbin.org/post", param);
         System.out.println(httpPostResponse);
+
+        System.out.println("***********************************");
+
+
+        Map<String, String> map = new HashMap<>();
+        map.put("name", "sino");
+        map.put("pwd", "123");
+
+        Map<String, String> mapParam = new HashMap<>();
+        mapParam.put("content-type", "application/json");
+        String Response = sendHttpPost("http://httpbin.org/post", map, mapParam);
+        System.out.println(Response);
+
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+
+
+        String result = sendHttpsGet("http://httpbin.org/get", map);
+        System.out.println(result);
+
     }
 
 
