@@ -2,13 +2,19 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML01.java" line="33" />
+    <bookmark url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Demo1_Https.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/HttpClientUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/HttpClientUtils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/application/httpclient/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/application/httpclient/HttpClientUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Send_Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/application/httpclient/Send_Post.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,6 +23,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="181" />
@@ -38,16 +47,20 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="java_pro_maven" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/XMLParseObj.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="1751">
+              <caret line="266" column="10" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,65 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Config.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding>
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-640">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/user.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/conf.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/student.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="178">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +94,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>param</find>
+      <find>UrlEncodedFormEntity</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -143,14 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo07Baozipu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Baozipu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Chihuo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo00.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/thread3/Demo07ThreadPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/exercise/lambda/Demo02Cal.java" />
@@ -190,10 +145,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/application/xmlparse/SAXParseXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/encpry/base64/Base64Test.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java" />
         <option value="$PROJECT_DIR$/target/classes/conf.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/xmlparse/XMLParseObj.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/application/xmlparse/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Send_Post.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java" />
       </list>
     </option>
   </component>
@@ -229,10 +192,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="317" />
-    <option name="y" value="209" />
-    <option name="width" value="1540" />
-    <option name="height" value="964" />
+    <option name="x" value="180" />
+    <option name="y" value="30" />
+    <option name="width" value="1572" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,71 +235,12 @@
               <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlparse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="反射" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_pro_maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_pro_maven" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +255,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -393,33 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XMLParseObj">
-    <configuration name="DOM4JParseXML01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.xmlparse.DOM4JParseXML01" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.application.xmlparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DOM4JWriteXML04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.xmlparse.DOM4JWriteXML04" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.application.xmlparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PostFile">
     <configuration name="HttpClientUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.application.httpclient.HttpClientUtils" />
       <module name="java_pro_maven" />
@@ -433,12 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SAXParseXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.xmlparse.SAXParseXml" />
+    <configuration name="PostFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.application.httpclient.PostFile" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.application.xmlparse.*" />
+          <option name="PATTERN" value="com.application.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,33 +327,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XMLParseObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.application.xmlparse.XMLParseObj" />
+    <configuration name="Get_WithParam2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.application.xmlparse.*" />
+          <option name="PATTERN" value="com.application.httpclient.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.application.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.application.httpclient.Get_WithParam2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get_WithParam2.doGetTestTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.application.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.application.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.application.httpclient.Get_WithParam2" />
+      <option name="METHOD_NAME" value="doGetTestTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Post_WithParam3.doPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.application.httpclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.application.httpclient" />
+      <option name="MAIN_CLASS_NAME" value="com.application.httpclient.Post_WithParam3" />
+      <option name="METHOD_NAME" value="doPostTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DOM4JParseXML01" />
-      <item itemvalue="Application.SAXParseXml" />
-      <item itemvalue="Application.DOM4JWriteXML04" />
       <item itemvalue="Application.HttpClientUtils" />
-      <item itemvalue="Application.XMLParseObj" />
+      <item itemvalue="Application.PostFile" />
+      <item itemvalue="JUnit.Get_WithParam2" />
+      <item itemvalue="JUnit.Get_WithParam2.doGetTestTwo" />
+      <item itemvalue="JUnit.Post_WithParam3.doPostTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XMLParseObj" />
+        <item itemvalue="Application.PostFile" />
         <item itemvalue="Application.HttpClientUtils" />
-        <item itemvalue="Application.DOM4JWriteXML04" />
-        <item itemvalue="Application.SAXParseXml" />
-        <item itemvalue="Application.DOM4JParseXML01" />
+        <item itemvalue="JUnit.Post_WithParam3.doPostTest" />
+        <item itemvalue="JUnit.Get_WithParam2.doGetTestTwo" />
+        <item itemvalue="JUnit.Get_WithParam2" />
       </list>
     </recent_temporary>
   </component>
@@ -511,6 +426,8 @@
       <workItem from="1606786344267" duration="10577000" />
       <workItem from="1606872124051" duration="13068000" />
       <workItem from="1606958941081" duration="16905000" />
+      <workItem from="1607309468470" duration="12937000" />
+      <workItem from="1607330063046" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -523,27 +440,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 02m 59s.xml">
-      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 04m 04s.xml">
-      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentTest_test_return_jsonobj - 2020.11.10 at 16h 04m 40s.xml">
-      <configuration name="StudentTest.test_return_jsonobj" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Demo1_CompareStr_test_compareTo - 2020.11.11 at 14h 16m 21s.xml">
-      <configuration name="Demo1_CompareStr.test_compareTo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticStudentTest_test_static - 2020.11.11 at 16h 06m 45s.xml">
-      <configuration name="StaticStudentTest.test_static" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticStudentTest_test_static - 2020.11.11 at 16h 07m 08s.xml">
-      <configuration name="StaticStudentTest.test_static" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StaticStudentTest_test_static - 2020.11.11 at 16h 07m 57s.xml">
-      <configuration name="StaticStudentTest.test_static" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StaticStudentTest_test_static - 2020.11.11 at 16h 35m 06s.xml">
       <configuration name="StaticStudentTest.test_static" configurationId="JUnit" />
     </history-entry>
@@ -553,14 +449,35 @@
     <history-entry file="Demo2_Set_test_method - 2020.11.19 at 15h 55m 32s.xml">
       <configuration name="Demo2_Set.test_method" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Get_NoParam_doGetTestOne - 2020.12.07 at 11h 06m 02s.xml">
+      <configuration name="Get_NoParam.doGetTestOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get_WithParam2 - 2020.12.07 at 11h 10m 09s.xml">
+      <configuration name="Get_WithParam2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get_WithParam2 - 2020.12.07 at 11h 13m 33s.xml">
+      <configuration name="Get_WithParam2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get_WithParam2 - 2020.12.07 at 11h 13m 40s.xml">
+      <configuration name="Get_WithParam2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Get_WithParam2_doGetTestTwo - 2020.12.07 at 11h 16m 51s.xml">
+      <configuration name="Get_WithParam2.doGetTestTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Post_WithParam3_doPostTest - 2020.12.07 at 15h 15m 20s.xml">
+      <configuration name="Post_WithParam3.doPostTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Post_WithParam3_doPostTest - 2020.12.07 at 15h 17m 01s.xml">
+      <configuration name="Post_WithParam3.doPostTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253793000" />
+    <option name="totallyTimeSpent" value="271047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="317" y="209" width="1540" height="964" extended-state="0" />
+    <frame x="180" y="30" width="1572" height="958" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45708954" visible="true" weight="0.21554054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.45708954" visible="true" weight="0.1984127" />
       <window_info id="Structure" order="1" sideWeight="0.54291046" side_tool="true" weight="0.30087095" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -569,60 +486,29 @@
       <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32597402" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49797297" weight="0.40433213" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49881235" weight="0.345367" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4973545" weight="0.35878786" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49801588" weight="0.26181817" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32969698" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32987013" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50202703" side_tool="true" weight="0.40433213" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.38181818" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32969698" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5019841" side_tool="true" weight="0.3272727" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49669313" weight="0.38181818" />
+      <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24946696" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980227" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32980227" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32936507" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32858273" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.45708954" weight="0.20405406" />
-      <window_info id="Structure" order="1" sideWeight="0.54291046" side_tool="true" weight="0.30087095" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32597402" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49906015" visible="true" weight="0.36233765" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49881235" weight="0.3038961" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32987013" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5011876" side_tool="true" weight="0.41428572" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.38181818" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980227" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32980227" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32858273" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -659,22 +545,22 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java</url>
-          <line>259</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java</url>
-          <line>156</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/XMLParseObj.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -692,380 +578,39 @@
       <FILTER>com.exercise.xmlparse.*</FILTER>
     </SUITE>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>URIBuilder uriBuilder = new URIBuilder(url);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>uriBuilder</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpClient</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpUriRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/InternalHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/conn/PoolingHttpClientConnectionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="73" column="52" lean-forward="true" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
-          <folding>
-            <element signature="e#2810#2811#0" expanded="true" />
-            <element signature="e#2852#2853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.30/slf4j-simple-1.7.30.jar!/org/slf4j/impl/SimpleLogger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-          <folding>
-            <element signature="e#8301#8302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/AbstractHttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/serializer/SerializeWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#1681#1682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/util/TextUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/ContentType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="e#3007#3008#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.73/fastjson-1.2.73.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="749" selection-start-line="749" selection-end-line="749" />
-          <folding>
-            <element signature="e#18543#18544#0" expanded="true" />
-            <element signature="e#18600#18601#0" expanded="true" />
-            <element signature="e#30666#30667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/HeaderGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/StringEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/util/Args.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/BasicHeader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="488" column="32" selection-start-line="488" selection-start-column="32" selection-end-line="488" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/encpry/base64/Base64Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/AbstractHttpMessage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/BasicNameValuePair.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Demo1_Https.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/AnimalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/utils/URIBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="302" column="20" lean-forward="true" selection-start-line="302" selection-start-column="20" selection-end-line="302" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/io/SAXReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/domain.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="118" column="34" selection-start-line="118" selection-start-column="34" selection-end-line="118" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JWriteXML04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/SAXParseXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/DOM4JParseXML02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/student.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/user.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/反射/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="20">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
+        <state relative-caret-position="20">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
             <element signature="e#480#481#0" expanded="true" />
@@ -1095,17 +640,410 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/XMLParseObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Demo1_Https.java" />
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/net/URI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="140">
+          <caret line="742" column="24" selection-start-line="742" selection-start-column="24" selection-end-line="742" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpEntityEnclosingRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpPost.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/AbstractHttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/jre/lib/rt.jar!/javax/net/ssl/X509TrustManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpUriRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpRequestBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/NameValuePair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/BasicNameValuePair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/message/BasicHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2356#2357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="94" column="7" lean-forward="true" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
+          <folding>
+            <element signature="e#6971#6972#0" expanded="true" />
+            <element signature="e#7017#7018#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/StringEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.http.entity.StringEntity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.http.entity.StringEntity</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Cloneable</node>
+            <node x="" y="">org.apache.http.entity.AbstractHttpEntity</node>
+            <node x="" y="">org.apache.http.HttpEntity</node>
+            <node x="" y="">org.apache.http.entity.StringEntity</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="162.0" y="335.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/AbstractHttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/client/utils/URIBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2413">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Send_Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_WithParam1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_NoParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Post_WithParam3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/Get_NoParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar!/org/apache/http/entity/mime/content/FileBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding>
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/client/HttpClients.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.apache.http.entity.mime.content.FileBody">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.apache.http.entity.mime.content.FileBody</OriginalElement>
+          <nodes>
+            <node x="" y="">org.apache.http.entity.mime.content.ContentDescriptor</node>
+            <node x="" y="">org.apache.http.entity.mime.content.AbstractContentBody</node>
+            <node x="" y="">org.apache.http.entity.mime.content.ContentBody</node>
+            <node x="" y="">org.apache.http.entity.mime.content.FileBody</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="113.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/HttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/org/slf4j/LoggerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="295" column="38" lean-forward="true" selection-start-line="295" selection-start-column="38" selection-end-line="295" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/entity/ContentType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar!/org/apache/http/entity/mime/content/StringBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="62" column="37" lean-forward="true" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar!/org/apache/http/entity/mime/MultipartEntityBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="104" column="55" lean-forward="true" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/impl/DefaultBHttpClientConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/org/apache/http/config/RegistryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="266" column="10" selection-start-line="266" selection-start-column="10" selection-end-line="266" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,6 +1115,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

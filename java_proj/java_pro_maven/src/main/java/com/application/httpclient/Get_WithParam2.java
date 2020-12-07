@@ -30,10 +30,12 @@ public class Get_WithParam2 {
 		URI uri = null;
 		try {
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
-			params.add(new BasicNameValuePair("name", "&"));
+			//参数解析为键值对 放在NameValuePari中
+			params.add(new BasicNameValuePair("name", "sino"));
 			params.add(new BasicNameValuePair("age", "18"));
 			uri = new URIBuilder().setScheme("http").setHost("localhost").setPort(12345)
 						.setPath("/doGetControllerTwo").setParameters(params).build();
+			System.out.println(params);
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		}

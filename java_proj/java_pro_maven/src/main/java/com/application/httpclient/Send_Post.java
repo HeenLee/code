@@ -41,7 +41,7 @@ public class Send_Post {
 									 .setSocketTimeout(60000).build();
 		httppost.setConfig(requestConfig);
 		httppost.addHeader("Content-Type", "text/html");
-		List<NameValuePair> nvps = new ArrayList<NameValuePair>() ;
+		List<NameValuePair> nvps = new ArrayList<>() ;
 		for (Map.Entry<String,Object> paramEntry : params.entrySet()) {
 			nvps.add(new BasicNameValuePair(paramEntry.getKey(),paramEntry.getValue().toString()));
 		}

@@ -23,20 +23,21 @@ import org.junit.Test;
 import com.alibaba.fastjson.JSON;
 
 /**
- * post有参(普通参数 + 对象参数)
+ * post有参(普通参数 + 对象参数)。url中带有key=value&key=value的参数。 实体也带有entity
  * @author lihe
  *
  */
 public class Post_WithParam3 {
 	@Test
 	public void doPostTest(){
+
 		CloseableHttpClient httpclient = HttpClientBuilder.create().build();
 		
 		URI url = null;
 		try {
 			List<NameValuePair> params = new ArrayList<NameValuePair>();
-			params.add(new BasicNameValuePair("flag", "4"));
-			params.add(new BasicNameValuePair("meaning", "这是什么？"));
+			params.add(new BasicNameValuePair("name", "4"));
+			params.add(new BasicNameValuePair("age", "sino"));
 		
 			url = new URIBuilder().setScheme("http").setHost("localhost")
 					.setPort(12345).setPath("doPostControllerThree").setParameters(params).build();
@@ -45,6 +46,7 @@ public class Post_WithParam3 {
 			e.printStackTrace();
 		}
 		HttpPost httppost = new HttpPost(url);
+		System.out.println(url);
 		
 		User user = new User();
 		user.setName("xiaosan");
