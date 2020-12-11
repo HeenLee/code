@@ -1,4 +1,8 @@
 package com.base.反射;
+/**
+ *
+ * 把user.properties文件属性转为对象
+ */
 
 import java.io.FileInputStream;
 import java.io.IOException;

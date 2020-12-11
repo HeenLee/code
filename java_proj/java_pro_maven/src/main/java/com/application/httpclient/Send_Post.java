@@ -1,5 +1,8 @@
 package com.application.httpclient;
 
+/**
+ * 发送post和get请求
+ */
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -48,7 +51,7 @@ public class Send_Post {
 		httppost.setEntity(new UrlEncodedFormEntity(nvps,"utf-8"));
 		
 		 httpresponse =  httpclient.execute(httppost);
-		String result = EntityUtils.toString(httpresponse.getEntity());
+		String result = EntityUtils.toString(httpresponse.getEntity());   //将相应实体转为字符串格式
 		return result;
 	}
 	
