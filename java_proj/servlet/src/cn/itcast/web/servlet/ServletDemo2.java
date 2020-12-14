@@ -3,7 +3,7 @@ package cn.itcast.web.servlet;
 import javax.servlet.*;
 import java.io.IOException;
 
-public class ServletDemo2 implements Servlet {
+public class ServletDemo2 implements Servlet  {
     /**
      * 初始化方法
      * @param servletConfig
