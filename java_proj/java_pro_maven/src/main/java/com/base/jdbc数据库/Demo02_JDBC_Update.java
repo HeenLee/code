@@ -21,7 +21,7 @@ public class Demo02_JDBC_Update {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //2.定义sql
             String sql = "update st set name = 'xiaozhou' where name = 'xiaowu'";
-            conn = DriverManager.getConnection("jdbc数据库:mysql:///student?serverTimezone=UTC", "root", "root");
+            conn = DriverManager.getConnection("jdbc:mysql:///student?serverTimezone=UTC", "root", "root");
             stmt = conn.createStatement();
             int count = stmt.executeUpdate(sql);
             System.out.println(count);

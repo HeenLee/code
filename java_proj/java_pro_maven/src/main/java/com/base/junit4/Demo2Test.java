@@ -8,4 +8,5 @@ public class Demo2Test {
 		Demo2 d2 = new Demo2();
 		System.out.println(d2.sum2(1, 2));
 	}
+
 }
