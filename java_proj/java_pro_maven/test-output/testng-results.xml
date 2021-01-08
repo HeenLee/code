@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="54" started-at="2021-01-05T08:53:51Z" finished-at="2021-01-05T08:53:51Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="20" started-at="2021-01-05T08:53:51Z" finished-at="2021-01-05T08:53:51Z">
+      <class name="com.testng.Demo1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testng.Demo1@2be94b0f]" name="test1" duration-ms="5" started-at="2021-01-05T08:53:51Z" finished-at="2021-01-05T08:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.testng.Demo1 -->
+    </test> <!-- test1 -->
+    <test name="test2" duration-ms="1" started-at="2021-01-05T08:53:51Z" finished-at="2021-01-05T08:53:51Z">
+      <class name="com.testng.Demo2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testng.Demo2@591f989e]" name="test2" duration-ms="0" started-at="2021-01-05T08:53:51Z" finished-at="2021-01-05T08:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.testng.Demo2 -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
