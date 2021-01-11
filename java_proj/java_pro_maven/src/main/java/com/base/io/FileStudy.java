@@ -3,6 +3,7 @@ package com.base.io;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class FileStudy {
     public static void main(String[] args) throws IOException {
@@ -20,5 +21,7 @@ public class FileStudy {
         if(!file1.exists()){
             file1.createNewFile();
         }
+
+        FileStudy.class.getClassLoader().getResource("hello.txt").getPath();
     }
 }

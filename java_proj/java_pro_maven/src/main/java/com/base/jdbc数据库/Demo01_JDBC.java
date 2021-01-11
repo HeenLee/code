@@ -12,7 +12,7 @@ public class Demo01_JDBC {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         //1.引入驱动jar包
         //2.注册驱动
-        Class.forName("com.mysql.cj.jdbc.Driver");
+        Class.forName("com.mysql.jdbc.Driver");
 
         //3.获取数据库连接对象
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student?serverTimezone=UTC","root","root");
