@@ -1,4 +1,4 @@
-package com.base.io流;
+package com.base.io;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

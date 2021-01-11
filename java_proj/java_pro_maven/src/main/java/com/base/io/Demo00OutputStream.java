@@ -1,4 +1,4 @@
-package com.base.io流;
+package com.base.io;
 
 
 /*  写数据的原理（内存--》硬盘）

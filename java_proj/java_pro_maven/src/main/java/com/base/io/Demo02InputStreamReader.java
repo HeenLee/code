@@ -1,4 +1,4 @@
-package com.base.io流;
+package com.base.io;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

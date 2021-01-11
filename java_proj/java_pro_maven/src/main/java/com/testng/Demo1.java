@@ -6,6 +6,6 @@ import org.testng.annotations.Test;
 public class Demo1 {
     @Test
     public void test1(){
-        System.out.println("de");
+        System.out.println("demo1");
     }
 }

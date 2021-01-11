@@ -1,0 +1,91 @@
+1.testng.xml运行用例配置
+testng的xml中如果有引入约束，则classes 和class 不能使用exclude 、include。  只有package 和 methods可以使用include、exclude属性
+package packages 和 class  classes不同放在层级下。要么只用package packages   要么只用classess class  两个不能同时用
+
+//指定某个包  排除某个包
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="testcase" >
+        <packages>
+            <package name="com.testng.*">
+                <include name="" />
+                <exclude name="" />
+
+            </package>
+        </packages>
+    </test>
+</suite>
+
+
+指定执行某个类
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="testcase" >
+        <classes>
+            <class name="com.testng.Demo2" />
+        </classes>
+    </test>
+</suite>
+
+执行某个类的方法、排除某个方法。不排除的默认执行全部
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" verbose="1" >
+    <test name="testcase" >
+        <classes >
+            <class name="com.testng.Demo2">
+                <methods>
+                    <exclude name="test2"></exclude>  排除该方法
+					
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+2.testng.xml命令行运行。先加入classpath  再运行
+set classpath=D:\study\code\java_proj\java_pro_maven\lib\jcommander-1.72.jar;D:\study\code\java_proj\java_pro_maven\lib\testng-6.14.3.jar;D:\study\code\java_proj\java_pro_maven\target\classes\
+java org.testng.TestNG testng.xml
+java org.testng.TestNG testng.xml -d  d:\report.html 输出报告
+
+3.这个是没有指定约束的情况。
+指定包名
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+    <test name="test1" >
+        <packages>
+            <package name="com.testng"> </package>
+            <exclude name="abc" />   排除包名
+        </packages>
+
+    </test>
+</suite>
+
+指定类名
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+    <test name="test1" >
+            <classes>
+                <class name="com.testng.Demo2" />
+                <exclude name="com.testng.Demo1" />  排除类名
+            </classes>
+    </test>
+</suite>
+
+指定包的类
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite1" verbose="1" >
+    <test name="test1" >
+        <package name="com.testng">
+            <classes>
+                <class name="com.testng.Demo2" />
+                <exclude name="com.testng.Demo1" />
+            </classes>
+        </package>
+    </test>
+</suite>
+
+
+
