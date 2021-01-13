@@ -19,7 +19,7 @@ public class Demo03ArrReverse {
 		Collections.reverse(list);
 		System.out.println(list);
 		
-		int numbers[] = new int[] { 28, 21, 17, 41, 34, 29, 15 };
+		int numbers[] = new int[] {28, 21, 17, 41, 34, 29, 15 };
 		int max = numbers[0];
 		int min = numbers[0];
 		for (int i = 0; i < numbers.length; i++) {
