@@ -15,29 +15,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b27728-ad49-4cc3-b24e-b62e4e3dbb1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../java.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_study/spring_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idea快捷键.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../idea快捷键.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/servlet_new/META-INF/servlet_new.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02InputStreamReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo02OutputStreamWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io/转换流/OutputStreamWriterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hello.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/java_pro_maven.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo02InputStreamReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo02OutputStreamWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/student.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/user.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/base/io/Demo00CopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/base/io/Demo00CopyFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java框架.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java框架.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../webproj/target/" />
+    <ignored path="$PROJECT_DIR$/spring_study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,46 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的序列化流/ObjectOutputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的反序列化流/ObjectInputStreamDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的序列化流/Demo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/打印流/PrintStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state>
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="780">
+              <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -136,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03Arr_Reverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
+            <state relative-caret-position="700">
               <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
@@ -145,7 +99,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
+            <state relative-caret-position="360">
               <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
@@ -154,17 +108,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/ArrReverseDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/servlet/ServletDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-118">
+              <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/servlet/ServletDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -172,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/CloseableHttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="1260">
               <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
             </state>
           </provider>
@@ -212,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Student.java" />
-        <option value="$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/cookie/CookieDemo3.java" />
         <option value="$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/cookie/CookieDemo4.java" />
         <option value="$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/cookie/CookieDemo5.java" />
         <option value="$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/cookie/Exercise.java" />
@@ -263,6 +233,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/base/io/打印流/PrintStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/base/数组/ArrReverseDemo.java" />
+        <option value="$PROJECT_DIR$/spring_study/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java" />
       </list>
     </option>
   </component>
@@ -308,8 +280,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
-    <option name="y" value="103" />
+    <option name="x" value="332" />
+    <option name="y" value="42" />
     <option name="width" value="1488" />
     <option name="height" value="940" />
   </component>
@@ -338,11 +310,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25625" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -386,13 +358,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.79">
+  <component name="RunManager" selected="Application.Demo00CopyFile">
     <configuration name="ArrReverseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.base.数组.ArrReverseDemo" />
       <module name="java_pro_maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.base.数组.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo00CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.io.Demo00CopyFile" />
+      <module name="java_pro_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,19 +404,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.base.io.对象的反序列化流.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ObjectOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.io.对象的序列化流.ObjectOutputStreamDemo" />
-      <module name="java_pro_maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.io.对象的序列化流.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -615,20 +587,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 7.0.79" />
-      <item itemvalue="Application.ObjectOutputStreamDemo" />
       <item itemvalue="Application.ObjectInputStreamDemo" />
       <item itemvalue="Application.Demo1" />
       <item itemvalue="Application.PrintStreamDemo" />
       <item itemvalue="Application.ArrReverseDemo" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.79" />
+      <item itemvalue="Application.Demo00CopyFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo00CopyFile" />
         <item itemvalue="Application.ArrReverseDemo" />
         <item itemvalue="Application.PrintStreamDemo" />
         <item itemvalue="Application.Demo1" />
         <item itemvalue="Application.ObjectInputStreamDemo" />
-        <item itemvalue="Application.ObjectOutputStreamDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -699,6 +671,8 @@
       <workItem from="1478540194414" duration="4875000" />
       <workItem from="1610442644382" duration="682000" />
       <workItem from="1610502100946" duration="14086000" />
+      <workItem from="1610588194639" duration="1117000" />
+      <workItem from="1610589806184" duration="2781000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -743,19 +717,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431477000" />
+    <option name="totallyTimeSpent" value="435375000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="103" width="1488" height="940" extended-state="0" />
+    <frame x="332" y="42" width="1488" height="940" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8723668" visible="true" weight="0.24859944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8698885" visible="true" weight="0.25560224" />
       <window_info id="Structure" order="1" sideWeight="0.54291046" side_tool="true" weight="0.30087095" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5048544" side_tool="true" weight="0.30087095" />
-      <window_info id="Web" order="7" sideWeight="0.12763321" side_tool="true" visible="true" weight="0.24859944" />
+      <window_info id="Web" order="7" sideWeight="0.13011153" side_tool="true" visible="true" weight="0.25560224" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32435596" />
@@ -885,28 +859,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrSortAndInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/时间日期/Demo2_Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/application/xmlparse/SAXParseXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/Demo02InputStreamReader.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/Demo00InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1007,13 +959,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/conf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/conf.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/map集合/PorperTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/user.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1049,13 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/content.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/content.txt" />
     <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1134,7 +1074,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的序列化流/ObjectOutputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1144,7 +1084,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的反序列化流/ObjectInputStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1153,7 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/对象的序列化流/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="780">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1163,53 +1103,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/打印流/PrintStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state>
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/CloseableHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/application/httpclient/PostFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="780">
+          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03Arr_Reverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
+        <state relative-caret-position="700">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/Demo03ArrReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/base/数组/ArrReverseDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="540">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12-sources.jar!/org/apache/http/impl/client/CloseableHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring_study/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../servlet_new/src/cn/itcast/web/servlet/ServletDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="95" column="21" selection-start-line="95" selection-start-column="21" selection-end-line="95" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="2141" column="22" lean-forward="true" selection-start-line="2141" selection-start-column="22" selection-end-line="2141" selection-end-column="22" />
+          <folding>
+            <element signature="e#91558#91559#0" expanded="true" />
+            <element signature="e#91590#91591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/base/io/Demo00CopyFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1277,7 +1245,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>java_pro_maven</last-edited>
+          <last-edited>servlet_new</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

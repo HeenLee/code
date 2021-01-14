@@ -7,6 +7,7 @@ shift + ctrl + enter 快速的添加分号
 shift + enter  快速换行
 ctrl + alt + B 查找接口的实现类
 ctrl + h 查看类或接口的继承关系
+ctrl+alt+o 快速修正多余的包导入
 
 Debug调试：
 F8：逐行执行程序
