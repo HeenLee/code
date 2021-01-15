@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hellospring" />
-        <module name="dixml" />
         <module name="homework" />
+        <module name="dianno" />
+        <module name="dixml" />
+        <module name="hellospring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

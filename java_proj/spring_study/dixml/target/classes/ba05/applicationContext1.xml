@@ -18,7 +18,7 @@
             同源关系的，这样的bean能够赋值给引用类型
             同源：就是一类的意思。
                  1.java类中引用类型的数据类型和bean的class的值是一样的。
-                 2.java类中引用类型的数据类型和bean的class的值父子类关系的
+                 2.java类中引用类型的数据类型和bean的class的值父子类关系的   java类中是父，bean类是子
                  3.java类中引用类型的数据类型和bean的class的值接口和实现类关系的
             语法：
             <bean id="x" class="y" autowire="byType">
@@ -26,14 +26,15 @@
             </bean>
 
     -->
-    <!--声明School对象-->
-    <bean id="school" class="com.sino.service.ba04.School">
-        <property name="address" value="清华大学" />
-        <property name="name" value="北京海淀区" />
+    
+    <!--声明School的子类对象PrimarySchool-->
+    <bean id="primarySchool" class="com.sino.service.ba05.PrimarySchool">
+        <property name="address" value="海淀小学" />
+        <property name="name" value="北京大兴" />
     </bean>
 
-    <!--使用name属性实现set注入-->  <!--byName-->
-    <bean id="myStudent" class="com.sino.service.ba04.Student" autowire="byName">  <!--这里自动注入。Student类中的school成员名称和上面School的ID名称需要一样。-->
+    <!--使用name属性实现set注入-->    <!--byType-->
+    <bean id="myStudent" class="com.sino.service.ba05.Student" autowire="byType">  <!--这里自动注入。Student类中的school成员名称和上面School的类型需要一样。-->
         <!--<property name="school" ref="myschool"/>-->
         <property name="name" value="张三" />
         <property name="age" value="12" />
