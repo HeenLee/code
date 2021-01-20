@@ -20,8 +20,10 @@
 <!--    <import resource="classpath:ba06/spring-school.xml" />
     <import resource="classpath:ba06/spring-student.xml" />-->
 
-    <!--在包含关系的配置文件中，可以使用通配符 *：表示通配符
+    <!--在包含关系的配置文件中，可以使用通配符   *：表示通配符
         注意：主的配置文件名称不能包含在通配符的范围内（不能叫作spring-totalxml)
+              加载主文件造成死循环
+              使用通配符时，必须把多个文件放在目录中 比如ba06  否则，通配符加载不了文件
      -->
     <import resource="classpath:ba06/spring-*.xml" />
 

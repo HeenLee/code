@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6aab9c4-986a-45a4-bc39-01e574ffc3ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aop-leadin/aop-leadin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aopaspectj/aopaspectj.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java框架.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java框架.xmind" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/src/main/resources/ba06/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/target/classes/com/sino/ba04/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/target/classes/com/sino/ba04/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/target/test-classes/com/sino/MyTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/target/test-classes/com/sino/MyTest01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dianno/target/test-classes/com/sino/MyTest02.class" beforeDir="false" afterPath="$PROJECT_DIR$/dianno/target/test-classes/com/sino/MyTest02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/src/main/resources/ba01/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/target/classes/com/sino/ba01/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/target/classes/com/sino/ba01/MyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aopaspectj/target/test-classes/com/sino/MyTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/target/test-classes/com/sino/MyTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dixml/target/classes/META-INF/dixml.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dixml/target/classes/ba06/total.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dixml/target/classes/ba06/total.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dixml/target/test-classes/META-INF/dixml.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospring/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospring/target/classes/com/sino/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hellospring/target/test-classes/com/sino/SomeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hellospring/target/test-classes/com/sino/SomeServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aop-leadin/com/sino/handler/MyInvocationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aop-leadin/com/sino/service/MyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aop-leadin/com/sino/service/SomeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aop-leadin/com/sino/service/impl/SomeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/aop-leadin/com/sino/util/ServiceTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../设计模式.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../设计模式.xmind" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,69 +47,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/handler/MyInvocationHandler.java">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/SomeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="40">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/impl/SomeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="32" column="27" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/SomeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/impl/SomeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest01.java">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest04.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
@@ -112,35 +81,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aopaspectj/read.txt">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/MyAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/util/ServiceTools.java">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/impl/SomeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="404">
+              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/service/MyApp.java">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/SomeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+            <state relative-caret-position="200">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/MyAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba05/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/SomeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -151,8 +159,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -162,28 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dixml/src/main/java/com/sino/service/ba05/Student.java" />
-        <option value="$PROJECT_DIR$/dixml/src/test/java/com/sino/service/MyTest05_01.java" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba05/applicationContext1.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba05/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/main/java/com/sino/service/ba06/School.java" />
-        <option value="$PROJECT_DIR$/dixml/src/main/java/com/sino/service/ba06/Student.java" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba06/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba06/sprint-student.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba06/spring-school.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba06/spring-total.xml" />
-        <option value="$PROJECT_DIR$/dixml/src/test/java/com/sino/service/MyTest06.java" />
-        <option value="$PROJECT_DIR$/dixml/src/main/resources/ba06/total.xml" />
-        <option value="$PROJECT_DIR$/dianno/pom.xml" />
-        <option value="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest01.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/resources/applicationCpmtext.xml" />
-        <option value="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest02.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/java/com/sino/ba01/Student.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/java/com/sino/ba02/Student.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/java/com/sino/ba03/School.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/resources/ba03/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest03.java" />
-        <option value="$PROJECT_DIR$/dianno/src/main/resources/ba04/applicationContext.xml" />
         <option value="$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest04.java" />
         <option value="$PROJECT_DIR$/dianno/src/main/java/com/sino/ba04/School.java" />
         <option value="$PROJECT_DIR$/dianno/src/main/java/com/sino/ba03/Student.java" />
@@ -208,11 +195,33 @@
         <option value="$PROJECT_DIR$/eewe/pom.xml" />
         <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/SomeService.java" />
         <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/impl/SomeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/aopaspectj/pom.xml" />
         <option value="$PROJECT_DIR$/aopaspectj/read.txt" />
-        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java" />
-        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest01.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/hellospring/pom.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/impl/SomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/SomeService.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/ba02/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest02.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/ba03/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/SomeService.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/Student.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/impl/SomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest03.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/SomeService.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/ba04/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest04.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/impl/SomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/MyAspect.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/SomeService.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest05.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/resources/ba05/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/impl/SomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/MyAspect.java" />
       </list>
     </option>
   </component>
@@ -223,6 +232,12 @@
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -243,15 +258,37 @@
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
           <item name="org.springframework:spring-context:5.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="aop-aspectj" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework:spring-context:5.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework:spring-beans:5.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="homework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="homework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="homework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework:spring-context:5.2.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="447" />
-    <option name="y" value="182" />
-    <option name="width" value="1366" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="349" />
+    <option name="y" value="69" />
+    <option name="width" value="1940" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -259,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,7 +336,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="ba01" type="462c0819:PsiDirectoryNode" />
+              <item name="ba04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aopaspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sino" type="462c0819:PsiDirectoryNode" />
+              <item name="ba05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aopaspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sino" type="462c0819:PsiDirectoryNode" />
+              <item name="ba05" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
@@ -308,6 +363,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aopaspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ba04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aopaspectj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="ba05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
@@ -330,11 +401,55 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sino" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sino" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dianno" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sino" type="462c0819:PsiDirectoryNode" />
+              <item name="ba01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,41 +457,42 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/aop-leadin/src/com/sino/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dianno/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/aopaspectj/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25625" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sino.ba01.impl" />
-      <recent name="com.sino.service.impl" />
-      <recent name="com.sino.service.imp;" />
-      <recent name="com.sino.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\resources\ba01" />
+      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\resources\ba06" />
+      <recent name="D:\study\code\java_proj\spring_study\dixml\src\main\resources\ba01" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.sino.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\resources" />
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\java\com\sino\ba07" />
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\java\com\sino\ba06" />
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\resources\ba05" />
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\java\com\sino\ba05" />
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\resources" />
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\java\com\sino\ba05" />
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\java\com\sino\ba04" />
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\java\com\sino\ba03" />
+      <recent name="D:\study\code\java_proj\spring_study\aopaspectj\src\main\java\com\sino\ba02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sino" />
+      <recent name="com.sino.ba04" />
       <recent name="com.sino.ba03" />
       <recent name="com.sino.ba02" />
       <recent name="com.sino.ba01" />
-      <recent name="com.sino.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\code\java_proj\spring_study\dianno\src\main\resources\ba06" />
-      <recent name="D:\study\code\java_proj\spring_study\dixml\src\main\resources\ba01" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sino.ba01.impl" />
+      <recent name="com.sino.service.impl" />
+      <recent name="com.sino.service.imp;" />
+      <recent name="com.sino.dao.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -391,21 +507,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest01">
-    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sino.service.MyApp" />
-      <module name="aop-leadin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sino.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyTest05.test01">
+    <configuration name="MyTest03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aopaspectj" />
       <extension name="coverage">
         <pattern>
@@ -414,13 +517,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sino" />
-      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest01" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest03" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest03.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aopaspectj" />
       <extension name="coverage">
         <pattern>
@@ -429,15 +532,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sino" />
-      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest01" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest03" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest06.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dianno" />
+    <configuration name="MyTest04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopaspectj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sino.*" />
@@ -445,15 +548,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sino" />
-      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest06" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest04" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest07.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dianno" />
+    <configuration name="MyTest04.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopaspectj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sino.*" />
@@ -461,7 +563,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sino" />
-      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest07" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest04" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest05.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aopaspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sino.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sino" />
+      <option name="MAIN_CLASS_NAME" value="com.sino.MyTest05" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -470,11 +588,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest01" />
-        <item itemvalue="JUnit.MyTest01.test01" />
-        <item itemvalue="Application.MyApp" />
-        <item itemvalue="JUnit.MyTest07.test01" />
-        <item itemvalue="JUnit.MyTest06.test01" />
+        <item itemvalue="JUnit.MyTest05.test01" />
+        <item itemvalue="JUnit.MyTest04" />
+        <item itemvalue="JUnit.MyTest04.test01" />
+        <item itemvalue="JUnit.MyTest03.test01" />
+        <item itemvalue="JUnit.MyTest03" />
       </list>
     </recent_temporary>
   </component>
@@ -492,43 +610,47 @@
       <workItem from="1610675576330" duration="18885000" />
       <workItem from="1610934355991" duration="9422000" />
       <workItem from="1611020075423" duration="10718000" />
+      <workItem from="1611108055396" duration="3182000" />
+      <workItem from="1611111493784" duration="3317000" />
+      <workItem from="1611121947163" duration="1991000" />
+      <workItem from="1611125362700" duration="9376000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest05_test01 - 2021.01.15 at 18h 03m 33s.xml">
+    <history-entry file="MyTest03_test01 - 2021.01.20 at 17h 09m 52s.xml">
+      <configuration name="MyTest03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest03_test01 - 2021.01.20 at 17h 16m 10s.xml">
+      <configuration name="MyTest03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest03_test01 - 2021.01.20 at 17h 16m 29s.xml">
+      <configuration name="MyTest03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest03_test01 - 2021.01.20 at 17h 16m 59s.xml">
+      <configuration name="MyTest03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest03_test01 - 2021.01.20 at 17h 21m 32s.xml">
+      <configuration name="MyTest03.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest04_test01 - 2021.01.20 at 17h 35m 13s.xml">
+      <configuration name="MyTest04.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest04 - 2021.01.20 at 17h 36m 27s.xml">
+      <configuration name="MyTest04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyTest05_test01 - 2021.01.20 at 17h 48m 55s.xml">
       <configuration name="MyTest05.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest05_test01 - 2021.01.15 at 18h 04m 11s.xml">
+    <history-entry file="MyTest05_test01 - 2021.01.20 at 17h 49m 27s.xml">
       <configuration name="MyTest05.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest05_test01 - 2021.01.15 at 18h 04m 45s.xml">
+    <history-entry file="MyTest05_test01 - 2021.01.20 at 17h 50m 06s.xml">
       <configuration name="MyTest05.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest05 - 2021.01.15 at 18h 05m 12s.xml">
-      <configuration name="MyTest05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest06_test01 - 2021.01.18 at 10h 10m 14s.xml">
-      <configuration name="MyTest06.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest06_test01 - 2021.01.18 at 10h 10m 39s.xml">
-      <configuration name="MyTest06.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest07_test01 - 2021.01.18 at 10h 26m 42s.xml">
-      <configuration name="MyTest07.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest01_test01 - 2021.01.19 at 16h 57m 37s.xml">
-      <configuration name="MyTest01.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest01 - 2021.01.19 at 17h 00m 43s.xml">
-      <configuration name="MyTest01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyTest01 - 2021.01.19 at 17h 04m 10s.xml">
-      <configuration name="MyTest01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60602000" />
+    <option name="totallyTimeSpent" value="78468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,10 +662,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="182" width="1366" height="876" extended-state="0" />
+    <frame x="349" y="69" width="1940" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18529862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1537234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -551,9 +673,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3272727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4984686" visible="true" weight="0.39757577" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957393" />
@@ -561,13 +683,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015314" side_tool="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32958803" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279099" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32957393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.19465649" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32924962" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2653941" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -579,264 +701,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dixml/src/main/resources/ba06/spring-student.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/src/test/java/com/sino/service/MyTest06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/dianno.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/App.java" />
-    <entry file="file://$PROJECT_DIR$/dianno/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/src/main/resources/ba06/total.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba02/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/src/main/java/com/sino/service/ba06/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/src/main/java/com/sino/service/ba06/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dixml/src/main/resources/ba04/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="14" selection-start-line="16" selection-start-column="10" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba03/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/resources/ba03/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba05/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/resources/ba05/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/resources/ba04/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba03/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba04/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba05/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba04/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba01/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/javax/annotation/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-636">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba06/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba06/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba07/School.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework/src/main/java/com/sino/service/impl/SomeServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/dianno/src/main/java/com/sino/ba07/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -889,6 +753,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/eewe/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/handler/MyInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/read.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/sss.tld" />
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/aoc.xml" />
+    <entry file="uml://MAVEN/com.sino:aop-aspectj:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.sino:aop-aspectj:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sino:aop-aspectj:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-aop:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-beans:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-core:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-core:jar:5.2.5.RELEASE/org.springframework:spring-jcl:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-expression:jar:5.2.5.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="235.0" y="123.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/SomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/target/classes/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.sino:homework:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.sino:homework:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.sino:homework:1.0-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-aop:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-beans:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-core:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-core:jar:5.2.5.RELEASE/org.springframework:spring-jcl:jar:5.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.2.5.RELEASE/org.springframework:spring-expression:jar:5.2.5.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="232.0" y="123.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dianno/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dianno/src/test/java/com/sino/MyTest04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar!/org/aspectj/lang/annotation/Aspect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hellospring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/impl/SomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dixml/src/test/java/com/sino/service/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dixml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/util/ServiceTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -910,70 +924,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aop-leadin/src/com/sino/handler/MyInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eewe/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/SomeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aopaspectj/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="27" />
+        <state relative-caret-position="531">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aopaspectj/read.txt">
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba01/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/impl/SomeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/SomeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest01.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba02/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba01/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="998">
+          <caret line="82" column="14" selection-start-line="82" selection-start-column="14" selection-end-line="82" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/impl/SomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/Student.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba02/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba03/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/impl/SomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="38" column="65" lean-forward="true" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba04/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba03/SomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/SomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/impl/SomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest04.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba04/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/SomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/resources/ba05/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/impl/SomeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+          <folding>
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/test/java/com/sino/MyTest05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba05/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

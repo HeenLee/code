@@ -1,5 +1,6 @@
 package com.sino.ba01;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 
@@ -22,6 +23,18 @@ public class MyAspect {
      * 3.方法名称自定义
      * 4.方法可以有参数，也可以没有参数
      *      如果有参数，参数不是自定义的，有几个参数类型可以使用。
+     *
+     *  指定通知方法中的参数：JoinPoint
+     *  JoinPoint：业务方法，要加入切面功能的方法。
+     *      作用：可以在通知方法中获取方法执行时的信息，例如方法名称，方法的实参
+     *          如果你的切面功能中需要用到方法的信息，就加入JoinPoint
+     *          这个JoinPoint参数的值是由框架赋予，必须是第一个位置的参数
+     *
+     *              @Before(value= "execution(* *..SomeServiceImpl.do*(..))")
+     *              public void myBefore(JoinPoint jp){
+     *                  //就是切面要执行的功能代码
+     *                  System.out.println("4====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+     *               }
      */
 
     /**
@@ -32,11 +45,56 @@ public class MyAspect {
      *   1.在目标方法之前先执行的
      *   2.不会改变目标方法的执行结果
      *   3.不会影响目标方法的执行
+     *
+     *   下面有不同的写法
      */
-    @Before(value= "execution(public void com.sino.ba01.impl.SomeServiceImpl.doSome(String, Integer))")
+/*    @Before(value= "execution(public void com.sino.ba01.impl.SomeServiceImpl.doSome(String, Integer))")
     public void myBefore(){
         //就是切面要执行的功能代码
         System.out.println("前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+    }*/
 
+/*    @Before(value= "execution(void com.sino.ba01.impl.SomeServiceImpl.doSome(String, Integer))")
+    public void myBefore(){
+        //就是切面要执行的功能代码
+        System.out.println("1====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+    }*/
+
+/*    @Before(value= "execution(void *..SomeServiceImpl.doSome(String, Integer))")
+    public void myBefore(){
+        //就是切面要执行的功能代码
+        System.out.println("2====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+    }*/
+
+/*    @Before(value= "execution(* *..SomeServiceImpl.doSome(..))")
+    public void myBefore(){
+        //就是切面要执行的功能代码
+        System.out.println("3====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+    }*/
+
+/*    @Before(value= "execution(* *..SomeServiceImpl.do*(..))")
+    public void myBefore(){
+        //就是切面要执行的功能代码
+        System.out.println("4====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
+    }*/
+
+
+    /**
+     * 加入参数的通知
+     * @param jp
+     */
+    @Before(value= "execution(* *..SomeServiceImpl.do*(..))")
+    public void myBefore(JoinPoint jp){
+        //获取方法的完整定义
+        System.out.println("方法的签名（定义）=" + jp.getSignature());
+        System.out.println("方法的名称=" + jp.getSignature().getName() );
+        //获取方法的实参
+        Object[] args = jp.getArgs();
+        for (Object arg : args) {
+            System.out.println("arg=" + arg);
+        }
+
+        //就是切面要执行的功能代码
+        System.out.println("4====前置通知，切面功能：目标方法之前输出执行时间：" + new Date());
     }
 }

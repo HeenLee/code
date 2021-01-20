@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="someService" class="com.sino.service.impl.SomeServiceImpl" />
-    <bean id="someService1" class="com.sino.service.impl.SomeServiceImpl" />
+    <bean id="someService" class="com.sino.service.SomeServiceImpl" />
+    <bean id="someService1" class="com.sino.service.SomeServiceImpl" />
     <bean id="mydate" class="java.util.Date" />
 </beans>

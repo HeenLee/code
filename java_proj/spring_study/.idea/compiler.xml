@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="homework" />
         <module name="dianno" />
-        <module name="hellospring" />
         <module name="dixml" />
         <module name="aopaspectj" />
+        <module name="hellospring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

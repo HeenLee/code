@@ -1,0 +1,6 @@
+com\sino\dao\UserDao.class
+com\sino\service\impl\UserServiceImpl.class
+com\sino\dao\impl\UserDaoImpl.class
+com\sino\MyApp.class
+com\sino\service\UserService.class
+com\sino\domain\SysUser.class
