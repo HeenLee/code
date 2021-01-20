@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="homework" />
         <module name="dianno" />
-        <module name="dixml" />
         <module name="hellospring" />
+        <module name="dixml" />
+        <module name="aopaspectj" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eewe" target="1.5" />
       <module name="spring_study" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MyTest01 {
     @Test
     public void test01(){
-        String config = "applicationContext.xml";
+        String config = "ba06/applicationContext.xml";
         ApplicationContext context = new ClassPathXmlApplicationContext(config);
 
         //从容器中获取对象

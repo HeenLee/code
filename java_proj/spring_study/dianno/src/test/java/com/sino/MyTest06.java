@@ -1,11 +1,11 @@
 package com.sino;
 
-import com.sino.ba02.Student;
+import com.sino.ba06.Student;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class MyTest02 {
+public class MyTest06 {
     @Test
     public void test01(){
         String config = "ba06/applicationContext.xml";
