@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springmybatis" />
         <module name="homework" />
         <module name="dianno" />
+        <module name="hellospring" />
         <module name="dixml" />
         <module name="aopaspectj" />
-        <module name="hellospring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
