@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6aab9c4-986a-45a4-bc39-01e574ffc3ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springmybatis/springmybatis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java框架.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java框架.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba08/SomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/aopaspectj/src/main/java/com/sino/ba08/SomeService.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6aab9c4-986a-45a4-bc39-01e574ffc3ff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/dixml/target/" />
@@ -248,7 +240,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="192" />
     <option name="y" value="119" />
     <option name="width" value="1244" />
@@ -542,7 +534,7 @@
       <workItem from="1611125362700" duration="9975000" />
       <workItem from="1611192457371" duration="4393000" />
       <workItem from="1611279125311" duration="14659000" />
-      <workItem from="1611538572436" duration="484000" />
+      <workItem from="1611538572436" duration="589000" />
     </task>
     <servers />
   </component>
@@ -579,7 +571,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98603000" />
+    <option name="totallyTimeSpent" value="98708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +583,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="192" y="119" width="1244" height="770" extended-state="1" />
+    <frame x="192" y="119" width="1244" height="770" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2339527" />
