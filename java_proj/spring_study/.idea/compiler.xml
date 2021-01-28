@@ -6,12 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springmybatis" />
         <module name="homework" />
-        <module name="dianno" />
-        <module name="hellospring" />
-        <module name="dixml" />
-        <module name="aopaspectj" />
+        <module name="springitems-anno-8" />
+        <module name="springitems-7" />
+      </profile>
+      <profile name="Annotation profile for dixml" enabled="true">
+        <sourceOutputDir name="../dixml/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dixml/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dixml-2" />
+      </profile>
+      <profile name="Annotation profile for dianno" enabled="true">
+        <sourceOutputDir name="../dianno/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../dianno/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dianno-3" />
+      </profile>
+      <profile name="Annotation profile for hellospring" enabled="true">
+        <sourceOutputDir name="../hellospring/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../hellospring/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hellospring-1" />
+      </profile>
+      <profile name="Annotation profile for spring-mybatis" enabled="true">
+        <sourceOutputDir name="../springmybatis/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../springmybatis/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springmybatis-6" />
+      </profile>
+      <profile name="Annotation profile for aop-aspectj" enabled="true">
+        <sourceOutputDir name="../aopaspectj/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../aopaspectj/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aopaspectj-5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

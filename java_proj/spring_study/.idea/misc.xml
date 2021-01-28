@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/dianno/pom.xml" />
         <option value="$PROJECT_DIR$/aopaspectj/pom.xml" />
         <option value="$PROJECT_DIR$/springmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springitems/pom.xml" />
+        <option value="$PROJECT_DIR$/springitems-anno-8/pom.xml" />
       </list>
     </option>
   </component>

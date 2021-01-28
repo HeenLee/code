@@ -2,12 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/aopaspectj" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dianno" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dixml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/hellospring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aopaspectj-5" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dianno-3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dixml-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hellospring-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/homework" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springmybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springitems-7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springitems-anno-8" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmybatis-6" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
