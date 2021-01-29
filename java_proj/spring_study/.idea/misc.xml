@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springweb10" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,6 +15,14 @@
         <option value="$PROJECT_DIR$/springmybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springitems/pom.xml" />
         <option value="$PROJECT_DIR$/springitems-anno-8/pom.xml" />
+        <option value="$PROJECT_DIR$/springitems-aspectj-9/pom.xml" />
+        <option value="$PROJECT_DIR$/springweb10/pom.xml" />
+        <option value="$PROJECT_DIR$/springitems-7/pom.xml" />
+        <option value="$PROJECT_DIR$/aopaspectj-5/pom.xml" />
+        <option value="$PROJECT_DIR$/dianno-3/pom.xml" />
+        <option value="$PROJECT_DIR$/dixml-2/pom.xml" />
+        <option value="$PROJECT_DIR$/hellospring-1/pom.xml" />
+        <option value="$PROJECT_DIR$/springmybatis-6/pom.xml" />
       </list>
     </option>
   </component>

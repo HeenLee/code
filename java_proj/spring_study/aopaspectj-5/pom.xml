@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sino</groupId>
-  <artifactId>aop-aspectj</artifactId>
+  <artifactId>aop-aspectj-5</artifactId>
   <version>1.0-SNAPSHOT</version>
 
 
