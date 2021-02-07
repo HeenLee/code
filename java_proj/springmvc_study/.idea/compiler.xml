@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="urlpattern5" />
+        <module name="requestmapping2" />
+        <module name="return4" />
+        <module name="hellospringmvc1" />
+        <module name="receiveparam3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hellospringmvc1" target="1.8" />
+      <module name="receiveparam3" target="1.8" />
+      <module name="requestmapping2" target="1.8" />
+      <module name="return4" target="1.8" />
+      <module name="urlpattern5" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

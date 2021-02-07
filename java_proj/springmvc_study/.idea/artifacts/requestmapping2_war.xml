@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="requestmapping2:war">
+    <output-path>$PROJECT_DIR$/requestmapping2/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>requestmapping2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="requestmapping2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="requestmapping2:war exploded" />
+    </root>
+  </artifact>
+</component>
