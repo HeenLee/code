@@ -17,5 +17,29 @@
     </bean>
 
     <!--没有注解驱动-->
-    <!--<mvc:annotation-driven />-->
+
+   <!--
+    default-servlet-handler和@RequestMapping有冲突，需要加入annotation-driven解决问题
+   -->
+    <mvc:annotation-driven />
+
+    <!--第一种处理静态资源的方式：
+        需要在springmvc配置文件加入<mvc:default-servlet-handler>
+        原理是：加入这个标签后，框架会创建控制器对象DefaultServletRequestHandler(类似我们自己创建的MyController)
+        DefaultServletRequestHandler这个对象可以把接收的请求转发给tomcat的default这个servlet
+    -->
+    <mvc:default-servlet-handler />
+
+    <!--第二种处理静态资源的方式
+        mvc:resources 加入后框架会创建ResourceHttpRequestHandler这个处理器对象
+        让这个对象处理静态资源的访问，不依赖tomcat服务器
+        mapping：访问静态资源的uri地址，使用通配符**
+        location：静态资源在你的项目中的目录位置
+        images/**：表示images/p1.jpg  image/user/logo.fig
+     -->
+    <mvc:resources mapping="images/**" location="/images/" />
+    <mvc:resources mapping="html/**" location="/html/" />
+    <mvc:resources mapping="js/**" location="/js/" />
+
+    <!--mvc:resources和RequestMapping有一定的冲突-->
 </beans>
