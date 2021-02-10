@@ -47,7 +47,7 @@
               导致所有的静态资源都给DispatcherServlet处理，默认情况下DispatcherServlet没有处理静态资源的能力
               没有控制器对象能处理静态资源的访问，所以静态资源都是404
 
-              动态资源some.do是可以访问的，因为我们程序中有MyController控制器对象，能处理some.di
+              动态资源some.do是可以访问的，因为我们程序中有MyController控制器对象，能处理some.di。使用"/"之后，静态资源才需要配置
 
 
         -->
