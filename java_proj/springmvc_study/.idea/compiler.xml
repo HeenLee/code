@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="urlpattern5" />
-        <module name="requestmapping2" />
         <module name="return4" />
-        <module name="hellospringmvc1" />
+        <module name="requestmapping2" />
         <module name="receiveparam3" />
+        <module name="ssm6" />
+        <module name="hellospringmvc1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +19,7 @@
       <module name="receiveparam3" target="1.8" />
       <module name="requestmapping2" target="1.8" />
       <module name="return4" target="1.8" />
+      <module name="ssm6" target="1.8" />
       <module name="urlpattern5" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/receiveparam3" />
     <file type="web" url="file://$PROJECT_DIR$/requestmapping2" />
     <file type="web" url="file://$PROJECT_DIR$/return4" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm6" />
     <file type="web" url="file://$PROJECT_DIR$/urlpattern5" />
   </component>
   <component name="JavaScriptSettings">
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/receiveparam3/pom.xml" />
         <option value="$PROJECT_DIR$/return4/pom.xml" />
         <option value="$PROJECT_DIR$/urlpattern5/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm6/pom.xml" />
       </list>
     </option>
   </component>

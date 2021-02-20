@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/requestmapping2/requestmapping2.iml" filepath="$PROJECT_DIR$/requestmapping2/requestmapping2.iml" />
       <module fileurl="file://$PROJECT_DIR$/return4/return4.iml" filepath="$PROJECT_DIR$/return4/return4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springmvc_study.iml" filepath="$PROJECT_DIR$/.idea/springmvc_study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm6/ssm6.iml" filepath="$PROJECT_DIR$/ssm6/ssm6.iml" />
       <module fileurl="file://$PROJECT_DIR$/urlpattern5/urlpattern5.iml" filepath="$PROJECT_DIR$/urlpattern5/urlpattern5.iml" />
     </modules>
   </component>
