@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/forwardredirect7/forwardredirect7.iml" filepath="$PROJECT_DIR$/forwardredirect7/forwardredirect7.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellospringmvc1/hellospringmvc1.iml" filepath="$PROJECT_DIR$/hellospringmvc1/hellospringmvc1.iml" />
       <module fileurl="file://$PROJECT_DIR$/receiveparam3/receiveparam3.iml" filepath="$PROJECT_DIR$/receiveparam3/receiveparam3.iml" />
       <module fileurl="file://$PROJECT_DIR$/requestmapping2/requestmapping2.iml" filepath="$PROJECT_DIR$/requestmapping2/requestmapping2.iml" />
       <module fileurl="file://$PROJECT_DIR$/return4/return4.iml" filepath="$PROJECT_DIR$/return4/return4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springmvc_study.iml" filepath="$PROJECT_DIR$/.idea/springmvc_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/ssm6/ssm6.iml" filepath="$PROJECT_DIR$/ssm6/ssm6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/urlpattern5/urlpattern5.iml" filepath="$PROJECT_DIR$/urlpattern5/urlpattern5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forward-redirect7/urlpattern5.iml" filepath="$PROJECT_DIR$/forward-redirect7/urlpattern5.iml" />
     </modules>
   </component>
 </project>

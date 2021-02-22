@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/forward-redirect7" />
+    <file type="web" url="file://$PROJECT_DIR$/forwardredirect7" />
     <file type="web" url="file://$PROJECT_DIR$/hellospringmvc1" />
     <file type="web" url="file://$PROJECT_DIR$/receiveparam3" />
     <file type="web" url="file://$PROJECT_DIR$/requestmapping2" />
@@ -20,6 +22,7 @@
         <option value="$PROJECT_DIR$/return4/pom.xml" />
         <option value="$PROJECT_DIR$/urlpattern5/pom.xml" />
         <option value="$PROJECT_DIR$/ssm6/pom.xml" />
+        <option value="$PROJECT_DIR$/forwardredirect7/pom.xml" />
       </list>
     </option>
   </component>

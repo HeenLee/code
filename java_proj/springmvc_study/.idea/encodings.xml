@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/forward-redirect7" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/forwardredirect7" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hellospringmvc1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/receiveparam3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/requestmapping2" charset="UTF-8" />

@@ -36,3 +36,6 @@ springmvc容器是spring容器的子容器，类似java中的继承。子可以�
 6.写代码，dao接口和mapper文件，service和实现类，controller，实体类
 7.写jsp页面
 
+
+idex.jsp -- addStudent.jsp --- student/addStudent.do(service的方法，调用dao方法) --result.jsp
+
