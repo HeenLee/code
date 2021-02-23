@@ -36,6 +36,10 @@ public class MyController {
      * 1.框架会把Model中的简单类型的数据，转为String使用，作为hello.jsp的get请求参数使用
      *   目的是在doRedirect.do和hello.jsp两次请求之间传递数据
      *
+     *  2.在目标hello.jsp页面可以使用参数集合对象￥{param}获取请求参数值
+     *    ${param.myName}
+     *
+     *
      */
     @RequestMapping(value = "/doRedirect.do")
     public ModelAndView doWithRedirect(String name ,Integer age){
