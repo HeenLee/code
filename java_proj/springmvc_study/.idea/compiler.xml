@@ -7,15 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="urlpattern5" />
+        <module name="interceptor10" />
         <module name="exception-handler8" />
-        <module name="receiveparam3" />
-        <module name="hellospringmvc1" />
         <module name="requestmapping2" />
         <module name="forwardredirect7" />
+        <module name="interceptor-permission11" />
         <module name="interceptor9" />
-        <module name="return4" />
+        <module name="receiveparam3" />
         <module name="ssm6" />
-        <module name="interceptor10" />
+        <module name="return4" />
+        <module name="hellospringmvc1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="forward-redirect7" target="1.8" />
       <module name="forwardredirect7" target="1.8" />
       <module name="hellospringmvc1" target="1.8" />
+      <module name="interceptor-permission11" target="1.8" />
       <module name="interceptor10" target="1.8" />
       <module name="interceptor9" target="1.8" />
       <module name="receiveparam3" target="1.8" />

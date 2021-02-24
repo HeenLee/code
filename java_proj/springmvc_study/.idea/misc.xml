@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/forward-redirect7" />
     <file type="web" url="file://$PROJECT_DIR$/forwardredirect7" />
     <file type="web" url="file://$PROJECT_DIR$/hellospringmvc1" />
+    <file type="web" url="file://$PROJECT_DIR$/interceptor-permission11" />
     <file type="web" url="file://$PROJECT_DIR$/interceptor10" />
     <file type="web" url="file://$PROJECT_DIR$/interceptor9" />
     <file type="web" url="file://$PROJECT_DIR$/receiveparam3" />
@@ -23,12 +24,13 @@
         <option value="$PROJECT_DIR$/requestmapping2/pom.xml" />
         <option value="$PROJECT_DIR$/receiveparam3/pom.xml" />
         <option value="$PROJECT_DIR$/return4/pom.xml" />
-        <option value="$PROJECT_DIR$/urlpattern5/pom.xml" />
         <option value="$PROJECT_DIR$/ssm6/pom.xml" />
         <option value="$PROJECT_DIR$/forwardredirect7/pom.xml" />
         <option value="$PROJECT_DIR$/exception-handler8/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor9/pom.xml" />
         <option value="$PROJECT_DIR$/interceptor10/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor-permission11/pom.xml" />
+        <option value="$PROJECT_DIR$/urlpattern5/pom.xml" />
       </list>
     </option>
   </component>
