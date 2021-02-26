@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hellomybatis1" />
+        <module name="proxy-dao3" />
+        <module name="param4" />
+        <module name="mybatisdao2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis" target="1.5" />
+      <module name="mybatisdao2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

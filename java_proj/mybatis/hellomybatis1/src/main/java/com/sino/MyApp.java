@@ -28,14 +28,16 @@ public class MyApp {
         //5.获取SqlSession对象，从SqlSessionFactory中获取SqlSession
         SqlSession sqlSession = factory.openSession();
 
-        //6.指定要执行的sql语句的标识。sql映射文件中namespace + "." + 标签的id值
+        //6.【重要】指定要执行的sql语句的标识。sql映射文件中namespace + "." + 标签的id值
         String sqlId = "com.sino.dao.StudentDao" + "." + "selectStudents";
 
-        //7.执行sql语句，通过sqlId找到语句
+        //7.【重要】执行sql语句，通过sqlId找到语句
         List<Student> studentList = sqlSession.selectList(sqlId);
 
         //8.输出结果
-        studentList.forEach(stu -> System.out.println(stu));
+        for (Student student : studentList) {
+            System.out.println(student);
+        }
 
         //9.关闭SqlSeesion对象
         sqlSession.close();
