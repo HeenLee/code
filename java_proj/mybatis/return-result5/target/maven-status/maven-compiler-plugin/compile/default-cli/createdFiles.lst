@@ -1,0 +1,4 @@
+com\sino\utils\MybatisUtils.class
+com\sino\dao\StudentDao.class
+com\sino\domain\Student.class
+com\sino\vo\QueryParam.class
