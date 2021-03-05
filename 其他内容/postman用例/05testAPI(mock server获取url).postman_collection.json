@@ -1,0 +1,881 @@
+{
+	"info": {
+		"_postman_id": "4676b043-37ab-4c9d-ac41-7fff1b85e6d1",
+		"name": "05testAPI(mock server获取url)",
+		"description": "调用api返回所有的mock，然后获取自己需要的mockserver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "subject_token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "2178e6b4-60f8-4249-a2b6-60ae586e4c67",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"id_token\", jsonData.id_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "yqt",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "testuser0",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "29bd544a-3665-497f-b0fb-b6c1806f0093",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "openid",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bplusdev.sinosun.com:18180/auth/realms/yqt_demo/protocol/openid-connect/token",
+					"protocol": "https",
+					"host": [
+						"bplusdev",
+						"sinosun",
+						"com"
+					],
+					"port": "18180",
+					"path": [
+						"auth",
+						"realms",
+						"yqt_demo",
+						"protocol",
+						"openid-connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "jwt_token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5fbeb44a-0073-4c52-9db5-bae9a0657ef7",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"jwt_access_token\", jsonData.access_token);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "urn:ietf:params:oauth:grant-type:token-exchange",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "mstp_sdk",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "66bd9afc-6d38-4609-8275-9b80d81b07b9",
+							"type": "text"
+						},
+						{
+							"key": "subject_token",
+							"value": "{{id_token}}",
+							"type": "text"
+						},
+						{
+							"key": "subject_issuer",
+							"value": "4311744513",
+							"type": "text"
+						},
+						{
+							"key": "audience",
+							"value": "mstp_sdk",
+							"type": "text"
+						},
+						{
+							"key": "subject_token_type",
+							"value": "urn:ietf:params:oauth:token-type:jwt",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://bplusdev.sinosun.com:18180/auth/realms/mstp/protocol/openid-connect/token",
+					"protocol": "https",
+					"host": [
+						"bplusdev",
+						"sinosun",
+						"com"
+					],
+					"port": "18180",
+					"path": [
+						"auth",
+						"realms",
+						"mstp",
+						"protocol",
+						"openid-connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刷新jwt_token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a40662d0-d8be-449a-ad7a-7f41825d68ea",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"pm.environment.set(\"jwt_access_token\", jsonData.access_token);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d6f3903f-92f2-498d-82fb-65b423285a1e",
+						"exec": [
+							"var client_secret = \"mstp_sdk:\" + \"66bd9afc-6d38-4609-8275-9b80d81b07b9\";\r",
+							"// var client_secret1 = JSON.stringify(client_secret);\r",
+							"\r",
+							"var wordArray = CryptoJS.enc.Utf8.parse(client_secret);\r",
+							"var base64 = CryptoJS.enc.Base64.stringify(wordArray);\r",
+							"console.log(base64);\r",
+							"\r",
+							"pm.environment.set(\"base64\",base64);\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Basic {{base64}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "refresh_token",
+							"type": "text"
+						},
+						{
+							"key": "refresh_token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI3YWU4Y2QzOC0zNDA4LTRjYzUtODY4Ny00MDY5NzAyMTVmMjMifQ.eyJqdGkiOiI4ZjdjMzU5Mi04NWZlLTRkMmEtYjU4Zi05ZGMwMmQwYzg0OTIiLCJleHAiOjE1OTcyMDQwNzcsIm5iZiI6MCwiaWF0IjoxNTk3MjAyMjc3LCJpc3MiOiJodHRwczovL2JwbHVzZGV2LnNpbm9zdW4uY29tOjE4MTgwL2F1dGgvcmVhbG1zL21zdHAiLCJhdWQiOiJodHRwczovL2JwbHVzZGV2LnNpbm9zdW4uY29tOjE4MTgwL2F1dGgvcmVhbG1zL21zdHAiLCJzdWIiOiJjNzI4M2I5NC1mMDVlLTRkMmUtOTVkOC03MGI2MjNhZWE4NDMiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoibXN0cF9zZGsiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiIwNjIzMTU4Yi1hNzllLTQyOTItYjA2MS02NjE4MzVkNmQzYWMiLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiTVNUUF9Vc2VyUm9sZSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwifQ.1-7dV3HdyCtYjxxnNXjSjkGYeoA3o7OIZelwIvaauuc",
+							"type": "text"
+						}
+					],
+					"options": {
+						"urlencoded": {}
+					}
+				},
+				"url": {
+					"raw": "https://bplusdev.sinosun.com:18180/auth/realms/mstp/protocol/openid-connect/token",
+					"protocol": "https",
+					"host": [
+						"bplusdev",
+						"sinosun",
+						"com"
+					],
+					"port": "18180",
+					"path": [
+						"auth",
+						"realms",
+						"mstp",
+						"protocol",
+						"openid-connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "注册",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "32b4df9f-42f2-4dbb-aa75-a387e0d7ae2f",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"var data = jsonData.data;\r",
+							"var parsedWordArray = CryptoJS.enc.Base64.parse(data);\r",
+							"var parsedStr = parsedWordArray.toString(CryptoJS.enc.Utf8);\r",
+							"\r",
+							"var json = JSON.parse(parsedStr);\r",
+							"var mstpId = json.mstpId;\r",
+							"console.log(json);\r",
+							"console.log(mstpId);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{jwt_access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/register",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "用户查询appAccount",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "2bc9e0ba-2501-4cef-9443-cdf9cf04808b",
+						"exec": [
+							"var list = [\"testuser0@sinosun.com.cn\"];\r",
+							"\r",
+							"var wordArray = CryptoJS.enc.Utf8.parse(list);\r",
+							"var arrbase64 = CryptoJS.enc.Base64.stringify(wordArray);\r",
+							"console.log(arrbase64);\r",
+							"\r",
+							"pm.environment.set(\"arrbase64\",arrbase64);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "3100d40b-3785-4180-a54e-438825757490",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"var data = jsonData.data;\r",
+							"var parsedWordArray = CryptoJS.enc.Base64.parse(data);\r",
+							"var parsedStr = parsedWordArray.toString(CryptoJS.enc.Utf8);\r",
+							"\r",
+							"var json = JSON.parse(parsedStr);\r",
+							"var mstpId = json.mstpId;\r",
+							"console.log(json);\r",
+							"console.log(mstpId);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "params",
+							"value": "{{arrbase64}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/mstpid/query",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"mstpid",
+						"query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "设置用户过滤规则",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4122ce45-f885-4bdc-a387-ebf61ad9ad9d",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mode",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "ruleList",
+							"value": "[{\"ownerAppAccount\":\"testuser0@sinosun.com.cn\",\"defaultStrategy\":3,\"peerMstpIdList\":[{\"peerAppAccount\":\"testuser1@sinosun.com.cn\",\"strategy\":1}]}]",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/message/strategy/set",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"message",
+						"strategy",
+						"set"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "删除用户过滤规则",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "881ebc3f-a52b-4726-a0c4-104d6846acb8",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "rulesList",
+							"value": "[{\"ownerAppAccount\":\"testuser0@sinosun.com.cn\",\"peerAppAccountList\":[\"testuser1@sinosun.com.cn\"]}]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/message/strategy/delete",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"message",
+						"strategy",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "用户状态查询",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ff15d381-1949-47bc-9bd2-673189080929",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/status/query?appAccountList=[\"testuser0@sinosun.com.cn\"]",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"status",
+						"query"
+					],
+					"query": [
+						{
+							"key": "appAccountList",
+							"value": "[\"testuser0@sinosun.com.cn\"]"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "设置静默状态",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c401af87-227c-4cb5-b76b-08777a0743b2",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "appAccount",
+							"value": "testuser0@sinosun.com.cn",
+							"type": "text"
+						},
+						{
+							"key": "deviceType",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "silent",
+							"value": "1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/silent/set",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"silent",
+						"set"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "设置出席状态",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ca53b0e0-302f-4d58-9ca0-c404db236e23",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "appAccount",
+							"value": "testuser0@sinosun.com.cn",
+							"type": "text"
+						},
+						{
+							"key": "deviceType",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "presentStatus",
+							"value": "1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/presentStatus/set",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"presentStatus",
+						"set"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "强制用户下线",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "56c0a5f6-4110-49cc-aef3-c86fb3240fa9",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "{{jwt_access_token}}"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "appAccountList",
+							"value": "[{\"appAccount\":\"testuser0@sinosun.com.cn\",\"deiceType\":[1]}]",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/user/v2/offline",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"user",
+						"v2",
+						"offline"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "查询",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "0d290461-0a72-4311-b423-94314741d623",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "179fdbbf-fbfd-4d18-b5f0-7cc94a8f985c",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"var data = jsonData.data;\r",
+							"var parsedWordArray = CryptoJS.enc.Base64.parse(data);\r",
+							"var parsedStr = parsedWordArray.toString(CryptoJS.enc.Utf8);\r",
+							"console.log(parsedStr);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mstpdev.sinosun.com:31022/mstp/server/address/query",
+					"protocol": "https",
+					"host": [
+						"mstpdev",
+						"sinosun",
+						"com"
+					],
+					"port": "31022",
+					"path": [
+						"mstp",
+						"server",
+						"address",
+						"query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "表单",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "pic",
+							"type": "file",
+							"src": "/C:/Users/lihe/Desktop/1.png"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/upload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e6ce0bb8-9699-4be0-9984-c1ce096f8531",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "5188391c-ebd3-4c66-8686-3a4cb025694b",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

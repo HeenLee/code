@@ -1,0 +1,397 @@
+{
+	"info": {
+		"_postman_id": "2ab284f8-b0a4-4f9b-bb96-a35c61ebd074",
+		"name": "01test",
+		"description": "in order to test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "parameterize",
+			"item": [
+				{
+					"name": "上报鉴权",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "9c97974c-d097-4cf0-a3d7-26a59d442cd7",
+								"exec": [
+									"var id = pm.environment.get(\"client_id\");\r",
+									"console.log(id)\r",
+									"\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"//将响应内容缓存下来\r",
+									"var data = JSON.parse(responseBody);\r",
+									"pm.globals.set(\"access_token\", data.access_token);\r",
+									"\r",
+									"console.log(data);\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "9da790e8-3d09-4833-9aaf-2c9bb5817e97",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "{{client_id}}",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "{{client_secret}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}:{{port}}/L1/ext/Auth/Request/",
+							"host": [
+								"{{base_url}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"L1",
+								"ext",
+								"Auth",
+								"Request",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询指定应用的topics",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "bd467894-4f4b-4547-b83b-fb7b20a9ac92",
+								"exec": [
+									"var data = {\"key1\":\"value1\",\"key2\":\"value2\"};\rconst echoPostRequest = {\r  url: 'http://ip:port/XXX',\r  method: 'POST',\r  header:'Content-Type:application/json',\r  body: {\r    mode: 'raw',\r    raw: JSON.stringify(data)\r  }};\rpm.sendRequest(echoPostRequest, function (err, res) {\r    console.log(res.json());\r});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "access_token",
+									"value": "{{access_token}}",
+									"type": "text"
+								},
+								{
+									"key": "upsPushTokens",
+									"value": "[4311744513]",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://10.4.201.203:9090/L1/ext/Report/GetTopics",
+							"protocol": "http",
+							"host": [
+								"10",
+								"4",
+								"201",
+								"203"
+							],
+							"port": "9090",
+							"path": [
+								"L1",
+								"ext",
+								"Report",
+								"GetTopics"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "id_global_var",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://tool.oschina.net/encrypt?id={{id}}",
+							"protocol": "http",
+							"host": [
+								"tool",
+								"oschina",
+								"net"
+							],
+							"path": [
+								"encrypt"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "{{id}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "参数化",
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "test_baidu",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ba6e6144-b38a-48b0-ad22-48c7e743889f",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"百度一下，你就知道\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.baidu.com",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					]
+				},
+				"description": "百度测试"
+			},
+			"response": []
+		},
+		{
+			"name": "test_get_request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ba6e6144-b38a-48b0-ad22-48c7e743889f",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"百度一下，你就知道\");",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.baidu.com?wd=abc",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"query": [
+						{
+							"key": "wd",
+							"value": "abc"
+						}
+					]
+				},
+				"description": "百度测试"
+			},
+			"response": []
+		},
+		{
+			"name": "test_post_request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "02afaa0b-a05c-4291-ad30-590e035eecce",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"userId\":\"888888\"}"
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				},
+				"description": "银企通"
+			},
+			"response": []
+		},
+		{
+			"name": "authorization",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.github.com/user",
+					"protocol": "http",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test_variable",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadfile上传文件",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/lihe/Desktop/abc.txt"
+						},
+						{
+							"key": "style",
+							"value": "files1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadfile上传二进制图片",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/lihe/Desktop/f9.ico"
+						},
+						{
+							"key": "style",
+							"value": "img",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

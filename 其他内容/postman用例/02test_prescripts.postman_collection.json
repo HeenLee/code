@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "aff6fe91-4b0a-4fb3-8e27-efafee986243",
+		"name": "02test_prescripts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get地址",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "4c1541b9-e289-42b3-9be9-57e41797684d",
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "e04546c8-fc62-4699-af71-6d4f509436ec",
+						"exec": [
+							"var jsonData = {\"result\": null,\"resultMessage\":\"this address already exists\",\"resultCode\": 80111013};\r",
+							"\r",
+							"// var jsonData = JSON.parse(a);\r",
+							"pm.test(\"aa\",function(){\r",
+							"    console.log(pm.expect(1).to.eql(1)) \r",
+							"    (pm.expect(1).to.eql(1)) ;\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "关联地址",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "2bfb961b-889e-44bc-b33d-ba9d7fb441ae",
+						"exec": [
+							"//发送请求前先发送一个请求，缓存自己需要的参数\r",
+							"pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {\r",
+							"    var jsonObj = response.json();\r",
+							"    pm.environment.set(\"addr\", jsonObj.headers.host);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.baidu.com?addr={{addr}}",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					],
+					"query": [
+						{
+							"key": "addr",
+							"value": "{{addr}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "获取时间戳和参数加密",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ee0305c6-513a-474e-836c-2de07e3699a8",
+						"exec": [
+							"pm.globals.set(\"timestamp\", Math.round(new Date().getTime()));",
+							"pm.environment.set(\"userid\", \"99999999\");",
+							"pm.environment.set(\"pwd\", \"abcd\");",
+							"",
+							"var timestamp = pm.globals.get(\"timestamp\");",
+							"",
+							"var userid = pm.variables.get(\"userid\");",
+							"",
+							"var pwd = pm.variables.get(\"pwd\");",
+							"",
+							"var str = timestamp + userid + pwd;",
+							"",
+							"// var token = CryptoJS.MD5(str).toString();",
+							"//var token1 = CryptoJS.enc.Base64.parse(str);",
+							"// console.log(toke);",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "abc",
+							"type": "file",
+							"src": "/C:/Users/lihe/Desktop/bplusTest脚本实现的思路.txt"
+						},
+						{
+							"key": "eee",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "注册用户(脚本里面发送post)",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "fbaf83ff-5333-475f-a36f-eff5209db766",
+						"exec": [
+							"//注册获取验证码",
+							"var jsonObj1 = {\"userPhone\":pm.environment.get(\"userPhone\"),",
+							"                \"vType\":pm.environment.get(\"vType\"),",
+							"                \"IMEI\":pm.environment.get(\"IMEI\")};",
+							"var wordArray1 = CryptoJS.enc.Utf8.parse(JSON.stringify(jsonObj1));",
+							"var base64imei1 = CryptoJS.enc.Base64.stringify(wordArray1);",
+							"var jsonparam1 = {\"data\":base64imei1,\"key\":\"\",\"zip\":0};",
+							"var paramvalue1 = \"bdata=\" + JSON.stringify(jsonparam1);",
+							"const echoPostRequest = {",
+							"  url: 'https://yqtblackbox.sinosun.com:18093/yqt/user/user.getVerifyCode?',",
+							"  method: 'POST',",
+							"  header:'Content-Type:application/x-www-form-urlencoded',",
+							"  body: {",
+							"    mode: 'x-www-form-urlencoded',",
+							"    raw: paramvalue1",
+							"  }};",
+							"  ",
+							"pm.sendRequest(echoPostRequest, function (err, res) ",
+							"{",
+							"    console.log(res.json());",
+							"    var jsonData = res.json();",
+							"    var dd = jsonData.data;",
+							"    baseResult=CryptoJS.enc.Base64.parse(dd);   ",
+							"    ciphertext=baseResult.toString(CryptoJS.enc.Utf8); ",
+							"    console.log(ciphertext);",
+							"});",
+							"",
+							"",
+							"//user register",
+							"var jsonObj2 = {\"userPhone\":pm.environment.get(\"userPhone\"),",
+							"                \"userPwd\":pm.environment.get(\"userPwd\"),",
+							"                \"terType\":pm.environment.get(\"terType\"),",
+							"                \"IMEI\":pm.environment.get(\"IMEI\"),",
+							"                \"verifyCode\":\"000000\"};",
+							"var wordArray2 = CryptoJS.enc.Utf8.parse(JSON.stringify(jsonObj2));",
+							"var base64imei2 = CryptoJS.enc.Base64.stringify(wordArray2);",
+							"var jsonparam2 = {\"data\":base64imei2,\"key\":\"\",\"zip\":0};",
+							"var paramvalue2 = \"bdata=\" + JSON.stringify(jsonparam2);",
+							"const echoPostRequest2 = {",
+							"  url: 'https://yqtblackbox.sinosun.com:18093/yqt/user/user.register?',",
+							"  method: 'POST',",
+							"  header:'Content-Type:application/x-www-form-urlencoded',",
+							"  body: {",
+							"    mode: 'urlencoded',",
+							"    urlencoded: paramvalue2",
+							"  }};",
+							"pm.sendRequest(echoPostRequest2, function (err, res) ",
+							"{",
+							"    var resData = res.json().data;",
+							"    var baseResult=CryptoJS.enc.Base64.parse(resData);   ",
+							"    var ciphertext=baseResult.toString(CryptoJS.enc.Utf8); ",
+							"    console.log(ciphertext);",
+							"    // console.log(baseResult);",
+							"    jsonPlain = JSON.parse(ciphertext);",
+							"});",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://www.baidu.com",
+					"protocol": "http",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

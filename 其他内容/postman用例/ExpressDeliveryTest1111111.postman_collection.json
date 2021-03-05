@@ -1,0 +1,1466 @@
+{
+	"info": {
+		"_postman_id": "bcc0caab-ea87-40b0-84ba-5c4fa6fbc29c",
+		"name": "ExpressDeliveryTest1111111",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "init_case",
+			"item": [
+				{
+					"name": "注册获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ce2ee9fc-349a-4281-8888-643b5d9bc138",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var regParam = JSON.stringify(param);",
+									"pm.environment.set(\"regParam\",regParam);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{regParam}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册用户",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "fbaf83ff-5333-475f-a36f-eff5209db766",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode",
+									"    ",
+									"};",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var registParam = JSON.stringify(param);",
+									"pm.environment.set(\"registParam\",registParam)",
+									"",
+									"",
+									"",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{registParam}}",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用户无安全登录",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d48b20be-24a2-48a8-bf37-b0d86b013b3a",
+								"exec": [
+									"//请求前将参数base64封装为bdata",
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType",
+									"            };",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var loginParam = JSON.stringify(param);",
+									"pm.environment.set(\"loginParam\", loginParam);",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "8cd30ad8-3f29-4ac5-a06a-5661b514a05d",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"console.log(restext);",
+									"var jsonObj = JSON.parse(restext);",
+									"var UAId = JSON.stringify(jsonObj.UAId);",
+									"pm.environment.set(\"UAId\",UAId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{loginParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "proId",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "pwdOneTimepadToken",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.loginNoSec",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.loginNoSec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册企业获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "37e0a236-9ef1-4261-9675-9688e62c6bc5",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType1,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var jsonParam = JSON.stringify(param);",
+									"pm.environment.set(\"param\", jsonParam);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e365f038-bd78-4ea9-addd-b9e86a21162d",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{param}}",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "企业注册",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "50dc2a8f-a89d-4afc-9556-a5181fc157b5",
+								"exec": [
+									"var data = {\"cpyName\":JSON.parse(pm.environment.get(\"user\")).cpyName,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode,",
+									"            \"mgrPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone",
+									"            };",
+									"            ",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"",
+									"var jsonParam = JSON.stringify(param);",
+									"console.log(jsonParam);",
+									"pm.environment.set(\"cpyParam\",jsonParam);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c1c376bb-df5b-4a3d-afcb-f75b5e826ccb",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"var cpyId = JSON.stringify(jsonObj.cpyId);",
+									"pm.environment.set(\"cpyId\",cpyId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{cpyParam}}",
+									"type": "text"
+								},
+								{
+									"key": "cpyName",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "mgrPhone",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/company.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"company.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取tgc",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "5d7deddd-fae3-4876-a6a4-909e943794c5",
+								"exec": [
+									"var jsonObj = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,\r               \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd\r              };\rvar wordArray = CryptoJS.enc.Utf8.parse(JSON.stringify(jsonObj));\rvar base64imei = CryptoJS.enc.Base64.stringify(wordArray);\rvar jsonparam = {\"data\":base64imei,\"key\":\"\",\"zip\":0};\rvar paramvalue =  JSON.stringify(jsonparam);\rpm.environment.set(\"tgcParam\", paramvalue);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "ae199e95-4839-47f2-bb98-d0d17d81fc16",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"pm.environment.set(\"tgc\",jsonObj.TGC);",
+									"",
+									"var data = {",
+									"            \"UAId\":pm.environment.get(\"UAId\"),",
+									"            \"cpyId\":pm.environment.get(\"cpyId\"),",
+									"            \"TerType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"ProdId\":JSON.parse(pm.environment.get(\"user\")).ProdId,",
+									"            \"TGC\":pm.environment.get(\"tgc\")",
+									"            };",
+									"var encodeData = encodeURI(JSON.stringify(data));",
+									"var sso = \"?sso=\" + encodeData;",
+									"pm.environment.set(\"sso\",sso);",
+									"console.log(sso);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{tgcParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/sso/sso-server.getTGC",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"sso",
+								"sso-server.getTGC"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询快递订单列表",
+			"item": [
+				{
+					"name": "查询快递订单列表",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "e87addea-fae4-40f4-8898-66694c7c42d5",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "b7508e17-350c-47aa-a72a-54bbb98c6c9a",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"ExpressOrderType\":1,\"PageIndex\":1,\"PageSize\":5}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getExpressOrders{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getExpressOrders{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询快递订单详情",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "594d133d-87c6-45aa-a0f1-3657623b29aa",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var expressOrderNo = jsonData.data.ExpressOrderNo;",
+									"pm.environment.set(\"expressOrderNo\",JSON.stringify(expressOrderNo));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询快递订单详情",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "14192af4-78ec-45fa-bc7e-87402fda6731",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"ExpressOrderNo\":{{expressOrderNo}}}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getExpressOrderDetail{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getExpressOrderDetail{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询所有快递公司",
+			"item": [
+				{
+					"name": "添加所有快递公司",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "bfdb2037-c5e0-4ae6-83e9-b86ef892374f",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"PageIndex\":1,\"PageSize\":5}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getExpressCompanies{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getExpressCompanies{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "快递下单",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "71f801cb-3385-4d27-b94a-2f79e7c26af7",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"ExpressOrderNo\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取快递预估运费",
+			"item": [
+				{
+					"name": "获取快递预估运费",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "dcb52520-0aff-49ff-91ab-513040f0fb01",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"Weight\":\"1\",\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  }\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getRoughExpressOrderPrice{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getRoughExpressOrderPrice{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "取消快递订单",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "594d133d-87c6-45aa-a0f1-3657623b29aa",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var expressOrderNo = jsonData.data.ExpressOrderNo;",
+									"pm.environment.set(\"expressOrderNo\",JSON.stringify(expressOrderNo));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "取消快递订单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4c430133-43ac-49df-9d0a-33b7525fd3bd",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"ExpressOrderNo\":{{expressOrderNo}}}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.cancelExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.cancelExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "删除快递订单",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "594d133d-87c6-45aa-a0f1-3657623b29aa",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var expressOrderNo = jsonData.data.ExpressOrderNo;",
+									"pm.environment.set(\"expressOrderNo\",JSON.stringify(expressOrderNo));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除快递订单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "cdcd4373-36dd-4160-8264-465d9e7a20dc",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"ExpressOrderNo\":{{expressOrderNo}}}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.deleteExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.deleteExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "根据订单号识别快递公司",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "594d133d-87c6-45aa-a0f1-3657623b29aa",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var outerExpressOrderNo = jsonData.data.OuterExpressOrderNo;",
+									"pm.environment.set(\"outerExpressOrderNo\",JSON.stringify(outerExpressOrderNo));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "根据订单号识别快递公司",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b7701e15-fe6d-4fda-8f4b-4c5da961c26f",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"OuterExpressOrderNo\":{{outerExpressOrderNo}},\"RequestId\":\"111\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.identifyExpressCompany{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.identifyExpressCompany{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询快递订单物流信息",
+			"item": [
+				{
+					"name": "快递下单",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "594d133d-87c6-45aa-a0f1-3657623b29aa",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var outerExpressOrderNo = jsonData.data.OuterExpressOrderNo;",
+									"pm.environment.set(\"outerExpressOrderNo\",JSON.stringify(outerExpressOrderNo));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"ExpressCompanyNo\":\"2\",\n\t\t\t\"SenderInfo\":{ \"Name\":\"张三\",\n\t\t\t\t\t\t\t\"Phone\":\"13379568952\",\n\t\t\t\t\t\t\t\"Area\":\"西安\",\n\t\t\t\t\t\t\t\"Address\":\"高新区\"\n\t\t\t\t\t\t\t},\n\t\t\t\"ReceiverInfo\":{\"Name\":\"李四\",\n\t\t\t\t\t\t\t\"Phone\":\"15895632871\",\n\t\t\t\t\t\t\t\"Area\":\"武汉\",\n\t\t\t\t\t\t\t\"Address\":\"汉江区\"\n\t\t\t\t\t\t  },\n\t\t\t\"CargoInfo\":{\"Name\":\"手机\",\n\t\t\t\t\t\t\"Weight\":\"1\"\n\t\t\t\t\t\t},\n\t\t\t\"SendStartTime\":\"2020/03/18 15:20:30\",\n\t\t\t\"SendEndTime\":\"2020/03/19 15:20:30\",\n\t\t\t\"Remark\":\"呵呵\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.createExpressOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.createExpressOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "查询快递订单物流信息",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "196b0937-3b3f-42a6-a2f0-2da6da23a029",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"OuterExpressOrderNo\":{{outerExpressOrderNo}},\n\t\t\"ExpressCompanyNameEn\":\"yuantong\",\n\t\t\"ExpressCompanyNo\":2,\n\t\t\"VerifyPhoneNo\":\"95554\"\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getExpressDetail{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getExpressDetail{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询配送地址",
+			"item": [
+				{
+					"name": "查询配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "047acf39-a414-43a0-89f6-bdd4e85fc04e",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\n\t\t\t\"UaId\":{{UAId}}\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.getDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.getDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "新增配送地址",
+			"item": [
+				{
+					"name": "新增配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4a56c14d-6bab-499a-a1b5-b936c7dbba66",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"AddressId\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"Name\":\"张三\",\n\t\t\"Phone\":\"15523659874\",\n\t\t\"Area\":\"西安\",\n\t\t\"FullAddress\":\"科技二路清华科技园\",\n\t\t\"IsDefault\":1\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.addDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.addDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "修改配送地址",
+			"item": [
+				{
+					"name": "新增配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4a56c14d-6bab-499a-a1b5-b936c7dbba66",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var addressId = jsonData.data.AddressId;",
+									"pm.environment.set(\"addressId\",JSON.stringify(addressId));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"Name\":\"张三\",\n\t\t\"Phone\":\"15523659874\",\n\t\t\"Area\":\"西安\",\n\t\t\"FullAddress\":\"科技二路清华科技园\",\n\t\t\"IsDefault\":1\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.addDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.addDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "修改配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "2204d898-5c37-492f-bedc-a7b6a1051f7a",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"AddressId\":{{addressId}},\n\t\t\"Name\":\"张三\",\n\t\t\"Phone\":\"15523659874\",\n\t\t\"Area\":\"西安\",\n\t\t\"FullAddress\":\"科技二路清华科技园\",\n\t\t\"IsDefault\":1\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.modifyDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.modifyDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "删除配送地址",
+			"item": [
+				{
+					"name": "新增配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4a56c14d-6bab-499a-a1b5-b936c7dbba66",
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);",
+									"var addressId = jsonData.data.AddressId;",
+									"pm.environment.set(\"addressId\",JSON.stringify(addressId));"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"Name\":\"张三\",\n\t\t\"Phone\":\"15523659874\",\n\t\t\"Area\":\"西安\",\n\t\t\"FullAddress\":\"科技二路清华科技园\",\n\t\t\"IsDefault\":1\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.addDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.addDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "删除配送地址",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "10c5d089-7ca2-4ca8-9b26-f292956a5e72",
+								"exec": [
+									"pm.test(\"Body matches string\", function () {",
+									"    pm.expect(pm.response.text()).to.include('\\\"code\\\":0');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":{{UAId}},\n\t\t\"AddressId\":{{addressId}}\n\t\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{express_ipAddress}}/bp/express/express.deleteDeliveryAddress{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{express_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"express",
+								"express.deleteDeliveryAddress{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

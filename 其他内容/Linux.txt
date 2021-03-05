@@ -11,13 +11,16 @@ linux 下编辑文件显示行数
 或者直接编辑vim文件，每次打开后都会显示
  修改vi ~/.vimrc 文件，添加：set number
 
+
 一些系统目录
 
 /etc/sysctl.conf
 /etc/sysconfig/network-scripts/
-/etc/nginx/..
+/etc/nginx/nginx.conf
 
-/var/log/...
+/var/log/nginx
+
+
 
 
 ps -ef |grep

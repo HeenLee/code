@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "c0aafcc1-f1a3-4c9b-b645-ca03a43313c0",
+		"name": "04new_test(example使用)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Req1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://6ed0a521-3760-4ef2-989a-61b2cfd8543b.mock.pstmn.io/get",
+					"protocol": "https",
+					"host": [
+						"6ed0a521-3760-4ef2-989a-61b2cfd8543b",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "p1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://httpbin.org/get",
+							"protocol": "http",
+							"host": [
+								"httpbin",
+								"org"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 05 Mar 2020 01:33:55 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "402"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "gunicorn/19.9.0"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"args\": {},\n    \"headers\": {\n        \"Accept\": \"*/*\",\n        \"Accept-Encoding\": \"gzip, deflate, br\",\n        \"Cache-Control\": \"no-cache\",\n        \"Host\": \"httpbin.org\",\n        \"Postman-Token\": \"91550e0d-b8e9-4715-ac8a-0307445c28a6\",\n        \"User-Agent\": \"PostmanRuntime/7.22.0\",\n        \"X-Amzn-Trace-Id\": \"Root=1-5e605703-213aaaea92a2a4fae80a7158\"\n    },\n    \"origin\": \"1.85.9.150\",\n    \"url\": \"http://httpbin.org/get\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Req2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://b75a340e-4268-4b20-8f5f-3cfc8f37cec6.mock.pstmn.io/get",
+					"protocol": "https",
+					"host": [
+						"b75a340e-4268-4b20-8f5f-3cfc8f37cec6",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "p2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://postman-echo.com/test",
+							"protocol": "https",
+							"host": [
+								"postman-echo",
+								"com"
+							],
+							"path": [
+								"test"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 05 Mar 2020 01:45:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "set-cookie",
+							"value": "sails.sid=s%3AchQSpJJOzeCZiQ0kB6tnCbJ5clgJEQCg.XDHl%2Frx7tdwSZ3Ss%2FiadJmeQIsiPrI84m6WORgvfDLU; Path=/; HttpOnly"
+						},
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"name\": \"{{$randomFullName}}\",\r\n    \"userName\": \"{{$randomUserName}}\",\r\n    \"location\": \"{{$randomCity}}\",\r\n    \"company\": \"{{$randomCompanyName}}\",\r\n    \"jobTitle\": \"{{$randomJobTitle}}\",\r\n    \"updatedAt\": \"{{$timestamp}}\"\r\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

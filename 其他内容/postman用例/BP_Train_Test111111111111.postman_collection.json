@@ -1,0 +1,1062 @@
+{
+	"info": {
+		"_postman_id": "89d9d7b1-10c5-44db-ac5d-a7d1d3a54e8a",
+		"name": "BP_Train_Test111111111111",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "init_case",
+			"item": [
+				{
+					"name": "注册获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ce2ee9fc-349a-4281-8888-643b5d9bc138",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var regParam = JSON.stringify(param);",
+									"pm.environment.set(\"regParam\",regParam);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{regParam}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册用户",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "fbaf83ff-5333-475f-a36f-eff5209db766",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode",
+									"    ",
+									"};",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var registParam = JSON.stringify(param);",
+									"pm.environment.set(\"registParam\",registParam)",
+									"",
+									"",
+									"",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "bdata",
+									"value": "{{registParam}}",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用户无安全登录",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d48b20be-24a2-48a8-bf37-b0d86b013b3a",
+								"exec": [
+									"//请求前将参数base64封装为bdata",
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd,",
+									"            \"terType\":JSON.parse(pm.environment.get(\"user\")).terType",
+									"            };",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var loginParam = JSON.stringify(param);",
+									"pm.environment.set(\"loginParam\", loginParam);",
+									"",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "8cd30ad8-3f29-4ac5-a06a-5661b514a05d",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"// var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var restext=CryptoJS.enc.Utf8.stringify(resPlain);",
+									"console.log(restext);",
+									"var jsonObj = JSON.parse(restext);",
+									"var UAId = JSON.stringify(jsonObj.UAId);",
+									"pm.environment.set(\"UAId\",UAId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{loginParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "terType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "proId",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "pwdOneTimepadToken",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.loginNoSec",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.loginNoSec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "注册企业获取验证码",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "37e0a236-9ef1-4261-9675-9688e62c6bc5",
+								"exec": [
+									"var data = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,",
+									"            \"vType\":JSON.parse(pm.environment.get(\"user\")).vType1,",
+									"            \"IMEI\":JSON.parse(pm.environment.get(\"user\")).IMEI",
+									"            };",
+									"",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"var jsonParam = JSON.stringify(param);",
+									"pm.environment.set(\"param\", jsonParam);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e365f038-bd78-4ea9-addd-b9e86a21162d",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{param}}",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "vType",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "IMEI",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/user.getVerifyCode",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"user.getVerifyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "企业注册",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "50dc2a8f-a89d-4afc-9556-a5181fc157b5",
+								"exec": [
+									"var data = {\"cpyName\":JSON.parse(pm.environment.get(\"user\")).cpyName,",
+									"            \"verifyCode\":JSON.parse(pm.environment.get(\"user\")).verifyCode,",
+									"            \"mgrPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone",
+									"            };",
+									"            ",
+									"var new_data = CryptoJS.enc.Utf8.parse(JSON.stringify(data));",
+									"var base64Result = CryptoJS.enc.Base64.stringify(new_data);",
+									"var param = {\"data\":base64Result,\"key\":\"\",\"zip\":0};",
+									"",
+									"var jsonParam = JSON.stringify(param);",
+									"console.log(jsonParam);",
+									"pm.environment.set(\"cpyParam\",jsonParam);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c1c376bb-df5b-4a3d-afcb-f75b5e826ccb",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"var cpyId = JSON.stringify(jsonObj.cpyId);",
+									"pm.environment.set(\"cpyId\",cpyId);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{cpyParam}}",
+									"type": "text"
+								},
+								{
+									"key": "cpyName",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "verifyCode",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "mgrPhone",
+									"value": "",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/user/company.register",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"user",
+								"company.register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取tgc",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "5d7deddd-fae3-4876-a6a4-909e943794c5",
+								"exec": [
+									"var jsonObj = {\"userPhone\":JSON.parse(pm.environment.get(\"user\")).userPhone,\r               \"userPwd\":JSON.parse(pm.environment.get(\"user\")).userPwd\r              };\rvar wordArray = CryptoJS.enc.Utf8.parse(JSON.stringify(jsonObj));\rvar base64imei = CryptoJS.enc.Base64.stringify(wordArray);\rvar jsonparam = {\"data\":base64imei,\"key\":\"\",\"zip\":0};\rvar paramvalue =  JSON.stringify(jsonparam);\rpm.environment.set(\"tgcParam\", paramvalue);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "ae199e95-4839-47f2-bb98-d0d17d81fc16",
+								"exec": [
+									"var resp = JSON.parse(responseBody);",
+									"var resPlain = CryptoJS.enc.Base64.parse(resp.data);",
+									"var restext=resPlain.toString(CryptoJS.enc.Utf8);",
+									"var jsonObj = JSON.parse(restext);",
+									"pm.environment.set(\"tgc\",jsonObj.TGC);",
+									"",
+									"var data = {",
+									"            \"UAId\":pm.environment.get(\"UAId\"),",
+									"            \"cpyId\":pm.environment.get(\"cpyId\"),",
+									"            \"TerType\":JSON.parse(pm.environment.get(\"user\")).terType,",
+									"            \"ProdId\":JSON.parse(pm.environment.get(\"user\")).ProdId,",
+									"            \"TGC\":pm.environment.get(\"tgc\")",
+									"            };",
+									"var encodeData = encodeURI(JSON.stringify(data));",
+									"var sso = \"?sso=\" + encodeData;",
+									"pm.environment.set(\"sso\",sso);",
+									"console.log(sso);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "bdata",
+									"value": "{{tgcParam}}",
+									"type": "text"
+								},
+								{
+									"key": "userPwd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "userPhone",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://{{yqt_ipAddress}}/yqt/sso/sso-server.getTGC",
+							"protocol": "https",
+							"host": [
+								"{{yqt_ipAddress}}"
+							],
+							"path": [
+								"yqt",
+								"sso",
+								"sso-server.getTGC"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "搜索车站",
+			"item": [
+				{
+					"name": "搜索车站",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "e4493a2b-5222-4b65-bba9-cced7cefe3f7",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"keyword\":\"a\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/searchCity{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"searchCity{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取所有车站",
+			"item": [
+				{
+					"name": "获取所有车站",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\": {\"Name\":\"sino\",\"PingYIN\":\"武汉\",\"PingYinShort\":\"WH\",\"StationCode\":\"12306\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getAllCity{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getAllCity{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取热门车站",
+			"item": [
+				{
+					"name": "获取热门车站",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\": {\"Name\":\"sino\",\"PingYIN\":\"武汉\",\"PingYinShort\":\"WH\",\"StationCode\":\"12306\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getHotCity{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getHotCity{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询火车票",
+			"item": [
+				{
+					"name": "查询火车票",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\"ProviderType\":1,\n\t\"FromCity\":\"上海\",\n\t\"ToCity\":\"北京\",\n\t\"FromDate\":\"2020/3/23\",\n\t\"TrainType\":1,\n\t\"TrainCode\":123\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/query{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"query{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询车次时刻表",
+			"item": [
+				{
+					"name": "查询车次时刻表",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"data\":\n\t{\n\t\t\"TrainCode\":\"112\",\n\t\t\"FromStation\":\"上海\",\n\t\t\"ToStation\":\"北京\",\n\t\t\"QueryDate\":\"\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getTrainLineByTrainNo{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getTrainLineByTrainNo{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "获取保险和代购手续费",
+			"item": [
+				{
+					"name": "获取保险和代购手续费",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getTrainBookPara{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getTrainBookPara{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "提交订单",
+			"item": [
+				{
+					"name": "提交订单",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"UaId\":\"13997\",\"CpyId\":\"1\",\"OrderInfo\":{\"OrderAmount\":520.5,\"TicketFare\":515.5,\"StartStation\":\"西安北\",\"EndStation\":\"北京西\",\"StartCity\":\"西安\",\"EndCity\":\"北京\",\"StartDate\":\"2020/03/26\",\"TrainNo\":\"G664\",\"RunTime\":\"342\",\"StartTime\":\"14:38\",\"EndTime\":\"20:20\",\"ContactName\":\"0\",\"ContactPhone\":\"111111\",\"ProdId\":\"1\",\"QueryKey\":\"1cc49b39626da766db398d6d73817856\",\"StartStationCode\":\"xianbei\",\"ToStationCode\":\"beijingxi\",\"TrainClass\":\"GD\",\"AcceptNoSeat\":0},\"OrderPsgList\":[{\"PsgName\":\"0\",\"TicketType\":0,\"SeatType\":4,\"CardType\":0,\"CardNo\":\"000000000000000000\",\"Phone\":\"1212\",\"UserId\":\"XkFie3AAkEMNA2X4rrs\",\"NationCode\":\"CN\"}],\"UseType\":\"PUBLIC\",\"FounderInfo\":{\"FounderUaId\":\"13997\",\"FounderCpyId\":\"1\"},\"SpecialPermissionInfos\":[],\"TripNo\":\"g1zr4fwROmsty9MeVkj\",\"InvoiceFlag\":\"0\"}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/createOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"createOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "取消火车票",
+			"item": [
+				{
+					"name": "取消火车票",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"OrderNo\":\"T214901600643710976\",\"Remark\":\"111\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/cancelOrder{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"cancelOrder{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询火车票订单详情",
+			"item": [
+				{
+					"name": "查询火车票订单详情",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"OrderNo\":\"T214901600643710976\",\"CpyId\":{{cpyId}},\"UaId\":{{UAId}},\"ProdId\":\"1\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getOrderDetail{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getOrderDetail{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "火车票申请退票",
+			"item": [
+				{
+					"name": "火车票申请退票",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":{\"OrderNo\":\"T214901600643710976\",\"PsgIDs\":\"1\",\"PsgNames\":\"张三\"}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/applyRefund{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"applyRefund{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "火车票申请改签",
+			"item": [
+				{
+					"name": "火车票申请改签",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"CpyId\":\"1\",\n\t\t\"UaId\":\"13997\",\n\t\t\"QueryKey\":\"111\",\n\t\t\"OrderNo\":\"T214901600643710976\",\n\t\t\"TrainNo\":\"123\",\n\t\t\"TrainClass\":\"222\",\n\t\t\"FromStation\":\"西安北\",\n\t\t\"ToStation\":\"北京西\",\n\t\t\"FromStationCode\":\"\",\n\t\t\"ToStationCode\":\"\",\n\t\t\"TrainBeginDate\":\"2020/03/25\",\n\t\t\"TrainEndDate\":\"2020/03/31\",\n\t\t\"SeatType\":1,\n\t\t\"TicketPrice\":111.10,\n\t\t\"PassengerId\":\"1\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/applyChange{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"applyChange{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "火车票确认改签",
+			"item": [
+				{
+					"name": "火车票确认改签",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"CpyId\":1,\n\t\t\"UaId\":13997,\n\t\t\"OrderNo\":\"T214901600643710976\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/confirmChange{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"confirmChange{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "查询火车票某个乘客的改签状态",
+			"item": [
+				{
+					"name": "查询火车票某个乘客的改签状态",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"CpyId\":111,\n\t\t\"UaId\":222,\n\t\t\"OrderNo\":\"T214901600643710976\",\n\t\t\"PassengerId\":\"123\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/getChangeStatusOfPassenger{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"getChangeStatusOfPassenger{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "验证是否改签",
+			"item": [
+				{
+					"name": "验证是否可改签",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"CpyId\":111,\n\t\t\"UaId\":222,\n\t\t\"OrderNo\":\"T214901600643710976\",\n\t\t\"PassengerId\":\"123\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/verifyChange{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"verifyChange{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "取消改签单",
+			"item": [
+				{
+					"name": "取消改签单",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"data\":\n\t{\n\t\t\"CpyId\":13997,\n\t\t\"UaId\":1,\n\t\t\"OrderNo\":\"T214901600643710976\"\n\t}\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://{{bp_ipAddress}}/bp/train/cancelChange{{sso}}",
+							"protocol": "https",
+							"host": [
+								"{{bp_ipAddress}}"
+							],
+							"path": [
+								"bp",
+								"train",
+								"cancelChange{{sso}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
