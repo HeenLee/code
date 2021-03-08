@@ -13,4 +13,10 @@ public interface StudentDao {
     List<Student> selectStudentWhere(Student student);
 
 
+    //foreach用法1
+    List<Student> selectForeachOne(List<Integer> idList);
+
+    //foreach用法2
+    List<Student> selectForeachTwo(List<Student> stuList);
+
 }
