@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01b7d349-7ebd-42e9-b585-a556c8a7b9cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" afterDir="false" />
-    </list>
+    <list default="true" id="01b7d349-7ebd-42e9-b585-a556c8a7b9cb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hellomybatis1/target/" />
@@ -165,8 +161,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="970" />
-    <option name="y" value="65" />
+    <option name="x" value="204" />
+    <option name="y" value="68" />
     <option name="width" value="1225" />
     <option name="height" value="915" />
   </component>
@@ -452,7 +448,7 @@
       <workItem from="1614849753733" duration="479000" />
       <workItem from="1614907930967" duration="648000" />
       <workItem from="1614929315840" duration="1060000" />
-      <workItem from="1615194591125" duration="4008000" />
+      <workItem from="1615194591125" duration="4608000" />
     </task>
     <servers />
   </component>
@@ -489,10 +485,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55420000" />
+    <option name="totallyTimeSpent" value="56020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1125" y="57" width="1225" height="915" extended-state="0" />
+    <frame x="204" y="68" width="1225" height="915" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24291846" />
@@ -504,7 +500,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286445" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35421994" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35421994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
