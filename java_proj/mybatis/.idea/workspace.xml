@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01b7d349-7ebd-42e9-b585-a556c8a7b9cb" name="Default Changelist" comment="" />
+    <list default="true" id="01b7d349-7ebd-42e9-b585-a556c8a7b9cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-SSM框架(spring-springmvc-mybatis).xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../java-SSM框架(spring-springmvc-mybatis).xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/target/classes/com/sino/dao/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/target/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic-sql6/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../其他内容/doker笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../其他内容/doker笔记.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/hellomybatis1/target/" />
@@ -22,23 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="280">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/resources/mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="452">
+              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -46,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="400">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +66,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatisdao2/src/main/java/com/sino/dao/StudentDao.xml">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="100">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/javax/sql/DataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dynamic-sql6/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -125,9 +183,14 @@
         <option value="$PROJECT_DIR$/return-result5/src/main/java/com/sino/dao/StudentDao.xml" />
         <option value="$PROJECT_DIR$/return-result5/src/test/java/com/sino/TestMybatis.java" />
         <option value="$PROJECT_DIR$/mybatisdao2/src/main/java/com/sino/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.xml" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/src/main/resources/mybatis.xml" />
         <option value="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" />
         <option value="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml" />
+        <option value="$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java" />
       </list>
     </option>
   </component>
@@ -161,8 +224,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="445" />
-    <option name="y" value="68" />
+    <option name="x" value="253" />
+    <option name="y" value="144" />
     <option name="width" value="1225" />
     <option name="height" value="915" />
   </component>
@@ -173,6 +236,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,35 +267,7 @@
               <item name="dynamic-sql6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic-sql6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic-sql6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dynamic-sql6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -262,42 +298,11 @@
               <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisdao2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisdao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisdao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisdao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatisdao2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sino" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,7 +311,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mybatisdao2/src/main/java/com/sino" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_pro_maven" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -316,11 +321,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sino.dao" />
       <recent name="com.sino.utils" />
       <recent name="com.sino.domain" />
       <recent name="com.sino" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\code\java_proj\mybatis\dynamic-sql6\src\main\java\com\sino\dao" />
       <recent name="D:\study\code\java_proj\mybatis\mybatisdao2\src\main\resources" />
       <recent name="D:\study\code\java_proj\mybatis\mybatisdao2\src\main\java\com\sino\dao" />
       <recent name="D:\study\code\java_proj\mybatis\hellomybatis1\target\classes\com\sino\dao" />
@@ -338,8 +345,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestMybatis.testSelectForTwo">
-    <configuration name="TestMybatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestMybatis.testSelectAllPageHelper">
+    <configuration name="TestMybatis.testSelectAllPageHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dynamic-sql6" />
       <extension name="coverage">
         <pattern>
@@ -349,7 +356,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.sino" />
       <option name="MAIN_CLASS_NAME" value="com.sino.TestMybatis" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testSelectAllPageHelper" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -420,11 +428,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMybatis.testSelectAllPageHelper" />
         <item itemvalue="JUnit.TestMybatis.testSelectForTwo" />
         <item itemvalue="JUnit.TestMybatis.testSelectForOne" />
         <item itemvalue="JUnit.TestMybatis.testSelectStudentWhere" />
         <item itemvalue="JUnit.TestMybatis.testSelectStudentIf" />
-        <item itemvalue="JUnit.TestMybatis" />
       </list>
     </recent_temporary>
   </component>
@@ -450,25 +458,11 @@
       <workItem from="1614929315840" duration="1060000" />
       <workItem from="1615194591125" duration="4608000" />
       <workItem from="1615252856190" duration="467000" />
+      <workItem from="1615363766674" duration="4782000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMybatis_testSelectLikeTwo - 2021.03.02 at 17h 11m 55s.xml">
-      <configuration name="TestMybatis.testSelectLikeTwo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatis - 2021.03.02 at 17h 51m 50s.xml">
-      <configuration name="TestMybatis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatis - 2021.03.02 at 17h 53m 05s.xml">
-      <configuration name="TestMybatis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatis_testSelectStudentIf - 2021.03.02 at 17h 54m 00s.xml">
-      <configuration name="TestMybatis.testSelectStudentIf" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMybatis_testSelectStudentIf - 2021.03.02 at 17h 54m 49s.xml">
-      <configuration name="TestMybatis.testSelectStudentIf" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMybatis_testSelectStudentIf - 2021.03.02 at 17h 54m 56s.xml">
       <configuration name="TestMybatis.testSelectStudentIf" configurationId="JUnit" />
     </history-entry>
@@ -484,15 +478,29 @@
     <history-entry file="TestMybatis_testSelectForTwo - 2021.03.08 at 17h 52m 53s.xml">
       <configuration name="TestMybatis.testSelectForTwo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMybatis_testSelectForTwo - 2021.03.10 at 16h 36m 48s.xml">
+      <configuration name="TestMybatis.testSelectForTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatis_testSelectForTwo - 2021.03.10 at 16h 49m 32s.xml">
+      <configuration name="TestMybatis.testSelectForTwo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatis_testSelectAllPageHelper - 2021.03.10 at 17h 11m 45s.xml">
+      <configuration name="TestMybatis.testSelectAllPageHelper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatis_testSelectAllPageHelper - 2021.03.10 at 17h 13m 10s.xml">
+      <configuration name="TestMybatis.testSelectAllPageHelper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMybatis_testSelectAllPageHelper - 2021.03.10 at 17h 16m 57s.xml">
+      <configuration name="TestMybatis.testSelectAllPageHelper" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56487000" />
+    <option name="totallyTimeSpent" value="61269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="445" y="68" width="1225" height="915" extended-state="0" />
-    <editor active="true" />
+    <frame x="253" y="144" width="1225" height="915" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2472103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,7 +522,7 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24978541" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32961375" />
@@ -527,8 +535,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatis.iml" />
     <entry file="file://$PROJECT_DIR$/hellomybatis1/target/classes/com/sino/dao/StudentDao.xml" />
     <entry file="file://$PROJECT_DIR$/hellomybatis1/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -850,33 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisdao2/src/main/java/com/sino/dao/StudentDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -888,6 +867,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_144/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/OrderDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/main/java/com/sino/dao/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamic-sql6/src/test/java/com/sino/TestMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

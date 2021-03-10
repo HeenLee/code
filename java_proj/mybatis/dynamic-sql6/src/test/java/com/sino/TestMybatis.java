@@ -1,5 +1,6 @@
 package com.sino;
 
+import com.github.pagehelper.PageHelper;
 import com.sino.dao.StudentDao;
 import com.sino.domain.Student;
 import com.sino.utils.MybatisUtils;
@@ -76,6 +77,19 @@ public class TestMybatis {
         }
     }
 
+    @Test
+    public void testSelectAllPageHelper() {
 
+        SqlSession sqlSession = MybatisUtils.getSqlSession();
+        StudentDao dao = sqlSession.getMapper(StudentDao.class);
+        //加入PageHelper的方法，分页
+        //pageNum：第几页，从1开始
+        //pageSize:一页中有多少行数据
+        PageHelper.startPage(2, 3);
+        List<Student> students = dao.selectAll();
+        for (Student stu : students) {
+            System.out.println(stu);
+        }
+    }
 
 }

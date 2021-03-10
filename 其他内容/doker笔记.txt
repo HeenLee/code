@@ -17,6 +17,7 @@ docker pull 镜像名
 启动容器
 	docker ps 查看运行的容器
         docker restart 容器ID
+docker load --input 镜像文件名称  //加载镜像
 
 修改配置文件
 方式一：每次都进入到nginx容器内部修改
@@ -45,7 +46,7 @@ docker pull 镜像名
   	-v 挂载目录，格式 -v: 表示将主机目录与容器目录之间进行共享,
 	--privileged=true 容器内部对挂载的目录拥有读写等特权
          bsl-client：   
-	 docker run --name bsl-client -itd -p 90:80 --restart=always -v ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf \		     xast.test.com/platform/bsl-client:1.0.1
+	 docker run --name bsl-client -itd -p 90:80 --restart=always -v ./nginx.conf:/usr/local/openresty/nginx/conf/nginx.conf \		     xast.test.com/platform/bsl-client:1.0.1 //镜像名
          docker restart containerId
 5.这时出现403，是因为主机挂载/mnt/nginx/html目录为空
   我们在容器的挂载/mnt/nginx/html目录下创建index.html，内容随便写上hello docker nginx,再次访问主机IP
@@ -72,6 +73,28 @@ $ docker logs [OPTIONS] CONTAINER
 
 
 
+1.查看
+docker ps: 查看当前运行的容器
+docker ps -a:查看所有容器，包括停止的。
+2.启动  容器名：docker start docker_run，或者ID：docker start 43e3fef2266c或者：systemctl start docker
+docker start 容器Id
+	–restart(自动重启)：默认情况下容器是不重启的，–restart标志会检查容器的退出码来决定容器是否重启容器。
+	docker run --restart=always --name docker_restart -d centos /bin/sh -c "while true;do echo hello world; sleep;done":
+		--restart=always:不管容器的返回码是什么，都会重启容器。
+		--restart=on-failure:5:当容器的返回值是非0时才会重启容器。5是可选的重启次数。
+3.终止
+docker stop  容器名/容器Id
+
+4.删除
+docker rm 容器名/容器Id
+
+挂载创建容器
+docker run -d --name mynginx -p 90:80 
+-v /mnt/nginx/nginx.conf:/etc/nginx/nginx.conf   
+-v /mnt/nginx/logs:/var/log/nginx 
+-v /mnt/nginx/html:/usr/share/nginx/html 
+-v /mnt/nginx/conf:/etc/nginx/conf.d 
+--privileged=true 35c4
     
 
 

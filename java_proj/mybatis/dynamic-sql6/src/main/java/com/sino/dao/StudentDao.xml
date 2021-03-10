@@ -53,6 +53,11 @@
         </foreach>
     </select>
 
+    <!--查询所有-->
+    <select id="selectAll" resultType="com.sino.domain.Student">
+        select * from student order by id
+    </select>
+
 
 
 </mapper>
