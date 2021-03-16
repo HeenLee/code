@@ -19,4 +19,5 @@ public interface StudentDao {
     //foreach用法2
     List<Student> selectForeachTwo(List<Student> stuList);
 
+
 }
