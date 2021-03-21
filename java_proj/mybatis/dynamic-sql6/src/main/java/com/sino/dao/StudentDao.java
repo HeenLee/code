@@ -19,5 +19,10 @@ public interface StudentDao {
     //foreach用法2
     List<Student> selectForeachTwo(List<Student> stuList);
 
+<<<<<<< HEAD
+=======
+    //使用pageHelper分页 数据
+    List<Student> selectAll();
+>>>>>>> 8cef01f4e1bf4cb00a9199d19950682043d1d5c4
 
 }

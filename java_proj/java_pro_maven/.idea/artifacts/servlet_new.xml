@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="servlet_new/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="servlet_new" />
+          <element id="module-output" name="java_pro_maven" />
         </element>
       </element>
     </root>
