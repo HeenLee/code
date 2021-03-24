@@ -28,3 +28,8 @@ ps -ef |grep
 netstat -naltp
 
 netstat -luntp
+
+username -r
+cat /etc/os-release
+cat /etc/redhat-release
+cat /proc/version
