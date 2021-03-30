@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<domains>
-    <domain>
-        <attribute name="address" value="httpbin.org/"/>
-    </domain>
-</domains>
