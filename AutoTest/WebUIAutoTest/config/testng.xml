@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="webUItest" verbose="1" >
+    <test name="testcase" >
+        <packages>
+            <package name="com.hollysys.test.testcase.*">
+                <include name="" />
+                <exclude name="" />
+            </package>
+        </packages>
+    </test>
+</suite>

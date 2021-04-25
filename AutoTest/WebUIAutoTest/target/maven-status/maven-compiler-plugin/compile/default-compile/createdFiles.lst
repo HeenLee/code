@@ -1,0 +1,4 @@
+com\hollysys\test\base\TestEnv.class
+com\hollysys\test\base\ui\Browser.class
+com\hollysys\test\base\Config.class
+com\hollysys\test\testcase\ui\pageA\OpenBrowserTest.class

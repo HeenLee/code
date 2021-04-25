@@ -60,18 +60,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>param</find>
-      <find>UrlEncodedFormEntity</find>
-      <find>druid.properties</find>
-      <find>testng</find>
-      <find>content1</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -118,7 +106,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testframe" />
+    <property name="last_opened_file_path" value="D:/eclipse/workspace/uitest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -478,6 +466,8 @@
       <workItem from="1616315037204" duration="2496000" />
       <workItem from="1616426308938" duration="147000" />
       <workItem from="1616426992839" duration="39000" />
+      <workItem from="1619268144527" duration="52000" />
+      <workItem from="1619357996874" duration="1623000" />
     </task>
     <task id="LOCAL-00001" summary="提交多态">
       <created>1605489758543</created>
@@ -529,18 +519,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="提交多态" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="682" y="175" key="FileChooserDialogImpl" timestamp="1616427021143">
+    <state x="682" y="175" key="FileChooserDialogImpl" timestamp="1619362262987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="682" y="175" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616427021143" />
+    <state x="682" y="175" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619362262987" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1616238722488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616238722488" />
+    <state x="607" y="0" width="759" height="728" key="find.popup" timestamp="1619268211953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="607" y="0" width="759" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1619268211953" />
     <state x="53" y="0" key="new project wizard" timestamp="1616426456719">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="53" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1616426456719" />
+    <state x="338" y="51" width="672" height="676" key="search.everywhere.popup" timestamp="1619268206132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="338" y="51" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619268206132" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
